@@ -1,0 +1,11 @@
+* text=auto
+*.png binary
+*.jpg binary
+*.paa binary
+
+# GitHub language stats: configs are SQF
+addons/**/*.cpp linguist-language=SQF
+addons/**/*.hpp linguist-language=SQF
+
+# Not counted in language stats
+include/* linguist-vendored

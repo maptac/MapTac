@@ -8,8 +8,10 @@
                 "cwd": "${workspaceFolder}"
             },
             "args": [
-                "check"
+                "check",
+                "--pedantic"
             ],
+            "problemMatcher": []
         },
         {
             "label": "HEMTT build",
@@ -23,7 +25,19 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "HEMTT launch",
+            "command": "hemtt.exe",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "args": [
+                "launch"
+            ],
+            "problemMatcher": []
         }
     ]
 }

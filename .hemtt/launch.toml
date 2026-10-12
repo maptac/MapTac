@@ -1,0 +1,62 @@
+# HEMTT already adds -skipIntro, -noSplash, -showScriptErrors, -debug and -filePatching
+[default]
+workshop = [
+    "450814997", # CBA_A3
+]
+
+# Compatibility testing with ACE3: `hemtt launch ace`
+[ace]
+extends = "default"
+workshop = [
+    "463939057", # ACE3
+]
+
+# Compatibility testing with TFAR 1.x (master): `hemtt launch tfar`
+[tfar]
+extends = "default"
+workshop = [
+    "894678801", # Task Force Arrowhead Radio (BETA)
+]
+
+# Compatibility testing with TFAR 0.9.12: `hemtt launch tfar_legacy`
+[tfar_legacy]
+extends = "default"
+workshop = [
+    "620019431", # Task Force Arrowhead Radio 0.9.12
+]
+
+# ACE3 together with TFAR, chaining `ace tfar` would load CBA twice
+[ace_tfar]
+extends = "ace"
+workshop = [
+    "894678801", # Task Force Arrowhead Radio (BETA)
+]
+
+[ace_tfar_legacy]
+extends = "ace"
+workshop = [
+    "620019431", # Task Force Arrowhead Radio 0.9.12
+]
+
+# Test mission (.hemtt/missions/MapTac.Stratis) opened in the editor, with debug tools:
+# `hemtt launch test`, two game instances for multiplayer tests: `hemtt launch test -i 2`
+[test]
+extends = "default"
+mission = "MapTac.Stratis"
+workshop = [
+    "1779063631", # ZEN
+    "3499977893", # Advanced Developer Tools
+]
+
+[test_tfar]
+extends = "test"
+workshop = [
+    "894678801", # Task Force Arrowhead Radio (BETA)
+]
+
+[test_ace_tfar]
+extends = "test"
+workshop = [
+    "463939057", # ACE3
+    "894678801", # Task Force Arrowhead Radio (BETA)
+]

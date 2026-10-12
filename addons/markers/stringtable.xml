@@ -1,0 +1,2924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="MapTac">
+    <Package name="Markers">
+        <Key ID="STR_maptac_markers_CallsignFormat">
+            <English>Squad name format</English>
+            <Czech>Formát názvu družstva</Czech>
+            <French>Format du nom d'escouade</French>
+            <Spanish>Formato del nombre de escuadra</Spanish>
+            <Italian>Formato del nome della squadra</Italian>
+            <Polish>Format nazwy drużyny</Polish>
+            <Portuguese>Formato do nome do esquadrão</Portuguese>
+            <Russian>Формат названия отделения</Russian>
+            <German>Format des Truppnamens</German>
+            <Korean>분대 이름 형식</Korean>
+            <Japanese>分隊名の形式</Japanese>
+            <Chinese>班組名稱格式</Chinese>
+            <Chinesesimp>班组名称格式</Chinesesimp>
+            <Turkish>Tim adı biçimi</Turkish>
+            <Slovak>Formát názvu družstva</Slovak>
+            <Hungarian>Raj nevének formátuma</Hungarian>
+            <Ukrainian>Формат назви відділення</Ukrainian>
+            <Bulgarian>Формат на името на отделението</Bulgarian>
+            <Latin>Forma nominis manipuli</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_CallsignFormat_Compact">
+            <English>Short (A11)</English>
+            <Czech>Krátký (A11)</Czech>
+            <French>Court (A11)</French>
+            <Spanish>Corto (A11)</Spanish>
+            <Italian>Breve (A11)</Italian>
+            <Polish>Krótki (A11)</Polish>
+            <Portuguese>Curto (A11)</Portuguese>
+            <Russian>Сокращённо (A11)</Russian>
+            <German>Kurz (A11)</German>
+            <Korean>짧게 (A11)</Korean>
+            <Japanese>短縮（A11）</Japanese>
+            <Chinese>簡短（A11）</Chinese>
+            <Chinesesimp>简短（A11）</Chinesesimp>
+            <Turkish>Kısa (A11)</Turkish>
+            <Slovak>Krátky (A11)</Slovak>
+            <Hungarian>Rövid (A11)</Hungarian>
+            <Ukrainian>Скорочено (A11)</Ukrainian>
+            <Bulgarian>Кратко (A11)</Bulgarian>
+            <Latin>Brevis (A11)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_CallsignFormat_Dash">
+            <English>Short (A1-1)</English>
+            <Czech>Krátký (A1-1)</Czech>
+            <French>Court (A1-1)</French>
+            <Spanish>Corto (A1-1)</Spanish>
+            <Italian>Breve (A1-1)</Italian>
+            <Polish>Krótki (A1-1)</Polish>
+            <Portuguese>Curto (A1-1)</Portuguese>
+            <Russian>Сокращённо (A1-1)</Russian>
+            <German>Kurz (A1-1)</German>
+            <Korean>짧게 (A1-1)</Korean>
+            <Japanese>短縮（A1-1）</Japanese>
+            <Chinese>簡短（A1-1）</Chinese>
+            <Chinesesimp>简短（A1-1）</Chinesesimp>
+            <Turkish>Kısa (A1-1)</Turkish>
+            <Slovak>Krátky (A1-1)</Slovak>
+            <Hungarian>Rövid (A1-1)</Hungarian>
+            <Ukrainian>Скорочено (A1-1)</Ukrainian>
+            <Bulgarian>Кратко (A1-1)</Bulgarian>
+            <Latin>Brevis (A1-1)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_CallsignFormat_Description">
+            <English>How the squad callsigns are shown on the markers, in the tooltips and in the history.</English>
+            <Czech>Jak se volací znaky družstev zobrazují na značkách, v nápovědách a v historii.</Czech>
+            <French>Comment les indicatifs des escouades sont affichés sur les marqueurs, dans les infobulles et dans l'historique.</French>
+            <Spanish>Cómo se muestran los indicativos de las escuadras en los marcadores, en las descripciones emergentes y en el historial.</Spanish>
+            <Italian>Come vengono mostrati i nominativi delle squadre sui marcatori, nei suggerimenti e nella cronologia.</Italian>
+            <Polish>Jak kryptonimy drużyn są wyświetlane na znacznikach, w podpowiedziach i w historii.</Polish>
+            <Portuguese>Como os indicativos dos esquadrões são mostrados nos marcadores, nas dicas e no histórico.</Portuguese>
+            <Russian>Как позывные отделений показываются на маркерах, в подсказках и в истории.</Russian>
+            <German>Wie die Rufzeichen der Trupps auf den Markern, in den Tooltips und im Verlauf angezeigt werden.</German>
+            <Korean>마커, 툴팁, 기록에서 분대 호출부호가 표시되는 방식.</Korean>
+            <Japanese>マーカー、ツールチップ、履歴での分隊コールサインの表示方法。</Japanese>
+            <Chinese>班組呼號在標記、提示和歷史中的顯示方式。</Chinese>
+            <Chinesesimp>班组呼号在标记、提示和历史中的显示方式。</Chinesesimp>
+            <Turkish>Tim çağrı adlarının işaretlerde, ipuçlarında ve geçmişte nasıl gösterildiği.</Turkish>
+            <Slovak>Ako sa volacie znaky družstiev zobrazujú na značkách, v nápovedách a v histórii.</Slovak>
+            <Hungarian>Hogyan jelennek meg a rajok hívójelei a jelölőkön, a súgókban és az előzményekben.</Hungarian>
+            <Ukrainian>Як позивні відділень показуються на маркерах, у підказках та в історії.</Ukrainian>
+            <Bulgarian>Как се показват позивните на отделенията на маркерите, в подсказките и в историята.</Bulgarian>
+            <Latin>Quomodo nomina manipulorum in signis, indiciis et historia ostenduntur.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_CallsignFormat_Full">
+            <English>Full (Alpha 1-1)</English>
+            <Czech>Úplný (Alpha 1-1)</Czech>
+            <French>Complet (Alpha 1-1)</French>
+            <Spanish>Completo (Alpha 1-1)</Spanish>
+            <Italian>Completo (Alpha 1-1)</Italian>
+            <Polish>Pełny (Alpha 1-1)</Polish>
+            <Portuguese>Completo (Alpha 1-1)</Portuguese>
+            <Russian>Полностью (Alpha 1-1)</Russian>
+            <German>Vollständig (Alpha 1-1)</German>
+            <Korean>전체 (Alpha 1-1)</Korean>
+            <Japanese>完全（Alpha 1-1）</Japanese>
+            <Chinese>完整（Alpha 1-1）</Chinese>
+            <Chinesesimp>完整（Alpha 1-1）</Chinesesimp>
+            <Turkish>Tam (Alpha 1-1)</Turkish>
+            <Slovak>Úplný (Alpha 1-1)</Slovak>
+            <Hungarian>Teljes (Alpha 1-1)</Hungarian>
+            <Ukrainian>Повністю (Alpha 1-1)</Ukrainian>
+            <Bulgarian>Пълно (Alpha 1-1)</Bulgarian>
+            <Latin>Plena (Alpha 1-1)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_CallsignFormat_Slash">
+            <English>Short (A1/1)</English>
+            <Czech>Krátký (A1/1)</Czech>
+            <French>Court (A1/1)</French>
+            <Spanish>Corto (A1/1)</Spanish>
+            <Italian>Breve (A1/1)</Italian>
+            <Polish>Krótki (A1/1)</Polish>
+            <Portuguese>Curto (A1/1)</Portuguese>
+            <Russian>Сокращённо (A1/1)</Russian>
+            <German>Kurz (A1/1)</German>
+            <Korean>짧게 (A1/1)</Korean>
+            <Japanese>短縮（A1/1）</Japanese>
+            <Chinese>簡短（A1/1）</Chinese>
+            <Chinesesimp>简短（A1/1）</Chinesesimp>
+            <Turkish>Kısa (A1/1)</Turkish>
+            <Slovak>Krátky (A1/1)</Slovak>
+            <Hungarian>Rövid (A1/1)</Hungarian>
+            <Ukrainian>Скорочено (A1/1)</Ukrainian>
+            <Bulgarian>Кратко (A1/1)</Bulgarian>
+            <Latin>Brevis (A1/1)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Category">
+            <English>Markers</English>
+            <Czech>Značky</Czech>
+            <French>Marqueurs</French>
+            <Spanish>Marcadores</Spanish>
+            <Italian>Marcatori</Italian>
+            <Polish>Znaczniki</Polish>
+            <Portuguese>Marcadores</Portuguese>
+            <Russian>Маркеры</Russian>
+            <German>Marker</German>
+            <Korean>마커</Korean>
+            <Japanese>マーカー</Japanese>
+            <Chinese>標記</Chinese>
+            <Chinesesimp>标记</Chinesesimp>
+            <Turkish>İşaretler</Turkish>
+            <Slovak>Značky</Slovak>
+            <Hungarian>Jelölők</Hungarian>
+            <Ukrainian>Маркери</Ukrainian>
+            <Bulgarian>Маркери</Bulgarian>
+            <Latin>Signa</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_CategoryChannels">
+            <English>Marker channels</English>
+            <Czech>Kanály značek</Czech>
+            <French>Canaux des marqueurs</French>
+            <Spanish>Canales de marcadores</Spanish>
+            <Italian>Canali dei marcatori</Italian>
+            <Polish>Kanały znaczników</Polish>
+            <Portuguese>Canais dos marcadores</Portuguese>
+            <Russian>Каналы маркеров</Russian>
+            <German>Markerkanäle</German>
+            <Korean>마커 채널</Korean>
+            <Japanese>マーカーのチャンネル</Japanese>
+            <Chinese>標記頻道</Chinese>
+            <Chinesesimp>标记频道</Chinesesimp>
+            <Turkish>İşaret kanalları</Turkish>
+            <Slovak>Kanály značiek</Slovak>
+            <Hungarian>Jelölőcsatornák</Hungarian>
+            <Ukrainian>Канали маркерів</Ukrainian>
+            <Bulgarian>Канали на маркерите</Bulgarian>
+            <Latin>Canales signorum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_CategoryReplay">
+            <English>Replay recording</English>
+            <Czech>Nahrávání záznamů</Czech>
+            <French>Enregistrement des replays</French>
+            <Spanish>Grabación de repeticiones</Spanish>
+            <Italian>Registrazione replay</Italian>
+            <Polish>Nagrywanie powtórek</Polish>
+            <Portuguese>Gravação de replays</Portuguese>
+            <Russian>Запись реплеев</Russian>
+            <German>Replay-Aufzeichnung</German>
+            <Korean>리플레이 기록</Korean>
+            <Japanese>リプレイ記録</Japanese>
+            <Chinese>重播錄製</Chinese>
+            <Chinesesimp>回放录制</Chinesesimp>
+            <Turkish>Tekrar kaydı</Turkish>
+            <Slovak>Nahrávanie záznamov</Slovak>
+            <Hungarian>Visszajátszás rögzítése</Hungarian>
+            <Ukrainian>Запис реплеїв</Ukrainian>
+            <Bulgarian>Запис на повторения</Bulgarian>
+            <Latin>Memoria spectaculi</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ChannelMode">
+            <English>Channel: %1</English>
+            <Czech>Kanál: %1</Czech>
+            <French>Canal : %1</French>
+            <Spanish>Canal: %1</Spanish>
+            <Italian>Canale: %1</Italian>
+            <Polish>Kanał: %1</Polish>
+            <Portuguese>Canal: %1</Portuguese>
+            <Russian>Канал: %1</Russian>
+            <German>Kanal: %1</German>
+            <Korean>채널: %1</Korean>
+            <Japanese>チャンネル：%1</Japanese>
+            <Chinese>頻道：%1</Chinese>
+            <Chinesesimp>频道：%1</Chinesesimp>
+            <Turkish>Kanal: %1</Turkish>
+            <Slovak>Kanál: %1</Slovak>
+            <Hungarian>Csatorna: %1</Hungarian>
+            <Ukrainian>Канал: %1</Ukrainian>
+            <Bulgarian>Канал: %1</Bulgarian>
+            <Latin>Canalis: %1</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ChannelMode_Briefing">
+            <English>Enabled in the briefing only</English>
+            <Czech>Zapnuto jen během briefingu</Czech>
+            <French>Activé uniquement pendant le briefing</French>
+            <Spanish>Activado solo durante la sesión informativa</Spanish>
+            <Italian>Attivo solo durante il briefing</Italian>
+            <Polish>Włączony tylko podczas odprawy</Polish>
+            <Portuguese>Ativo apenas durante o briefing</Portuguese>
+            <Russian>Включён только на брифинге</Russian>
+            <German>Nur im Briefing aktiv</German>
+            <Korean>브리핑 중에만 사용</Korean>
+            <Japanese>ブリーフィング中のみ有効</Japanese>
+            <Chinese>僅在簡報期間啟用</Chinese>
+            <Chinesesimp>仅在简报期间启用</Chinesesimp>
+            <Turkish>Yalnızca brifingde açık</Turkish>
+            <Slovak>Zapnutý len počas briefingu</Slovak>
+            <Hungarian>Csak az eligazítás alatt engedélyezett</Hungarian>
+            <Ukrainian>Увімкнено лише під час брифінгу</Ukrainian>
+            <Bulgarian>Включен само по време на брифинга</Bulgarian>
+            <Latin>Tantum in praeceptione</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ChannelMode_Description">
+            <English>Who can place and see the markers in the channel. The markers placed in the briefing stay visible in the mission. LR radios are the radio backpacks, compat addons add theirs (TFAR: LR backpacks and vehicle radios).</English>
+            <Czech>Kdo může v kanálu umisťovat a vidět značky. Značky umístěné během briefingu zůstávají v misi viditelné. Rádia LR jsou rádiové batohy, kompatibilní addony přidávají vlastní (TFAR: batohy LR a rádia vozidel).</Czech>
+            <French>Qui peut placer et voir les marqueurs du canal. Les marqueurs placés pendant le briefing restent visibles en mission. Les radios LR sont les sacs radio, les addons de compatibilité ajoutent les leurs (TFAR : sacs LR et radios des véhicules).</French>
+            <Spanish>Quién puede colocar y ver los marcadores del canal. Los marcadores colocados en la sesión informativa siguen visibles en la misión. Las radios LR son las mochilas de radio, los addons de compatibilidad añaden las suyas (TFAR: mochilas LR y radios de vehículos).</Spanish>
+            <Italian>Chi può posizionare e vedere i marcatori del canale. I marcatori posizionati durante il briefing restano visibili nella missione. Le radio LR sono gli zaini radio, gli addon di compatibilità aggiungono le loro (TFAR: zaini LR e radio dei veicoli).</Italian>
+            <Polish>Kto może stawiać i widzieć znaczniki w kanale. Znaczniki postawione podczas odprawy pozostają widoczne w misji. Radia LR to plecaki radiowe, addony kompatybilności dodają własne (TFAR: plecaki LR i radia pojazdów).</Polish>
+            <Portuguese>Quem pode colocar e ver os marcadores do canal. Os marcadores colocados no briefing continuam visíveis na missão. Rádios LR são as mochilas de rádio, os addons de compatibilidade adicionam os seus (TFAR: mochilas LR e rádios de veículos).</Portuguese>
+            <Russian>Кто может ставить и видеть маркеры в канале. Маркеры, поставленные на брифинге, остаются видны в миссии. Радиостанции ДВ - радиорюкзаки, аддоны совместимости добавляют свои (TFAR: рюкзаки ДВ и рации техники).</Russian>
+            <German>Wer im Kanal Marker setzen und sehen kann. Im Briefing gesetzte Marker bleiben in der Mission sichtbar. LR-Funkgeräte sind die Funkrucksäcke, Kompatibilitäts-Addons fügen ihre hinzu (TFAR: LR-Rucksäcke und Fahrzeugfunk).</German>
+            <Korean>채널에서 마커를 배치하고 볼 수 있는 사람. 브리핑 중 배치된 마커는 임무에서도 계속 보입니다. LR 무전기는 무전기 배낭이며, 호환 애드온이 자체 무전기를 추가합니다(TFAR: LR 배낭과 차량 무전기).</Korean>
+            <Japanese>チャンネルでマーカーを配置・閲覧できる人。ブリーフィング中に配置したマーカーはミッション中も表示されたままです。LR無線機は無線バックパックで、互換アドオンが独自のものを追加します（TFAR：LRバックパックと車両無線機）。</Japanese>
+            <Chinese>誰可以在該頻道放置和檢視標記。簡報期間放置的標記在任務中保持可見。LR 無線電為無線電背包，相容插件會加入各自的無線電（TFAR：LR 背包和載具無線電）。</Chinese>
+            <Chinesesimp>谁可以在该频道放置和查看标记。简报期间放置的标记在任务中保持可见。LR 无线电为无线电背包，兼容插件会添加各自的无线电（TFAR：LR 背包和载具无线电）。</Chinesesimp>
+            <Turkish>Kanalda kimlerin işaret koyup görebileceği. Brifingde konan işaretler görevde görünür kalır. LR telsizleri telsiz sırt çantalarıdır, uyumluluk eklentileri kendilerininkini ekler (TFAR: LR sırt çantaları ve araç telsizleri).</Turkish>
+            <Slovak>Kto môže v kanáli umiestňovať a vidieť značky. Značky umiestnené počas briefingu zostávajú v misii viditeľné. Rádiá LR sú rádiové batohy, kompatibilné addony pridávajú vlastné (TFAR: batohy LR a rádiá vozidiel).</Slovak>
+            <Hungarian>Ki helyezhet el és láthat jelölőket a csatornán. Az eligazításon elhelyezett jelölők a küldetésben is láthatók maradnak. Az LR-rádiók a rádiós hátizsákok, a kompatibilitási addonok hozzáadják a sajátjukat (TFAR: LR-hátizsákok és járműrádiók).</Hungarian>
+            <Ukrainian>Хто може ставити й бачити маркери в каналі. Маркери, поставлені на брифінгу, лишаються видимими в місії. Радіостанції ДХ - радіорюкзаки, аддони сумісності додають свої (TFAR: рюкзаки ДХ і рації техніки).</Ukrainian>
+            <Bulgarian>Кой може да поставя и вижда маркерите в канала. Маркерите, поставени по време на брифинга, остават видими в мисията. Радиостанциите LR са радиораниците, аддоните за съвместимост добавят свои (TFAR: раници LR и радиостанции на превозни средства).</Bulgarian>
+            <Latin>Quis in canali signa ponere et videre potest. Signa in praeceptione posita in missione visibilia manent. Radiophona LR sunt sarcinae radiophonicae, additamenta compatibilitatis sua addunt (TFAR: sarcinae LR et radiophona vehiculorum).</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ChannelMode_Disabled">
+            <English>Disabled</English>
+            <Czech>Vypnuto</Czech>
+            <French>Désactivé</French>
+            <Spanish>Desactivado</Spanish>
+            <Italian>Disattivato</Italian>
+            <Polish>Wyłączony</Polish>
+            <Portuguese>Desativado</Portuguese>
+            <Russian>Отключён</Russian>
+            <German>Deaktiviert</German>
+            <Korean>사용 안 함</Korean>
+            <Japanese>無効</Japanese>
+            <Chinese>停用</Chinese>
+            <Chinesesimp>禁用</Chinesesimp>
+            <Turkish>Kapalı</Turkish>
+            <Slovak>Vypnutý</Slovak>
+            <Hungarian>Letiltva</Hungarian>
+            <Ukrainian>Вимкнено</Ukrainian>
+            <Bulgarian>Изключен</Bulgarian>
+            <Latin>Inactivus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ChannelMode_Enabled">
+            <English>Enabled</English>
+            <Czech>Zapnuto</Czech>
+            <French>Activé</French>
+            <Spanish>Activado</Spanish>
+            <Italian>Attivato</Italian>
+            <Polish>Włączony</Polish>
+            <Portuguese>Ativado</Portuguese>
+            <Russian>Включён</Russian>
+            <German>Aktiviert</German>
+            <Korean>사용</Korean>
+            <Japanese>有効</Japanese>
+            <Chinese>啟用</Chinese>
+            <Chinesesimp>启用</Chinesesimp>
+            <Turkish>Açık</Turkish>
+            <Slovak>Zapnutý</Slovak>
+            <Hungarian>Engedélyezve</Hungarian>
+            <Ukrainian>Увімкнено</Ukrainian>
+            <Bulgarian>Включен</Bulgarian>
+            <Latin>Activus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ChannelMode_GPS">
+            <English>Requires GPS</English>
+            <Czech>Vyžaduje GPS</Czech>
+            <French>Nécessite un GPS</French>
+            <Spanish>Requiere GPS</Spanish>
+            <Italian>Richiede GPS</Italian>
+            <Polish>Wymaga GPS</Polish>
+            <Portuguese>Requer GPS</Portuguese>
+            <Russian>Требует GPS</Russian>
+            <German>Benötigt GPS</German>
+            <Korean>GPS 필요</Korean>
+            <Japanese>GPSが必要</Japanese>
+            <Chinese>需要 GPS</Chinese>
+            <Chinesesimp>需要 GPS</Chinesesimp>
+            <Turkish>GPS gerekir</Turkish>
+            <Slovak>Vyžaduje GPS</Slovak>
+            <Hungarian>GPS szükséges</Hungarian>
+            <Ukrainian>Потребує GPS</Ukrainian>
+            <Bulgarian>Изисква GPS</Bulgarian>
+            <Latin>GPS requirit</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ChannelMode_GPSOrLongRange">
+            <English>Requires GPS or LR radio</English>
+            <Czech>Vyžaduje GPS nebo rádio LR</Czech>
+            <French>Nécessite un GPS ou une radio LR</French>
+            <Spanish>Requiere GPS o radio LR</Spanish>
+            <Italian>Richiede GPS o radio LR</Italian>
+            <Polish>Wymaga GPS lub radia LR</Polish>
+            <Portuguese>Requer GPS ou rádio LR</Portuguese>
+            <Russian>Требует GPS или ДВ</Russian>
+            <German>Benötigt GPS oder LR-Funkgerät</German>
+            <Korean>GPS 또는 LR 무전기 필요</Korean>
+            <Japanese>GPSまたはLR無線機が必要</Japanese>
+            <Chinese>需要 GPS 或 LR 無線電</Chinese>
+            <Chinesesimp>需要 GPS 或 LR 无线电</Chinesesimp>
+            <Turkish>GPS veya LR telsiz gerekir</Turkish>
+            <Slovak>Vyžaduje GPS alebo rádio LR</Slovak>
+            <Hungarian>GPS vagy LR-rádió szükséges</Hungarian>
+            <Ukrainian>Потребує GPS або ДХ</Ukrainian>
+            <Bulgarian>Изисква GPS или радиостанция LR</Bulgarian>
+            <Latin>GPS vel radiophonum LR requirit</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ChannelMode_LongRange">
+            <English>Requires LR radio</English>
+            <Czech>Vyžaduje rádio LR</Czech>
+            <French>Nécessite une radio LR</French>
+            <Spanish>Requiere radio LR</Spanish>
+            <Italian>Richiede radio LR</Italian>
+            <Polish>Wymaga radia LR</Polish>
+            <Portuguese>Requer rádio LR</Portuguese>
+            <Russian>Требует радиорюкзак (ДВ)</Russian>
+            <German>Benötigt LR-Funkgerät</German>
+            <Korean>LR 무전기 필요</Korean>
+            <Japanese>LR無線機が必要</Japanese>
+            <Chinese>需要 LR 無線電</Chinese>
+            <Chinesesimp>需要 LR 无线电</Chinesesimp>
+            <Turkish>LR telsiz gerekir</Turkish>
+            <Slovak>Vyžaduje rádio LR</Slovak>
+            <Hungarian>LR-rádió szükséges</Hungarian>
+            <Ukrainian>Потребує радіорюкзак (ДХ)</Ukrainian>
+            <Bulgarian>Изисква радиостанция LR</Bulgarian>
+            <Latin>Radiophonum LR requirit</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ChannelMode_Radio">
+            <English>Requires radio</English>
+            <Czech>Vyžaduje rádio</Czech>
+            <French>Nécessite une radio</French>
+            <Spanish>Requiere radio</Spanish>
+            <Italian>Richiede radio</Italian>
+            <Polish>Wymaga radia</Polish>
+            <Portuguese>Requer rádio</Portuguese>
+            <Russian>Требует рацию</Russian>
+            <German>Benötigt Funkgerät</German>
+            <Korean>무전기 필요</Korean>
+            <Japanese>無線機が必要</Japanese>
+            <Chinese>需要無線電</Chinese>
+            <Chinesesimp>需要无线电</Chinesesimp>
+            <Turkish>Telsiz gerekir</Turkish>
+            <Slovak>Vyžaduje rádio</Slovak>
+            <Hungarian>Rádió szükséges</Hungarian>
+            <Ukrainian>Потребує рації</Ukrainian>
+            <Bulgarian>Изисква радио</Bulgarian>
+            <Latin>Radiophonum requirit</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ColorBlack">
+            <English>Black</English>
+            <Czech>Černá</Czech>
+            <French>Noir</French>
+            <Spanish>Negro</Spanish>
+            <Italian>Nero</Italian>
+            <Polish>Czarny</Polish>
+            <Portuguese>Preto</Portuguese>
+            <Russian>Чёрный</Russian>
+            <German>Schwarz</German>
+            <Korean>검정</Korean>
+            <Japanese>黒</Japanese>
+            <Chinese>黑色</Chinese>
+            <Chinesesimp>黑色</Chinesesimp>
+            <Turkish>Siyah</Turkish>
+            <Slovak>Čierna</Slovak>
+            <Hungarian>Fekete</Hungarian>
+            <Ukrainian>Чорний</Ukrainian>
+            <Bulgarian>Черен</Bulgarian>
+            <Latin>Niger</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ColorEnemy">
+            <English>Red</English>
+            <Czech>Červená</Czech>
+            <French>Rouge</French>
+            <Spanish>Rojo</Spanish>
+            <Italian>Rosso</Italian>
+            <Polish>Czerwony</Polish>
+            <Portuguese>Vermelho</Portuguese>
+            <Russian>Красный</Russian>
+            <German>Rot</German>
+            <Korean>빨강</Korean>
+            <Japanese>赤</Japanese>
+            <Chinese>紅色</Chinese>
+            <Chinesesimp>红色</Chinesesimp>
+            <Turkish>Kırmızı</Turkish>
+            <Slovak>Červená</Slovak>
+            <Hungarian>Piros</Hungarian>
+            <Ukrainian>Червоний</Ukrainian>
+            <Bulgarian>Червен</Bulgarian>
+            <Latin>Ruber</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ColorFriendly">
+            <English>Blue</English>
+            <Czech>Modrá</Czech>
+            <French>Bleu</French>
+            <Spanish>Azul</Spanish>
+            <Italian>Blu</Italian>
+            <Polish>Niebieski</Polish>
+            <Portuguese>Azul</Portuguese>
+            <Russian>Синий</Russian>
+            <German>Blau</German>
+            <Korean>파랑</Korean>
+            <Japanese>青</Japanese>
+            <Chinese>藍色</Chinese>
+            <Chinesesimp>蓝色</Chinesesimp>
+            <Turkish>Mavi</Turkish>
+            <Slovak>Modrá</Slovak>
+            <Hungarian>Kék</Hungarian>
+            <Ukrainian>Синій</Ukrainian>
+            <Bulgarian>Син</Bulgarian>
+            <Latin>Caeruleus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ColorIndependent">
+            <English>Green</English>
+            <Czech>Zelená</Czech>
+            <French>Vert</French>
+            <Spanish>Verde</Spanish>
+            <Italian>Verde</Italian>
+            <Polish>Zielony</Polish>
+            <Portuguese>Verde</Portuguese>
+            <Russian>Зелёный</Russian>
+            <German>Grün</German>
+            <Korean>초록</Korean>
+            <Japanese>緑</Japanese>
+            <Chinese>綠色</Chinese>
+            <Chinesesimp>绿色</Chinesesimp>
+            <Turkish>Yeşil</Turkish>
+            <Slovak>Zelená</Slovak>
+            <Hungarian>Zöld</Hungarian>
+            <Ukrainian>Зелений</Ukrainian>
+            <Bulgarian>Зелен</Bulgarian>
+            <Latin>Viridis</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ColorWhite">
+            <English>White</English>
+            <Czech>Bílá</Czech>
+            <French>Blanc</French>
+            <Spanish>Blanco</Spanish>
+            <Italian>Bianco</Italian>
+            <Polish>Biały</Polish>
+            <Portuguese>Branco</Portuguese>
+            <Russian>Белый</Russian>
+            <German>Weiß</German>
+            <Korean>흰색</Korean>
+            <Japanese>白</Japanese>
+            <Chinese>白色</Chinese>
+            <Chinesesimp>白色</Chinesesimp>
+            <Turkish>Beyaz</Turkish>
+            <Slovak>Biela</Slovak>
+            <Hungarian>Fehér</Hungarian>
+            <Ukrainian>Білий</Ukrainian>
+            <Bulgarian>Бял</Bulgarian>
+            <Latin>Albus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ColorYellow">
+            <English>Yellow</English>
+            <Czech>Žlutá</Czech>
+            <French>Jaune</French>
+            <Spanish>Amarillo</Spanish>
+            <Italian>Giallo</Italian>
+            <Polish>Żółty</Polish>
+            <Portuguese>Amarelo</Portuguese>
+            <Russian>Жёлтый</Russian>
+            <German>Gelb</German>
+            <Korean>노랑</Korean>
+            <Japanese>黄</Japanese>
+            <Chinese>黃色</Chinese>
+            <Chinesesimp>黄色</Chinesesimp>
+            <Turkish>Sarı</Turkish>
+            <Slovak>Žltá</Slovak>
+            <Hungarian>Sárga</Hungarian>
+            <Ukrainian>Жовтий</Ukrainian>
+            <Bulgarian>Жълт</Bulgarian>
+            <Latin>Flavus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_DirectChannelRange">
+            <English>Direct channel range</English>
+            <Czech>Dosah přímého kanálu</Czech>
+            <French>Portée du canal direct</French>
+            <Spanish>Alcance del canal directo</Spanish>
+            <Italian>Portata del canale diretto</Italian>
+            <Polish>Zasięg kanału bezpośredniego</Polish>
+            <Portuguese>Alcance do canal direto</Portuguese>
+            <Russian>Дальность прямого канала</Russian>
+            <German>Reichweite des Direktkanals</German>
+            <Korean>직접 채널 범위</Korean>
+            <Japanese>ダイレクトチャンネルの範囲</Japanese>
+            <Chinese>直接頻道範圍</Chinese>
+            <Chinesesimp>直接频道范围</Chinesesimp>
+            <Turkish>Doğrudan kanal menzili</Turkish>
+            <Slovak>Dosah priameho kanála</Slovak>
+            <Hungarian>Közvetlen csatorna hatótávja</Hungarian>
+            <Ukrainian>Дальність прямого каналу</Ukrainian>
+            <Bulgarian>Обхват на директния канал</Bulgarian>
+            <Latin>Spatium canalis directi</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_DirectChannelRange_Description">
+            <English>Distance in meters at which the players receive the markers of the direct channel.</English>
+            <Czech>Vzdálenost v metrech, na kterou hráči dostávají značky přímého kanálu.</Czech>
+            <French>Distance en mètres à laquelle les joueurs reçoivent les marqueurs du canal direct.</French>
+            <Spanish>Distancia en metros a la que los jugadores reciben los marcadores del canal directo.</Spanish>
+            <Italian>Distanza in metri entro la quale i giocatori ricevono i marcatori del canale diretto.</Italian>
+            <Polish>Odległość w metrach, w której gracze otrzymują znaczniki kanału bezpośredniego.</Polish>
+            <Portuguese>Distância em metros na qual os jogadores recebem os marcadores do canal direto.</Portuguese>
+            <Russian>Расстояние в метрах, на котором игроки получают маркеры прямого канала.</Russian>
+            <German>Entfernung in Metern, in der die Spieler die Marker des Direktkanals erhalten.</German>
+            <Korean>플레이어가 직접 채널 마커를 받는 거리(미터).</Korean>
+            <Japanese>プレイヤーがダイレクトチャンネルのマーカーを受け取る距離（メートル）。</Japanese>
+            <Chinese>玩家接收直接頻道標記的距離（公尺）。</Chinese>
+            <Chinesesimp>玩家接收直接频道标记的距离（米）。</Chinesesimp>
+            <Turkish>Oyuncuların doğrudan kanal işaretlerini aldığı metre cinsinden mesafe.</Turkish>
+            <Slovak>Vzdialenosť v metroch, na ktorú hráči dostávajú značky priameho kanála.</Slovak>
+            <Hungarian>Távolság méterben, amelyen belül a játékosok megkapják a közvetlen csatorna jelölőit.</Hungarian>
+            <Ukrainian>Відстань у метрах, на якій гравці отримують маркери прямого каналу.</Ukrainian>
+            <Bulgarian>Разстояние в метри, на което играчите получават маркерите на директния канал.</Bulgarian>
+            <Latin>Distantia in metris intra quam lusores signa canalis directi accipiunt.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_DistanceKilometers">
+            <English>%1 km</English>
+            <Czech>%1 km</Czech>
+            <French>%1 km</French>
+            <Spanish>%1 km</Spanish>
+            <Italian>%1 km</Italian>
+            <Polish>%1 km</Polish>
+            <Portuguese>%1 km</Portuguese>
+            <Russian>%1 км</Russian>
+            <German>%1 km</German>
+            <Korean>%1 km</Korean>
+            <Japanese>%1 km</Japanese>
+            <Chinese>%1 公里</Chinese>
+            <Chinesesimp>%1 公里</Chinesesimp>
+            <Turkish>%1 km</Turkish>
+            <Slovak>%1 km</Slovak>
+            <Hungarian>%1 km</Hungarian>
+            <Ukrainian>%1 км</Ukrainian>
+            <Bulgarian>%1 км</Bulgarian>
+            <Latin>%1 km</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_DistanceMeters">
+            <English>%1 m</English>
+            <Czech>%1 m</Czech>
+            <French>%1 m</French>
+            <Spanish>%1 m</Spanish>
+            <Italian>%1 m</Italian>
+            <Polish>%1 m</Polish>
+            <Portuguese>%1 m</Portuguese>
+            <Russian>%1 м</Russian>
+            <German>%1 m</German>
+            <Korean>%1 m</Korean>
+            <Japanese>%1 m</Japanese>
+            <Chinese>%1 公尺</Chinese>
+            <Chinesesimp>%1 米</Chinesesimp>
+            <Turkish>%1 m</Turkish>
+            <Slovak>%1 m</Slovak>
+            <Hungarian>%1 m</Hungarian>
+            <Ukrainian>%1 м</Ukrainian>
+            <Bulgarian>%1 м</Bulgarian>
+            <Latin>%1 m</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_DistanceUnit_Dynamic">
+            <English>Dynamic (meters below 1 km)</English>
+            <Czech>Dynamicky (metry pod 1 km)</Czech>
+            <French>Dynamique (mètres sous 1 km)</French>
+            <Spanish>Dinámico (metros por debajo de 1 km)</Spanish>
+            <Italian>Dinamico (metri sotto 1 km)</Italian>
+            <Polish>Dynamicznie (metry poniżej 1 km)</Polish>
+            <Portuguese>Dinâmico (metros abaixo de 1 km)</Portuguese>
+            <Russian>Динамически (метры до 1 км)</Russian>
+            <German>Dynamisch (Meter unter 1 km)</German>
+            <Korean>자동 (1 km 미만은 미터)</Korean>
+            <Japanese>自動（1 km未満はメートル）</Japanese>
+            <Chinese>自動（1 公里以下用公尺）</Chinese>
+            <Chinesesimp>自动（1 公里以下用米）</Chinesesimp>
+            <Turkish>Dinamik (1 km altında metre)</Turkish>
+            <Slovak>Dynamicky (metre pod 1 km)</Slovak>
+            <Hungarian>Dinamikus (méter 1 km alatt)</Hungarian>
+            <Ukrainian>Динамічно (метри до 1 км)</Ukrainian>
+            <Bulgarian>Динамично (метри под 1 км)</Bulgarian>
+            <Latin>Mobilis (metra infra 1 km)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_DistanceUnit_Kilometers">
+            <English>Kilometers</English>
+            <Czech>Kilometry</Czech>
+            <French>Kilomètres</French>
+            <Spanish>Kilómetros</Spanish>
+            <Italian>Chilometri</Italian>
+            <Polish>Kilometry</Polish>
+            <Portuguese>Quilômetros</Portuguese>
+            <Russian>Километры</Russian>
+            <German>Kilometer</German>
+            <Korean>킬로미터</Korean>
+            <Japanese>キロメートル</Japanese>
+            <Chinese>公里</Chinese>
+            <Chinesesimp>公里</Chinesesimp>
+            <Turkish>Kilometre</Turkish>
+            <Slovak>Kilometre</Slovak>
+            <Hungarian>Kilométer</Hungarian>
+            <Ukrainian>Кілометри</Ukrainian>
+            <Bulgarian>Километри</Bulgarian>
+            <Latin>Chiliometra</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_DistanceUnit_Meters">
+            <English>Meters</English>
+            <Czech>Metry</Czech>
+            <French>Mètres</French>
+            <Spanish>Metros</Spanish>
+            <Italian>Metri</Italian>
+            <Polish>Metry</Polish>
+            <Portuguese>Metros</Portuguese>
+            <Russian>Метры</Russian>
+            <German>Meter</German>
+            <Korean>미터</Korean>
+            <Japanese>メートル</Japanese>
+            <Chinese>公尺</Chinese>
+            <Chinesesimp>米</Chinesesimp>
+            <Turkish>Metre</Turkish>
+            <Slovak>Metre</Slovak>
+            <Hungarian>Méter</Hungarian>
+            <Ukrainian>Метри</Ukrainian>
+            <Bulgarian>Метри</Bulgarian>
+            <Latin>Metra</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_EnableMeasure">
+            <English>Distance measuring</English>
+            <Czech>Měření vzdálenosti</Czech>
+            <French>Mesure des distances</French>
+            <Spanish>Medición de distancias</Spanish>
+            <Italian>Misurazione delle distanze</Italian>
+            <Polish>Pomiar odległości</Polish>
+            <Portuguese>Medição de distância</Portuguese>
+            <Russian>Измерение расстояния</Russian>
+            <German>Entfernungsmessung</German>
+            <Korean>거리 측정</Korean>
+            <Japanese>距離の測定</Japanese>
+            <Chinese>測量距離</Chinese>
+            <Chinesesimp>测量距离</Chinesesimp>
+            <Turkish>Mesafe ölçümü</Turkish>
+            <Slovak>Meranie vzdialenosti</Slovak>
+            <Hungarian>Távolságmérés</Hungarian>
+            <Ukrainian>Вимірювання дистанції</Ukrainian>
+            <Bulgarian>Измерване на разстояние</Bulgarian>
+            <Latin>Mensura distantiae</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_EnableMeasure_Description">
+            <English>Map menu tool: a ruler from the point to the cursor with the 10 m, 100 m and 1 km ticks.</English>
+            <Czech>Nástroj nabídky mapy: pravítko od bodu ke kurzoru s dílky po 10 m, 100 m a 1 km.</Czech>
+            <French>Outil du menu de la carte : une règle du point au curseur avec des graduations de 10 m, 100 m et 1 km.</French>
+            <Spanish>Herramienta del menú del mapa: una regla desde el punto hasta el cursor con marcas cada 10 m, 100 m y 1 km.</Spanish>
+            <Italian>Strumento del menu della mappa: un righello dal punto al cursore con tacche ogni 10 m, 100 m e 1 km.</Italian>
+            <Polish>Narzędzie menu mapy: linijka od punktu do kursora z podziałką co 10 m, 100 m i 1 km.</Polish>
+            <Portuguese>Ferramenta do menu do mapa: uma régua do ponto até o cursor com marcas a cada 10 m, 100 m e 1 km.</Portuguese>
+            <Russian>Инструмент меню карты: линейка от точки до курсора с делениями 10 м, 100 м и 1 км.</Russian>
+            <German>Werkzeug des Kartenmenüs: ein Lineal vom Punkt zum Cursor mit Teilstrichen alle 10 m, 100 m und 1 km.</German>
+            <Korean>지도 메뉴 도구: 지점에서 커서까지 10 m, 100 m, 1 km 눈금이 있는 자.</Korean>
+            <Japanese>マップメニューのツール：地点からカーソルまでの、10 m、100 m、1 km刻みの目盛り付き定規。</Japanese>
+            <Chinese>地圖選單工具：從點到游標的尺規，刻度為 10 公尺、100 公尺和 1 公里。</Chinese>
+            <Chinesesimp>地图菜单工具：从点到光标的标尺，刻度为 10 米、100 米和 1 公里。</Chinesesimp>
+            <Turkish>Harita menüsü aracı: noktadan imlece, 10 m, 100 m ve 1 km çentikli bir cetvel.</Turkish>
+            <Slovak>Nástroj ponuky mapy: pravítko od bodu ku kurzoru s dielikmi po 10 m, 100 m a 1 km.</Slovak>
+            <Hungarian>A térképmenü eszköze: vonalzó a ponttól a kurzorig 10 m-es, 100 m-es és 1 km-es beosztással.</Hungarian>
+            <Ukrainian>Інструмент меню мапи: лінійка від точки до курсора з поділками 10 м, 100 м і 1 км.</Ukrainian>
+            <Bulgarian>Инструмент от менюто на картата: линийка от точката до курсора с деления през 10 м, 100 м и 1 км.</Bulgarian>
+            <Latin>Instrumentum tabulae: regula a puncto ad cursorem cum notis 10 m, 100 m et 1 km.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_EnableRoute">
+            <English>Route drawing</English>
+            <Czech>Kreslení trasy</Czech>
+            <French>Tracé d'itinéraire</French>
+            <Spanish>Trazado de rutas</Spanish>
+            <Italian>Tracciamento del percorso</Italian>
+            <Polish>Wyznaczanie trasy</Polish>
+            <Portuguese>Traçado de rota</Portuguese>
+            <Russian>Проведение маршрута</Russian>
+            <German>Routen zeichnen</German>
+            <Korean>경로 그리기</Korean>
+            <Japanese>ルートの描画</Japanese>
+            <Chinese>繪製路線</Chinese>
+            <Chinesesimp>绘制路线</Chinesesimp>
+            <Turkish>Rota çizimi</Turkish>
+            <Slovak>Kreslenie trasy</Slovak>
+            <Hungarian>Útvonal rajzolása</Hungarian>
+            <Ukrainian>Проведення маршруту</Ukrainian>
+            <Bulgarian>Начертаване на маршрут</Bulgarian>
+            <Latin>Iter delineare</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_EnableRoute_Description">
+            <English>Map menu tool: a route marker drawn by points, the points can be snapped to the roads.</English>
+            <Czech>Nástroj nabídky mapy: značka trasy kreslená po bodech, body lze přichytit k silnicím.</Czech>
+            <French>Outil du menu de la carte : un marqueur d'itinéraire tracé par points, les points peuvent être accrochés aux routes.</French>
+            <Spanish>Herramienta del menú del mapa: un marcador de ruta trazado por puntos, los puntos se pueden ajustar a las carreteras.</Spanish>
+            <Italian>Strumento del menu della mappa: un marcatore di percorso tracciato per punti, i punti possono essere agganciati alle strade.</Italian>
+            <Polish>Narzędzie menu mapy: znacznik trasy rysowany punktami, punkty można przyciągać do dróg.</Polish>
+            <Portuguese>Ferramenta do menu do mapa: um marcador de rota traçado por pontos, os pontos podem ser ajustados às estradas.</Portuguese>
+            <Russian>Инструмент меню карты: маркер маршрута по точкам, точки можно привязывать к дорогам.</Russian>
+            <German>Werkzeug des Kartenmenüs: ein Routenmarker aus Punkten, die Punkte können an Straßen ausgerichtet werden.</German>
+            <Korean>지도 메뉴 도구: 지점으로 그리는 경로 마커, 지점을 도로에 맞출 수 있습니다.</Korean>
+            <Japanese>マップメニューのツール：地点ごとに描くルートマーカー。地点は道路に吸着できます。</Japanese>
+            <Chinese>地圖選單工具：按點繪製的路線標記，點可吸附到道路。</Chinese>
+            <Chinesesimp>地图菜单工具：按点绘制的路线标记，点可吸附到道路。</Chinesesimp>
+            <Turkish>Harita menüsü aracı: noktalarla çizilen bir rota işareti, noktalar yollara yapıştırılabilir.</Turkish>
+            <Slovak>Nástroj ponuky mapy: značka trasy kreslená po bodoch, body možno prichytiť k cestám.</Slovak>
+            <Hungarian>A térképmenü eszköze: pontokkal rajzolt útvonaljelölő, a pontok utakhoz illeszthetők.</Hungarian>
+            <Ukrainian>Інструмент меню мапи: маркер маршруту за точками, точки можна привʼязувати до доріг.</Ukrainian>
+            <Bulgarian>Инструмент от менюто на картата: маркер на маршрут по точки, точките могат да се прилепват към пътищата.</Bulgarian>
+            <Latin>Instrumentum tabulae: signum itineris per puncta delineatum, puncta viis adhaerere possunt.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HintChannel">
+            <English>Channel: %1 (%2)</English>
+            <Czech>Kanál: %1 (%2)</Czech>
+            <French>Canal : %1 (%2)</French>
+            <Spanish>Canal: %1 (%2)</Spanish>
+            <Italian>Canale: %1 (%2)</Italian>
+            <Polish>Kanał: %1 (%2)</Polish>
+            <Portuguese>Canal: %1 (%2)</Portuguese>
+            <Russian>Канал: %1 (%2)</Russian>
+            <German>Kanal: %1 (%2)</German>
+            <Korean>채널: %1 (%2)</Korean>
+            <Japanese>チャンネル：%1（%2）</Japanese>
+            <Chinese>頻道：%1（%2）</Chinese>
+            <Chinesesimp>频道：%1（%2）</Chinesesimp>
+            <Turkish>Kanal: %1 (%2)</Turkish>
+            <Slovak>Kanál: %1 (%2)</Slovak>
+            <Hungarian>Csatorna: %1 (%2)</Hungarian>
+            <Ukrainian>Канал: %1 (%2)</Ukrainian>
+            <Bulgarian>Канал: %1 (%2)</Bulgarian>
+            <Latin>Canalis: %1 (%2)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HintColor">
+            <English>Color: %1 (%2)</English>
+            <Czech>Barva: %1 (%2)</Czech>
+            <French>Couleur : %1 (%2)</French>
+            <Spanish>Color: %1 (%2)</Spanish>
+            <Italian>Colore: %1 (%2)</Italian>
+            <Polish>Kolor: %1 (%2)</Polish>
+            <Portuguese>Cor: %1 (%2)</Portuguese>
+            <Russian>Цвет: %1 (%2)</Russian>
+            <German>Farbe: %1 (%2)</German>
+            <Korean>색상: %1 (%2)</Korean>
+            <Japanese>色：%1（%2）</Japanese>
+            <Chinese>顏色：%1（%2）</Chinese>
+            <Chinesesimp>颜色：%1（%2）</Chinesesimp>
+            <Turkish>Renk: %1 (%2)</Turkish>
+            <Slovak>Farba: %1 (%2)</Slovak>
+            <Hungarian>Szín: %1 (%2)</Hungarian>
+            <Ukrainian>Колір: %1 (%2)</Ukrainian>
+            <Bulgarian>Цвят: %1 (%2)</Bulgarian>
+            <Latin>Color: %1 (%2)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HintDirection">
+            <English>LMB - place, RMB - cancel</English>
+            <Czech>LTM - umístit, PTM - zrušit</Czech>
+            <French>Clic gauche - placer, clic droit - annuler</French>
+            <Spanish>Clic izq. - colocar, clic der. - cancelar</Spanish>
+            <Italian>Clic sin. - posiziona, clic des. - annulla</Italian>
+            <Polish>LPM - postaw, PPM - anuluj</Polish>
+            <Portuguese>Clique esq. - colocar, clique dir. - cancelar</Portuguese>
+            <Russian>ЛКМ - поставить, ПКМ - отменить</Russian>
+            <German>LMT - setzen, RMT - abbrechen</German>
+            <Korean>좌클릭 - 배치, 우클릭 - 취소</Korean>
+            <Japanese>左クリック - 配置、右クリック - キャンセル</Japanese>
+            <Chinese>左鍵 - 放置，右鍵 - 取消</Chinese>
+            <Chinesesimp>左键 - 放置，右键 - 取消</Chinesesimp>
+            <Turkish>Sol tık - koy, sağ tık - iptal</Turkish>
+            <Slovak>ĽTM - umiestniť, PTM - zrušiť</Slovak>
+            <Hungarian>Bal klikk - elhelyezés, jobb klikk - mégse</Hungarian>
+            <Ukrainian>ЛКМ - поставити, ПКМ - скасувати</Ukrainian>
+            <Bulgarian>ЛБМ - поставяне, ДБМ - отказ</Bulgarian>
+            <Latin>Sinistro - pone, dextro - abroga</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HintMeasure">
+            <English>LMB or RMB - finish</English>
+            <Czech>LTM nebo PTM - dokončit</Czech>
+            <French>Clic gauche ou droit - terminer</French>
+            <Spanish>Clic izq. o der. - terminar</Spanish>
+            <Italian>Clic sin. o des. - termina</Italian>
+            <Polish>LPM lub PPM - zakończ</Polish>
+            <Portuguese>Clique esq. ou dir. - concluir</Portuguese>
+            <Russian>ЛКМ или ПКМ - завершить</Russian>
+            <German>LMT oder RMT - beenden</German>
+            <Korean>좌클릭 또는 우클릭 - 완료</Korean>
+            <Japanese>左または右クリック - 終了</Japanese>
+            <Chinese>左鍵或右鍵 - 完成</Chinese>
+            <Chinesesimp>左键或右键 - 完成</Chinesesimp>
+            <Turkish>Sol veya sağ tık - bitir</Turkish>
+            <Slovak>ĽTM alebo PTM - dokončiť</Slovak>
+            <Hungarian>Bal vagy jobb klikk - befejezés</Hungarian>
+            <Ukrainian>ЛКМ або ПКМ - завершити</Ukrainian>
+            <Bulgarian>ЛБМ или ДБМ - край</Bulgarian>
+            <Latin>Sinistro vel dextro - fini</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HintPoints">
+            <English>Points: %1/%2</English>
+            <Czech>Body: %1/%2</Czech>
+            <French>Points : %1/%2</French>
+            <Spanish>Puntos: %1/%2</Spanish>
+            <Italian>Punti: %1/%2</Italian>
+            <Polish>Punkty: %1/%2</Polish>
+            <Portuguese>Pontos: %1/%2</Portuguese>
+            <Russian>Точки: %1/%2</Russian>
+            <German>Punkte: %1/%2</German>
+            <Korean>지점: %1/%2</Korean>
+            <Japanese>地点：%1/%2</Japanese>
+            <Chinese>點：%1/%2</Chinese>
+            <Chinesesimp>点：%1/%2</Chinesesimp>
+            <Turkish>Noktalar: %1/%2</Turkish>
+            <Slovak>Body: %1/%2</Slovak>
+            <Hungarian>Pontok: %1/%2</Hungarian>
+            <Ukrainian>Точки: %1/%2</Ukrainian>
+            <Bulgarian>Точки: %1/%2</Bulgarian>
+            <Latin>Puncta: %1/%2</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HintRoute">
+            <English>LMB - point, %1 (hold) - snap to road, double LMB - finish, RMB - cancel</English>
+            <Czech>LTM - bod, %1 (držet) - přichytit k silnici, dvojité LTM - dokončit, PTM - zrušit</Czech>
+            <French>Clic gauche - point, %1 (maintenir) - accrocher à la route, double clic gauche - terminer, clic droit - annuler</French>
+            <Spanish>Clic izq. - punto, %1 (mantener) - ajustar a la carretera, doble clic izq. - terminar, clic der. - cancelar</Spanish>
+            <Italian>Clic sin. - punto, %1 (tieni premuto) - aggancia alla strada, doppio clic sin. - termina, clic des. - annulla</Italian>
+            <Polish>LPM - punkt, %1 (przytrzymaj) - przyciągnij do drogi, podwójny LPM - zakończ, PPM - anuluj</Polish>
+            <Portuguese>Clique esq. - ponto, %1 (segurar) - ajustar à estrada, clique duplo esq. - concluir, clique dir. - cancelar</Portuguese>
+            <Russian>ЛКМ - точка, %1 (удерживать) - к дороге, двойной ЛКМ - завершить, ПКМ - отменить</Russian>
+            <German>LMT - Punkt, %1 (halten) - an Straße ausrichten, Doppel-LMT - beenden, RMT - abbrechen</German>
+            <Korean>좌클릭 - 지점, %1 (누르고 있기) - 도로에 맞춤, 좌 더블클릭 - 완료, 우클릭 - 취소</Korean>
+            <Japanese>左クリック - 地点、%1（長押し） - 道路に吸着、左ダブルクリック - 終了、右クリック - キャンセル</Japanese>
+            <Chinese>左鍵 - 點，%1（按住） - 吸附到道路，左鍵雙擊 - 完成，右鍵 - 取消</Chinese>
+            <Chinesesimp>左键 - 点，%1（按住） - 吸附到道路，左键双击 - 完成，右键 - 取消</Chinesesimp>
+            <Turkish>Sol tık - nokta, %1 (basılı tut) - yola yapıştır, çift sol tık - bitir, sağ tık - iptal</Turkish>
+            <Slovak>ĽTM - bod, %1 (držať) - prichytiť k ceste, dvojité ĽTM - dokončiť, PTM - zrušiť</Slovak>
+            <Hungarian>Bal klikk - pont, %1 (nyomva tartva) - útra illesztés, dupla bal klikk - befejezés, jobb klikk - mégse</Hungarian>
+            <Ukrainian>ЛКМ - точка, %1 (утримувати) - до дороги, подвійний ЛКМ - завершити, ПКМ - скасувати</Ukrainian>
+            <Bulgarian>ЛБМ - точка, %1 (задръжте) - прилепване към пътя, двоен ЛБМ - край, ДБМ - отказ</Bulgarian>
+            <Latin>Sinistro - punctum, %1 (tene) - viae adhaere, bis sinistro - fini, dextro - abroga</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_History">
+            <English>Marker history</English>
+            <Czech>Historie značek</Czech>
+            <French>Historique des marqueurs</French>
+            <Spanish>Historial de marcadores</Spanish>
+            <Italian>Cronologia dei marcatori</Italian>
+            <Polish>Historia znaczników</Polish>
+            <Portuguese>Histórico de marcadores</Portuguese>
+            <Russian>История маркеров</Russian>
+            <German>Markerverlauf</German>
+            <Korean>마커 기록</Korean>
+            <Japanese>マーカー履歴</Japanese>
+            <Chinese>標記歷史</Chinese>
+            <Chinesesimp>标记历史</Chinesesimp>
+            <Turkish>İşaret geçmişi</Turkish>
+            <Slovak>História značiek</Slovak>
+            <Hungarian>Jelölők előzményei</Hungarian>
+            <Ukrainian>Історія маркерів</Ukrainian>
+            <Bulgarian>История на маркерите</Bulgarian>
+            <Latin>Historia signorum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HistoryColor">
+            <English>Color</English>
+            <Czech>Barva</Czech>
+            <French>Couleur</French>
+            <Spanish>Color</Spanish>
+            <Italian>Colore</Italian>
+            <Polish>Kolor</Polish>
+            <Portuguese>Cor</Portuguese>
+            <Russian>Цвет</Russian>
+            <German>Farbe</German>
+            <Korean>색상</Korean>
+            <Japanese>色</Japanese>
+            <Chinese>顏色</Chinese>
+            <Chinesesimp>颜色</Chinesesimp>
+            <Turkish>Renk</Turkish>
+            <Slovak>Farba</Slovak>
+            <Hungarian>Szín</Hungarian>
+            <Ukrainian>Колір</Ukrainian>
+            <Bulgarian>Цвят</Bulgarian>
+            <Latin>Color</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HistoryCreated">
+            <English>Created</English>
+            <Czech>Vytvořeno</Czech>
+            <French>Créé</French>
+            <Spanish>Creado</Spanish>
+            <Italian>Creato</Italian>
+            <Polish>Utworzono</Polish>
+            <Portuguese>Criado</Portuguese>
+            <Russian>Создан</Russian>
+            <German>Erstellt</German>
+            <Korean>생성됨</Korean>
+            <Japanese>作成</Japanese>
+            <Chinese>已建立</Chinese>
+            <Chinesesimp>已创建</Chinesesimp>
+            <Turkish>Oluşturuldu</Turkish>
+            <Slovak>Vytvorené</Slovak>
+            <Hungarian>Létrehozva</Hungarian>
+            <Ukrainian>Створено</Ukrainian>
+            <Bulgarian>Създаден</Bulgarian>
+            <Latin>Creatum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HistoryDeleted">
+            <English>Deleted</English>
+            <Czech>Smazáno</Czech>
+            <French>Supprimé</French>
+            <Spanish>Borrado</Spanish>
+            <Italian>Eliminato</Italian>
+            <Polish>Usunięto</Polish>
+            <Portuguese>Excluído</Portuguese>
+            <Russian>Удалён</Russian>
+            <German>Gelöscht</German>
+            <Korean>삭제됨</Korean>
+            <Japanese>削除</Japanese>
+            <Chinese>已刪除</Chinese>
+            <Chinesesimp>已删除</Chinesesimp>
+            <Turkish>Silindi</Turkish>
+            <Slovak>Zmazané</Slovak>
+            <Hungarian>Törölve</Hungarian>
+            <Ukrainian>Видалено</Ukrainian>
+            <Bulgarian>Изтрит</Bulgarian>
+            <Latin>Deletum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HistoryDeletedAt">
+            <English>Deleted at</English>
+            <Czech>Smazáno v</Czech>
+            <French>Supprimé le</French>
+            <Spanish>Borrado el</Spanish>
+            <Italian>Eliminato il</Italian>
+            <Polish>Usunięto o</Polish>
+            <Portuguese>Excluído em</Portuguese>
+            <Russian>Удалён</Russian>
+            <German>Gelöscht am</German>
+            <Korean>삭제 시각</Korean>
+            <Japanese>削除時刻</Japanese>
+            <Chinese>刪除時間</Chinese>
+            <Chinesesimp>删除时间</Chinesesimp>
+            <Turkish>Silinme zamanı</Turkish>
+            <Slovak>Zmazané o</Slovak>
+            <Hungarian>Törlés ideje</Hungarian>
+            <Ukrainian>Видалено</Ukrainian>
+            <Bulgarian>Изтрит в</Bulgarian>
+            <Latin>Deletum hora</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HistoryDeletedBy">
+            <English>Deleted by</English>
+            <Czech>Smazal</Czech>
+            <French>Supprimé par</French>
+            <Spanish>Borrado por</Spanish>
+            <Italian>Eliminato da</Italian>
+            <Polish>Usunął</Polish>
+            <Portuguese>Excluído por</Portuguese>
+            <Russian>Удалил</Russian>
+            <German>Gelöscht von</German>
+            <Korean>삭제한 사람</Korean>
+            <Japanese>削除者</Japanese>
+            <Chinese>刪除者</Chinese>
+            <Chinesesimp>删除者</Chinesesimp>
+            <Turkish>Silen</Turkish>
+            <Slovak>Zmazal</Slovak>
+            <Hungarian>Törölte</Hungarian>
+            <Ukrainian>Видалив</Ukrainian>
+            <Bulgarian>Изтрит от</Bulgarian>
+            <Latin>Delevit</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HistoryMarker">
+            <English>Marker</English>
+            <Czech>Značka</Czech>
+            <French>Marqueur</French>
+            <Spanish>Marcador</Spanish>
+            <Italian>Marcatore</Italian>
+            <Polish>Znacznik</Polish>
+            <Portuguese>Marcador</Portuguese>
+            <Russian>Маркер</Russian>
+            <German>Marker</German>
+            <Korean>마커</Korean>
+            <Japanese>マーカー</Japanese>
+            <Chinese>標記</Chinese>
+            <Chinesesimp>标记</Chinesesimp>
+            <Turkish>İşaret</Turkish>
+            <Slovak>Značka</Slovak>
+            <Hungarian>Jelölő</Hungarian>
+            <Ukrainian>Маркер</Ukrainian>
+            <Bulgarian>Маркер</Bulgarian>
+            <Latin>Signum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HistoryPosition">
+            <English>Position</English>
+            <Czech>Pozice</Czech>
+            <French>Position</French>
+            <Spanish>Posición</Spanish>
+            <Italian>Posizione</Italian>
+            <Polish>Pozycja</Polish>
+            <Portuguese>Posição</Portuguese>
+            <Russian>Позиция</Russian>
+            <German>Position</German>
+            <Korean>위치</Korean>
+            <Japanese>位置</Japanese>
+            <Chinese>位置</Chinese>
+            <Chinesesimp>位置</Chinesesimp>
+            <Turkish>Konum</Turkish>
+            <Slovak>Pozícia</Slovak>
+            <Hungarian>Pozíció</Hungarian>
+            <Ukrainian>Позиція</Ukrainian>
+            <Bulgarian>Позиция</Bulgarian>
+            <Latin>Locus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_HistoryText">
+            <English>Text</English>
+            <Czech>Text</Czech>
+            <French>Texte</French>
+            <Spanish>Texto</Spanish>
+            <Italian>Testo</Italian>
+            <Polish>Tekst</Polish>
+            <Portuguese>Texto</Portuguese>
+            <Russian>Текст</Russian>
+            <German>Text</German>
+            <Korean>텍스트</Korean>
+            <Japanese>テキスト</Japanese>
+            <Chinese>文字</Chinese>
+            <Chinesesimp>文本</Chinesesimp>
+            <Turkish>Metin</Turkish>
+            <Slovak>Text</Slovak>
+            <Hungarian>Szöveg</Hungarian>
+            <Ukrainian>Текст</Ukrainian>
+            <Bulgarian>Текст</Bulgarian>
+            <Latin>Textus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_InsertVehicleName">
+            <English>Insert the vehicle name: %1</English>
+            <Czech>Vložit název vozidla: %1</Czech>
+            <French>Insérer le nom du véhicule : %1</French>
+            <Spanish>Insertar el nombre del vehículo: %1</Spanish>
+            <Italian>Inserisci il nome del veicolo: %1</Italian>
+            <Polish>Wstaw nazwę pojazdu: %1</Polish>
+            <Portuguese>Inserir o nome do veículo: %1</Portuguese>
+            <Russian>Вставить название техники: %1</Russian>
+            <German>Fahrzeugnamen einfügen: %1</German>
+            <Korean>차량 이름 삽입: %1</Korean>
+            <Japanese>車両名を挿入：%1</Japanese>
+            <Chinese>插入載具名稱：%1</Chinese>
+            <Chinesesimp>插入载具名称：%1</Chinesesimp>
+            <Turkish>Araç adını ekle: %1</Turkish>
+            <Slovak>Vložiť názov vozidla: %1</Slovak>
+            <Hungarian>Jármű nevének beszúrása: %1</Hungarian>
+            <Ukrainian>Вставити назву техніки: %1</Ukrainian>
+            <Bulgarian>Вмъкване на името на превозното средство: %1</Bulgarian>
+            <Latin>Nomen vehiculi insere: %1</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_LabelAuthor">
+            <English>Author</English>
+            <Czech>Autor</Czech>
+            <French>Auteur</French>
+            <Spanish>Autor</Spanish>
+            <Italian>Autore</Italian>
+            <Polish>Autor</Polish>
+            <Portuguese>Autor</Portuguese>
+            <Russian>Автор</Russian>
+            <German>Autor</German>
+            <Korean>작성자</Korean>
+            <Japanese>作成者</Japanese>
+            <Chinese>作者</Chinese>
+            <Chinesesimp>作者</Chinesesimp>
+            <Turkish>Yazar</Turkish>
+            <Slovak>Autor</Slovak>
+            <Hungarian>Szerző</Hungarian>
+            <Ukrainian>Автор</Ukrainian>
+            <Bulgarian>Автор</Bulgarian>
+            <Latin>Auctor</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_LabelButton_Tooltip">
+            <English>Show or hide on the markers. The default is in the addon settings.</English>
+            <Czech>Zobrazit nebo skrýt na značkách. Výchozí hodnota je v nastavení addonu.</Czech>
+            <French>Afficher ou masquer sur les marqueurs. La valeur par défaut est dans les paramètres de l'addon.</French>
+            <Spanish>Mostrar u ocultar en los marcadores. El valor predeterminado está en los ajustes del addon.</Spanish>
+            <Italian>Mostra o nascondi sui marcatori. Il valore predefinito è nelle impostazioni dell'addon.</Italian>
+            <Polish>Pokaż lub ukryj na znacznikach. Wartość domyślna jest w ustawieniach addonu.</Polish>
+            <Portuguese>Mostrar ou ocultar nos marcadores. O padrão está nas configurações do addon.</Portuguese>
+            <Russian>Показать или скрыть на маркерах. Значение по умолчанию - в настройках аддона.</Russian>
+            <German>Auf den Markern ein- oder ausblenden. Die Voreinstellung ist in den Addon-Einstellungen.</German>
+            <Korean>마커에 표시하거나 숨깁니다. 기본값은 애드온 설정에 있습니다.</Korean>
+            <Japanese>マーカー上での表示・非表示。デフォルト値はアドオン設定にあります。</Japanese>
+            <Chinese>在標記上顯示或隱藏。預設值在插件設定中。</Chinese>
+            <Chinesesimp>在标记上显示或隐藏。默认值在插件设置中。</Chinesesimp>
+            <Turkish>İşaretlerde göster veya gizle. Varsayılan değer eklenti ayarlarındadır.</Turkish>
+            <Slovak>Zobraziť alebo skryť na značkách. Predvolená hodnota je v nastaveniach addonu.</Slovak>
+            <Hungarian>Megjelenítés vagy elrejtés a jelölőkön. Az alapértelmezés az addon beállításaiban van.</Hungarian>
+            <Ukrainian>Показати чи сховати на маркерах. Значення за замовчуванням - у налаштуваннях аддона.</Ukrainian>
+            <Bulgarian>Показване или скриване върху маркерите. Стойността по подразбиране е в настройките на аддона.</Bulgarian>
+            <Latin>In signis ostende vel cela. Valor praefinitus in optionibus additamenti est.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_LabelGroup">
+            <English>Squad</English>
+            <Czech>Družstvo</Czech>
+            <French>Escouade</French>
+            <Spanish>Escuadra</Spanish>
+            <Italian>Squadra</Italian>
+            <Polish>Drużyna</Polish>
+            <Portuguese>Esquadrão</Portuguese>
+            <Russian>Отделение</Russian>
+            <German>Trupp</German>
+            <Korean>분대</Korean>
+            <Japanese>分隊</Japanese>
+            <Chinese>班組</Chinese>
+            <Chinesesimp>班组</Chinesesimp>
+            <Turkish>Tim</Turkish>
+            <Slovak>Družstvo</Slovak>
+            <Hungarian>Raj</Hungarian>
+            <Ukrainian>Відділення</Ukrainian>
+            <Bulgarian>Отделение</Bulgarian>
+            <Latin>Manipulus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_LabelText">
+            <English>Text</English>
+            <Czech>Text</Czech>
+            <French>Texte</French>
+            <Spanish>Texto</Spanish>
+            <Italian>Testo</Italian>
+            <Polish>Tekst</Polish>
+            <Portuguese>Texto</Portuguese>
+            <Russian>Текст</Russian>
+            <German>Text</German>
+            <Korean>텍스트</Korean>
+            <Japanese>テキスト</Japanese>
+            <Chinese>文字</Chinese>
+            <Chinesesimp>文本</Chinesesimp>
+            <Turkish>Metin</Turkish>
+            <Slovak>Text</Slovak>
+            <Hungarian>Szöveg</Hungarian>
+            <Ukrainian>Текст</Ukrainian>
+            <Bulgarian>Текст</Bulgarian>
+            <Latin>Textus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_air">
+            <English>Helicopter</English>
+            <Czech>Vrtulník</Czech>
+            <French>Hélicoptère</French>
+            <Spanish>Helicóptero</Spanish>
+            <Italian>Elicottero</Italian>
+            <Polish>Śmigłowiec</Polish>
+            <Portuguese>Helicóptero</Portuguese>
+            <Russian>Вертолёт</Russian>
+            <German>Hubschrauber</German>
+            <Korean>헬리콥터</Korean>
+            <Japanese>ヘリコプター</Japanese>
+            <Chinese>直升機</Chinese>
+            <Chinesesimp>直升机</Chinesesimp>
+            <Turkish>Helikopter</Turkish>
+            <Slovak>Vrtuľník</Slovak>
+            <Hungarian>Helikopter</Hungarian>
+            <Ukrainian>Гелікоптер</Ukrainian>
+            <Bulgarian>Хеликоптер</Bulgarian>
+            <Latin>Helicopterum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_antiair">
+            <English>Air defense</English>
+            <Czech>Protivzdušná obrana</Czech>
+            <French>Défense antiaérienne</French>
+            <Spanish>Defensa antiaérea</Spanish>
+            <Italian>Difesa antiaerea</Italian>
+            <Polish>Obrona przeciwlotnicza</Polish>
+            <Portuguese>Defesa antiaérea</Portuguese>
+            <Russian>ПВО</Russian>
+            <German>Luftabwehr</German>
+            <Korean>방공</Korean>
+            <Japanese>対空</Japanese>
+            <Chinese>防空</Chinese>
+            <Chinesesimp>防空</Chinesesimp>
+            <Turkish>Hava savunma</Turkish>
+            <Slovak>Protivzdušná obrana</Slovak>
+            <Hungarian>Légvédelem</Hungarian>
+            <Ukrainian>ППО</Ukrainian>
+            <Bulgarian>Противовъздушна отбрана</Bulgarian>
+            <Latin>Defensio aeria</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_armor">
+            <English>Armor</English>
+            <Czech>Obrněné jednotky</Czech>
+            <French>Blindés</French>
+            <Spanish>Blindados</Spanish>
+            <Italian>Corazzati</Italian>
+            <Polish>Pancerne</Polish>
+            <Portuguese>Blindados</Portuguese>
+            <Russian>Бронетехника</Russian>
+            <German>Panzer</German>
+            <Korean>기갑</Korean>
+            <Japanese>機甲</Japanese>
+            <Chinese>裝甲</Chinese>
+            <Chinesesimp>装甲</Chinesesimp>
+            <Turkish>Zırhlı</Turkish>
+            <Slovak>Obrnené jednotky</Slovak>
+            <Hungarian>Páncélos</Hungarian>
+            <Ukrainian>Бронетехніка</Ukrainian>
+            <Bulgarian>Бронирани сили</Bulgarian>
+            <Latin>Loricati</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_art">
+            <English>Artillery</English>
+            <Czech>Dělostřelectvo</Czech>
+            <French>Artillerie</French>
+            <Spanish>Artillería</Spanish>
+            <Italian>Artiglieria</Italian>
+            <Polish>Artyleria</Polish>
+            <Portuguese>Artilharia</Portuguese>
+            <Russian>Артиллерия</Russian>
+            <German>Artillerie</German>
+            <Korean>포병</Korean>
+            <Japanese>砲兵</Japanese>
+            <Chinese>砲兵</Chinese>
+            <Chinesesimp>炮兵</Chinesesimp>
+            <Turkish>Topçu</Turkish>
+            <Slovak>Delostrelectvo</Slovak>
+            <Hungarian>Tüzérség</Hungarian>
+            <Ukrainian>Артилерія</Ukrainian>
+            <Bulgarian>Артилерия</Bulgarian>
+            <Latin>Tormenta</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_direction">
+            <English>Direction</English>
+            <Czech>Směr</Czech>
+            <French>Direction</French>
+            <Spanish>Dirección</Spanish>
+            <Italian>Direzione</Italian>
+            <Polish>Kierunek</Polish>
+            <Portuguese>Direção</Portuguese>
+            <Russian>Направление</Russian>
+            <German>Richtung</German>
+            <Korean>방향</Korean>
+            <Japanese>方向</Japanese>
+            <Chinese>方向</Chinese>
+            <Chinesesimp>方向</Chinesesimp>
+            <Turkish>Yön</Turkish>
+            <Slovak>Smer</Slovak>
+            <Hungarian>Irány</Hungarian>
+            <Ukrainian>Напрямок</Ukrainian>
+            <Bulgarian>Направление</Bulgarian>
+            <Latin>Directio</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_ambush">
+            <English>Ambush</English>
+            <Czech>Přepadení</Czech>
+            <French>Embuscade</French>
+            <Spanish>Emboscada</Spanish>
+            <Italian>Imboscata</Italian>
+            <Polish>Zasadzka</Polish>
+            <Portuguese>Emboscada</Portuguese>
+            <Russian>Засада</Russian>
+            <German>Hinterhalt</German>
+            <Korean>매복</Korean>
+            <Japanese>待ち伏せ</Japanese>
+            <Chinese>伏擊</Chinese>
+            <Chinesesimp>伏击</Chinesesimp>
+            <Turkish>Pusu</Turkish>
+            <Slovak>Prepadnutie</Slovak>
+            <Hungarian>Rajtaütés</Hungarian>
+            <Ukrainian>Засідка</Ukrainian>
+            <Bulgarian>Засада</Bulgarian>
+            <Latin>Insidiae</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_destroy">
+            <English>Destroy</English>
+            <Czech>Zničit</Czech>
+            <French>Détruire</French>
+            <Spanish>Destruir</Spanish>
+            <Italian>Distruggere</Italian>
+            <Polish>Zniszczyć</Polish>
+            <Portuguese>Destruir</Portuguese>
+            <Russian>Уничтожить</Russian>
+            <German>Zerstören</German>
+            <Korean>파괴</Korean>
+            <Japanese>破壊</Japanese>
+            <Chinese>摧毀</Chinese>
+            <Chinesesimp>摧毁</Chinesesimp>
+            <Turkish>İmha et</Turkish>
+            <Slovak>Zničiť</Slovak>
+            <Hungarian>Megsemmisítés</Hungarian>
+            <Ukrainian>Знищити</Ukrainian>
+            <Bulgarian>Унищожаване</Bulgarian>
+            <Latin>Dele</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_dot">
+            <English>Dot</English>
+            <Czech>Tečka</Czech>
+            <French>Point</French>
+            <Spanish>Punto</Spanish>
+            <Italian>Punto</Italian>
+            <Polish>Punkt</Polish>
+            <Portuguese>Ponto</Portuguese>
+            <Russian>Точка</Russian>
+            <German>Punkt</German>
+            <Korean>점</Korean>
+            <Japanese>点</Japanese>
+            <Chinese>點</Chinese>
+            <Chinesesimp>点</Chinesesimp>
+            <Turkish>Nokta</Turkish>
+            <Slovak>Bodka</Slovak>
+            <Hungarian>Pont</Hungarian>
+            <Ukrainian>Точка</Ukrainian>
+            <Bulgarian>Точка</Bulgarian>
+            <Latin>Punctum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_end">
+            <English>End</English>
+            <Czech>Konec</Czech>
+            <French>Fin</French>
+            <Spanish>Fin</Spanish>
+            <Italian>Fine</Italian>
+            <Polish>Koniec</Polish>
+            <Portuguese>Fim</Portuguese>
+            <Russian>Финиш</Russian>
+            <German>Ende</German>
+            <Korean>끝</Korean>
+            <Japanese>終了</Japanese>
+            <Chinese>終點</Chinese>
+            <Chinesesimp>终点</Chinesesimp>
+            <Turkish>Bitiş</Turkish>
+            <Slovak>Koniec</Slovak>
+            <Hungarian>Vég</Hungarian>
+            <Ukrainian>Фініш</Ukrainian>
+            <Bulgarian>Край</Bulgarian>
+            <Latin>Finis</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_flag">
+            <English>Flag</English>
+            <Czech>Vlajka</Czech>
+            <French>Drapeau</French>
+            <Spanish>Bandera</Spanish>
+            <Italian>Bandiera</Italian>
+            <Polish>Flaga</Polish>
+            <Portuguese>Bandeira</Portuguese>
+            <Russian>Флаг</Russian>
+            <German>Flagge</German>
+            <Korean>깃발</Korean>
+            <Japanese>旗</Japanese>
+            <Chinese>旗幟</Chinese>
+            <Chinesesimp>旗帜</Chinesesimp>
+            <Turkish>Bayrak</Turkish>
+            <Slovak>Vlajka</Slovak>
+            <Hungarian>Zászló</Hungarian>
+            <Ukrainian>Прапор</Ukrainian>
+            <Bulgarian>Флаг</Bulgarian>
+            <Latin>Vexillum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_join">
+            <English>Rally point</English>
+            <Czech>Shromaždiště</Czech>
+            <French>Point de ralliement</French>
+            <Spanish>Punto de reunión</Spanish>
+            <Italian>Punto di raccolta</Italian>
+            <Polish>Punkt zbiórki</Polish>
+            <Portuguese>Ponto de reunião</Portuguese>
+            <Russian>Точка сбора</Russian>
+            <German>Sammelpunkt</German>
+            <Korean>집결지</Korean>
+            <Japanese>集合地点</Japanese>
+            <Chinese>集結點</Chinese>
+            <Chinesesimp>集结点</Chinesesimp>
+            <Turkish>Toplanma noktası</Turkish>
+            <Slovak>Zhromaždisko</Slovak>
+            <Hungarian>Gyülekezőpont</Hungarian>
+            <Ukrainian>Точка збору</Ukrainian>
+            <Bulgarian>Сборен пункт</Bulgarian>
+            <Latin>Locus conventus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_objective">
+            <English>Objective</English>
+            <Czech>Cíl</Czech>
+            <French>Objectif</French>
+            <Spanish>Objetivo</Spanish>
+            <Italian>Obiettivo</Italian>
+            <Polish>Cel</Polish>
+            <Portuguese>Objetivo</Portuguese>
+            <Russian>Цель</Russian>
+            <German>Ziel</German>
+            <Korean>목표</Korean>
+            <Japanese>目標</Japanese>
+            <Chinese>目標</Chinese>
+            <Chinesesimp>目标</Chinesesimp>
+            <Turkish>Hedef</Turkish>
+            <Slovak>Cieľ</Slovak>
+            <Hungarian>Célpont</Hungarian>
+            <Ukrainian>Ціль</Ukrainian>
+            <Bulgarian>Цел</Bulgarian>
+            <Latin>Propositum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_pickup">
+            <English>Pickup</English>
+            <Czech>Místo vyzvednutí</Czech>
+            <French>Point de récupération</French>
+            <Spanish>Punto de recogida</Spanish>
+            <Italian>Punto di recupero</Italian>
+            <Polish>Punkt odbioru</Polish>
+            <Portuguese>Ponto de coleta</Portuguese>
+            <Russian>Эвакуация</Russian>
+            <German>Abholpunkt</German>
+            <Korean>탑승 지점</Korean>
+            <Japanese>回収地点</Japanese>
+            <Chinese>接應點</Chinese>
+            <Chinesesimp>接应点</Chinesesimp>
+            <Turkish>Alım noktası</Turkish>
+            <Slovak>Miesto vyzdvihnutia</Slovak>
+            <Hungarian>Felvételi pont</Hungarian>
+            <Ukrainian>Евакуація</Ukrainian>
+            <Bulgarian>Място за прибиране</Bulgarian>
+            <Latin>Locus receptionis</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_start">
+            <English>Start</English>
+            <Czech>Start</Czech>
+            <French>Départ</French>
+            <Spanish>Inicio</Spanish>
+            <Italian>Partenza</Italian>
+            <Polish>Start</Polish>
+            <Portuguese>Início</Portuguese>
+            <Russian>Старт</Russian>
+            <German>Start</German>
+            <Korean>시작</Korean>
+            <Japanese>開始</Japanese>
+            <Chinese>起點</Chinese>
+            <Chinesesimp>起点</Chinesesimp>
+            <Turkish>Başlangıç</Turkish>
+            <Slovak>Štart</Slovak>
+            <Hungarian>Rajt</Hungarian>
+            <Ukrainian>Старт</Ukrainian>
+            <Bulgarian>Старт</Bulgarian>
+            <Latin>Initium</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_unknown">
+            <English>Unknown</English>
+            <Czech>Neznámý</Czech>
+            <French>Inconnu</French>
+            <Spanish>Desconocido</Spanish>
+            <Italian>Sconosciuto</Italian>
+            <Polish>Nieznany</Polish>
+            <Portuguese>Desconhecido</Portuguese>
+            <Russian>Неизвестно</Russian>
+            <German>Unbekannt</German>
+            <Korean>알 수 없음</Korean>
+            <Japanese>不明</Japanese>
+            <Chinese>未知</Chinese>
+            <Chinesesimp>未知</Chinesesimp>
+            <Turkish>Bilinmiyor</Turkish>
+            <Slovak>Neznámy</Slovak>
+            <Hungarian>Ismeretlen</Hungarian>
+            <Ukrainian>Невідомо</Ukrainian>
+            <Bulgarian>Неизвестно</Bulgarian>
+            <Latin>Ignotum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hd_warning">
+            <English>Warning</English>
+            <Czech>Varování</Czech>
+            <French>Avertissement</French>
+            <Spanish>Advertencia</Spanish>
+            <Italian>Avviso</Italian>
+            <Polish>Ostrzeżenie</Polish>
+            <Portuguese>Aviso</Portuguese>
+            <Russian>Внимание</Russian>
+            <German>Warnung</German>
+            <Korean>경고</Korean>
+            <Japanese>警告</Japanese>
+            <Chinese>警告</Chinese>
+            <Chinesesimp>警告</Chinesesimp>
+            <Turkish>Uyarı</Turkish>
+            <Slovak>Varovanie</Slovak>
+            <Hungarian>Figyelmeztetés</Hungarian>
+            <Ukrainian>Увага</Ukrainian>
+            <Bulgarian>Предупреждение</Bulgarian>
+            <Latin>Monitio</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_hq">
+            <English>Headquarters</English>
+            <Czech>Velitelství</Czech>
+            <French>Quartier général</French>
+            <Spanish>Cuartel general</Spanish>
+            <Italian>Quartier generale</Italian>
+            <Polish>Sztab</Polish>
+            <Portuguese>Quartel-general</Portuguese>
+            <Russian>Штаб</Russian>
+            <German>Hauptquartier</German>
+            <Korean>본부</Korean>
+            <Japanese>本部</Japanese>
+            <Chinese>指揮部</Chinese>
+            <Chinesesimp>指挥部</Chinesesimp>
+            <Turkish>Karargâh</Turkish>
+            <Slovak>Veliteľstvo</Slovak>
+            <Hungarian>Főhadiszállás</Hungarian>
+            <Ukrainian>Штаб</Ukrainian>
+            <Bulgarian>Щаб</Bulgarian>
+            <Latin>Praetorium</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_inf">
+            <English>Infantry</English>
+            <Czech>Pěchota</Czech>
+            <French>Infanterie</French>
+            <Spanish>Infantería</Spanish>
+            <Italian>Fanteria</Italian>
+            <Polish>Piechota</Polish>
+            <Portuguese>Infantaria</Portuguese>
+            <Russian>Пехота</Russian>
+            <German>Infanterie</German>
+            <Korean>보병</Korean>
+            <Japanese>歩兵</Japanese>
+            <Chinese>步兵</Chinese>
+            <Chinesesimp>步兵</Chinesesimp>
+            <Turkish>Piyade</Turkish>
+            <Slovak>Pechota</Slovak>
+            <Hungarian>Gyalogság</Hungarian>
+            <Ukrainian>Піхота</Ukrainian>
+            <Bulgarian>Пехота</Bulgarian>
+            <Latin>Pedites</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_maint">
+            <English>Maintenance</English>
+            <Czech>Údržba</Czech>
+            <French>Maintenance</French>
+            <Spanish>Mantenimiento</Spanish>
+            <Italian>Manutenzione</Italian>
+            <Polish>Naprawa</Polish>
+            <Portuguese>Manutenção</Portuguese>
+            <Russian>Ремонт</Russian>
+            <German>Instandsetzung</German>
+            <Korean>정비</Korean>
+            <Japanese>整備</Japanese>
+            <Chinese>維修</Chinese>
+            <Chinesesimp>维修</Chinesesimp>
+            <Turkish>Bakım</Turkish>
+            <Slovak>Údržba</Slovak>
+            <Hungarian>Javítás</Hungarian>
+            <Ukrainian>Ремонт</Ukrainian>
+            <Bulgarian>Поддръжка</Bulgarian>
+            <Latin>Refectio</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_mech_inf">
+            <English>Mechanized infantry</English>
+            <Czech>Mechanizovaná pěchota</Czech>
+            <French>Infanterie mécanisée</French>
+            <Spanish>Infantería mecanizada</Spanish>
+            <Italian>Fanteria meccanizzata</Italian>
+            <Polish>Piechota zmechanizowana</Polish>
+            <Portuguese>Infantaria mecanizada</Portuguese>
+            <Russian>Механизированная пехота</Russian>
+            <German>Mechanisierte Infanterie</German>
+            <Korean>기계화 보병</Korean>
+            <Japanese>機械化歩兵</Japanese>
+            <Chinese>機械化步兵</Chinese>
+            <Chinesesimp>机械化步兵</Chinesesimp>
+            <Turkish>Mekanize piyade</Turkish>
+            <Slovak>Mechanizovaná pechota</Slovak>
+            <Hungarian>Gépesített gyalogság</Hungarian>
+            <Ukrainian>Механізована піхота</Ukrainian>
+            <Bulgarian>Механизирана пехота</Bulgarian>
+            <Latin>Pedites mechanici</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_med">
+            <English>Medical</English>
+            <Czech>Zdravotnictvo</Czech>
+            <French>Médical</French>
+            <Spanish>Médico</Spanish>
+            <Italian>Sanità</Italian>
+            <Polish>Medyczny</Polish>
+            <Portuguese>Médico</Portuguese>
+            <Russian>Медицина</Russian>
+            <German>Sanitätsdienst</German>
+            <Korean>의무</Korean>
+            <Japanese>衛生</Japanese>
+            <Chinese>醫療</Chinese>
+            <Chinesesimp>医疗</Chinesesimp>
+            <Turkish>Sıhhiye</Turkish>
+            <Slovak>Zdravotníctvo</Slovak>
+            <Hungarian>Egészségügy</Hungarian>
+            <Ukrainian>Медична допомога</Ukrainian>
+            <Bulgarian>Медицинска служба</Bulgarian>
+            <Latin>Medici</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_mortar">
+            <English>Mortar</English>
+            <Czech>Minomet</Czech>
+            <French>Mortier</French>
+            <Spanish>Mortero</Spanish>
+            <Italian>Mortaio</Italian>
+            <Polish>Moździerz</Polish>
+            <Portuguese>Morteiro</Portuguese>
+            <Russian>Миномёт</Russian>
+            <German>Mörser</German>
+            <Korean>박격포</Korean>
+            <Japanese>迫撃砲</Japanese>
+            <Chinese>迫擊砲</Chinese>
+            <Chinesesimp>迫击炮</Chinesesimp>
+            <Turkish>Havan</Turkish>
+            <Slovak>Mínomet</Slovak>
+            <Hungarian>Aknavető</Hungarian>
+            <Ukrainian>Міномет</Ukrainian>
+            <Bulgarian>Минохвъргачка</Bulgarian>
+            <Latin>Mortarium</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_motor_inf">
+            <English>Motorized infantry</English>
+            <Czech>Motorizovaná pěchota</Czech>
+            <French>Infanterie motorisée</French>
+            <Spanish>Infantería motorizada</Spanish>
+            <Italian>Fanteria motorizzata</Italian>
+            <Polish>Piechota zmotoryzowana</Polish>
+            <Portuguese>Infantaria motorizada</Portuguese>
+            <Russian>Мотопехота</Russian>
+            <German>Motorisierte Infanterie</German>
+            <Korean>차량화 보병</Korean>
+            <Japanese>自動車化歩兵</Japanese>
+            <Chinese>摩托化步兵</Chinese>
+            <Chinesesimp>摩托化步兵</Chinesesimp>
+            <Turkish>Motorlu piyade</Turkish>
+            <Slovak>Motorizovaná pechota</Slovak>
+            <Hungarian>Motorizált gyalogság</Hungarian>
+            <Ukrainian>Моторизована піхота</Ukrainian>
+            <Bulgarian>Мотопехота</Bulgarian>
+            <Latin>Pedites motorii</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_naval">
+            <English>Naval</English>
+            <Czech>Námořnictvo</Czech>
+            <French>Naval</French>
+            <Spanish>Naval</Spanish>
+            <Italian>Navale</Italian>
+            <Polish>Morski</Polish>
+            <Portuguese>Naval</Portuguese>
+            <Russian>Флот</Russian>
+            <German>Marine</German>
+            <Korean>해군</Korean>
+            <Japanese>海軍</Japanese>
+            <Chinese>海軍</Chinese>
+            <Chinesesimp>海军</Chinesesimp>
+            <Turkish>Deniz</Turkish>
+            <Slovak>Námorníctvo</Slovak>
+            <Hungarian>Haditengerészet</Hungarian>
+            <Ukrainian>Флот</Ukrainian>
+            <Bulgarian>Флот</Bulgarian>
+            <Latin>Classis</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_plane">
+            <English>Plane</English>
+            <Czech>Letadlo</Czech>
+            <French>Avion</French>
+            <Spanish>Avión</Spanish>
+            <Italian>Aereo</Italian>
+            <Polish>Samolot</Polish>
+            <Portuguese>Avião</Portuguese>
+            <Russian>Самолёт</Russian>
+            <German>Flugzeug</German>
+            <Korean>비행기</Korean>
+            <Japanese>航空機</Japanese>
+            <Chinese>飛機</Chinese>
+            <Chinesesimp>飞机</Chinesesimp>
+            <Turkish>Uçak</Turkish>
+            <Slovak>Lietadlo</Slovak>
+            <Hungarian>Repülőgép</Hungarian>
+            <Ukrainian>Літак</Ukrainian>
+            <Bulgarian>Самолет</Bulgarian>
+            <Latin>Aeroplanum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_recon">
+            <English>Reconnaissance</English>
+            <Czech>Průzkum</Czech>
+            <French>Reconnaissance</French>
+            <Spanish>Reconocimiento</Spanish>
+            <Italian>Ricognizione</Italian>
+            <Polish>Rozpoznanie</Polish>
+            <Portuguese>Reconhecimento</Portuguese>
+            <Russian>Разведка</Russian>
+            <German>Aufklärung</German>
+            <Korean>정찰</Korean>
+            <Japanese>偵察</Japanese>
+            <Chinese>偵察</Chinese>
+            <Chinesesimp>侦察</Chinesesimp>
+            <Turkish>Keşif</Turkish>
+            <Slovak>Prieskum</Slovak>
+            <Hungarian>Felderítés</Hungarian>
+            <Ukrainian>Розвідка</Ukrainian>
+            <Bulgarian>Разузнаване</Bulgarian>
+            <Latin>Exploratio</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_route">
+            <English>Route</English>
+            <Czech>Trasa</Czech>
+            <French>Itinéraire</French>
+            <Spanish>Ruta</Spanish>
+            <Italian>Percorso</Italian>
+            <Polish>Trasa</Polish>
+            <Portuguese>Rota</Portuguese>
+            <Russian>Маршрут</Russian>
+            <German>Route</German>
+            <Korean>경로</Korean>
+            <Japanese>ルート</Japanese>
+            <Chinese>路線</Chinese>
+            <Chinesesimp>路线</Chinesesimp>
+            <Turkish>Rota</Turkish>
+            <Slovak>Trasa</Slovak>
+            <Hungarian>Útvonal</Hungarian>
+            <Ukrainian>Маршрут</Ukrainian>
+            <Bulgarian>Маршрут</Bulgarian>
+            <Latin>Iter</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_service">
+            <English>Service</English>
+            <Czech>Servis</Czech>
+            <French>Entretien</French>
+            <Spanish>Servicio</Spanish>
+            <Italian>Assistenza</Italian>
+            <Polish>Obsługa</Polish>
+            <Portuguese>Serviço</Portuguese>
+            <Russian>Обслуживание</Russian>
+            <German>Wartung</German>
+            <Korean>정비 지원</Korean>
+            <Japanese>支援整備</Japanese>
+            <Chinese>勤務</Chinese>
+            <Chinesesimp>勤务</Chinesesimp>
+            <Turkish>Servis</Turkish>
+            <Slovak>Servis</Slovak>
+            <Hungarian>Szerviz</Hungarian>
+            <Ukrainian>Обслуговування</Ukrainian>
+            <Bulgarian>Обслужване</Bulgarian>
+            <Latin>Ministerium</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_support">
+            <English>Supply</English>
+            <Czech>Zásobování</Czech>
+            <French>Ravitaillement</French>
+            <Spanish>Suministros</Spanish>
+            <Italian>Rifornimenti</Italian>
+            <Polish>Zaopatrzenie</Polish>
+            <Portuguese>Suprimentos</Portuguese>
+            <Russian>Снабжение</Russian>
+            <German>Versorgung</German>
+            <Korean>보급</Korean>
+            <Japanese>補給</Japanese>
+            <Chinese>補給</Chinese>
+            <Chinesesimp>补给</Chinesesimp>
+            <Turkish>İkmal</Turkish>
+            <Slovak>Zásobovanie</Slovak>
+            <Hungarian>Ellátás</Hungarian>
+            <Ukrainian>Постачання</Ukrainian>
+            <Bulgarian>Снабдяване</Bulgarian>
+            <Latin>Commeatus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_uav">
+            <English>UAV</English>
+            <Czech>Dron</Czech>
+            <French>Drone</French>
+            <Spanish>Dron</Spanish>
+            <Italian>Drone</Italian>
+            <Polish>Dron</Polish>
+            <Portuguese>Drone</Portuguese>
+            <Russian>БПЛА</Russian>
+            <German>Drohne</German>
+            <Korean>무인기</Korean>
+            <Japanese>無人機</Japanese>
+            <Chinese>無人機</Chinese>
+            <Chinesesimp>无人机</Chinesesimp>
+            <Turkish>İHA</Turkish>
+            <Slovak>Dron</Slovak>
+            <Hungarian>Drón</Hungarian>
+            <Ukrainian>БПЛА</Ukrainian>
+            <Bulgarian>Дрон</Bulgarian>
+            <Latin>Fucus</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Marker_unknown">
+            <English>Unknown unit</English>
+            <Czech>Neznámá jednotka</Czech>
+            <French>Unité inconnue</French>
+            <Spanish>Unidad desconocida</Spanish>
+            <Italian>Unità sconosciuta</Italian>
+            <Polish>Nieznana jednostka</Polish>
+            <Portuguese>Unidade desconhecida</Portuguese>
+            <Russian>Неизвестное подразделение</Russian>
+            <German>Unbekannte Einheit</German>
+            <Korean>미확인 부대</Korean>
+            <Japanese>不明な部隊</Japanese>
+            <Chinese>未知單位</Chinese>
+            <Chinesesimp>未知单位</Chinesesimp>
+            <Turkish>Bilinmeyen birlik</Turkish>
+            <Slovak>Neznáma jednotka</Slovak>
+            <Hungarian>Ismeretlen egység</Hungarian>
+            <Ukrainian>Невідомий підрозділ</Ukrainian>
+            <Bulgarian>Неизвестно подразделение</Bulgarian>
+            <Latin>Unitas ignota</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MeasureDistanceUnit">
+            <English>Measuring: distance units</English>
+            <Czech>Měření: jednotky vzdálenosti</Czech>
+            <French>Mesure : unités de distance</French>
+            <Spanish>Medición: unidades de distancia</Spanish>
+            <Italian>Misurazione: unità di distanza</Italian>
+            <Polish>Pomiar: jednostki odległości</Polish>
+            <Portuguese>Medição: unidades de distância</Portuguese>
+            <Russian>Измерение: единицы расстояния</Russian>
+            <German>Messung: Entfernungseinheiten</German>
+            <Korean>측정: 거리 단위</Korean>
+            <Japanese>測定：距離の単位</Japanese>
+            <Chinese>測量：距離單位</Chinese>
+            <Chinesesimp>测量：距离单位</Chinesesimp>
+            <Turkish>Ölçüm: mesafe birimleri</Turkish>
+            <Slovak>Meranie: jednotky vzdialenosti</Slovak>
+            <Hungarian>Mérés: távolság mértékegysége</Hungarian>
+            <Ukrainian>Вимірювання: одиниці дистанції</Ukrainian>
+            <Bulgarian>Измерване: единици за разстояние</Bulgarian>
+            <Latin>Mensura: unitates distantiae</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MeasureDistanceUnit_Description">
+            <English>Units of the ruler distances: the tick labels and the distance at the cursor.</English>
+            <Czech>Jednotky vzdáleností pravítka: popisky dílků a vzdálenost u kurzoru.</Czech>
+            <French>Unités des distances de la règle : étiquettes des graduations et distance au curseur.</French>
+            <Spanish>Unidades de las distancias de la regla: etiquetas de las marcas y distancia junto al cursor.</Spanish>
+            <Italian>Unità delle distanze del righello: etichette delle tacche e distanza al cursore.</Italian>
+            <Polish>Jednostki odległości linijki: opisy podziałki i odległość przy kursorze.</Polish>
+            <Portuguese>Unidades das distâncias da régua: rótulos das marcas e distância no cursor.</Portuguese>
+            <Russian>Единицы расстояний линейки: подписи делений и расстояние у курсора.</Russian>
+            <German>Einheiten der Entfernungen des Lineals: Beschriftungen der Teilstriche und Entfernung am Cursor.</German>
+            <Korean>자의 거리 단위: 눈금 라벨과 커서의 거리.</Korean>
+            <Japanese>定規の距離の単位：目盛りのラベルとカーソル位置の距離。</Japanese>
+            <Chinese>尺規距離的單位：刻度標籤和游標處的距離。</Chinese>
+            <Chinesesimp>标尺距离的单位：刻度标签和光标处的距离。</Chinesesimp>
+            <Turkish>Cetvel mesafelerinin birimleri: çentik etiketleri ve imleçteki mesafe.</Turkish>
+            <Slovak>Jednotky vzdialeností pravítka: popisy dielikov a vzdialenosť pri kurzore.</Slovak>
+            <Hungarian>A vonalzó távolságainak mértékegysége: a beosztás feliratai és a kurzornál lévő távolság.</Hungarian>
+            <Ukrainian>Одиниці дистанцій лінійки: підписи поділок і дистанція біля курсора.</Ukrainian>
+            <Bulgarian>Единици на разстоянията на линийката: надписите на деленията и разстоянието до курсора.</Bulgarian>
+            <Latin>Unitates distantiarum regulae: tituli notarum et distantia ad cursorem.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MeasureShowAzimuth">
+            <English>Measuring: azimuth</English>
+            <Czech>Měření: azimut</Czech>
+            <French>Mesure : azimut</French>
+            <Spanish>Medición: azimut</Spanish>
+            <Italian>Misurazione: azimut</Italian>
+            <Polish>Pomiar: azymut</Polish>
+            <Portuguese>Medição: azimute</Portuguese>
+            <Russian>Измерение: азимут</Russian>
+            <German>Messung: Azimut</German>
+            <Korean>측정: 방위각</Korean>
+            <Japanese>測定：方位角</Japanese>
+            <Chinese>測量：方位角</Chinese>
+            <Chinesesimp>测量：方位角</Chinesesimp>
+            <Turkish>Ölçüm: azimut</Turkish>
+            <Slovak>Meranie: azimut</Slovak>
+            <Hungarian>Mérés: azimut</Hungarian>
+            <Ukrainian>Вимірювання: азимут</Ukrainian>
+            <Bulgarian>Измерване: азимут</Bulgarian>
+            <Latin>Mensura: azimuth</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MeasureShowAzimuth_Description">
+            <English>The azimuth from the start point is shown at the cursor while measuring.</English>
+            <Czech>Azimut od počátečního bodu se při měření zobrazuje u kurzoru.</Czech>
+            <French>L'azimut depuis le point de départ est affiché au curseur pendant la mesure.</French>
+            <Spanish>El azimut desde el punto inicial se muestra junto al cursor al medir.</Spanish>
+            <Italian>L'azimut dal punto di partenza viene mostrato al cursore durante la misurazione.</Italian>
+            <Polish>Azymut od punktu początkowego jest wyświetlany przy kursorze podczas pomiaru.</Polish>
+            <Portuguese>O azimute a partir do ponto inicial é mostrado no cursor durante a medição.</Portuguese>
+            <Russian>Азимут от начальной точки показывается у курсора при измерении.</Russian>
+            <German>Der Azimut vom Startpunkt wird beim Messen am Cursor angezeigt.</German>
+            <Korean>측정 중 시작 지점으로부터의 방위각이 커서에 표시됩니다.</Korean>
+            <Japanese>測定中、開始地点からの方位角がカーソルに表示されます。</Japanese>
+            <Chinese>測量時在游標處顯示從起點開始的方位角。</Chinese>
+            <Chinesesimp>测量时在光标处显示从起点开始的方位角。</Chinesesimp>
+            <Turkish>Ölçüm sırasında başlangıç noktasından azimut imleçte gösterilir.</Turkish>
+            <Slovak>Azimut od počiatočného bodu sa pri meraní zobrazuje pri kurzore.</Slovak>
+            <Hungarian>Mérés közben a kezdőponttól mért azimut a kurzornál látható.</Hungarian>
+            <Ukrainian>Азимут від початкової точки показується біля курсора під час вимірювання.</Ukrainian>
+            <Bulgarian>Азимутът от началната точка се показва до курсора по време на измерване.</Bulgarian>
+            <Latin>Dum metiris, azimuth a puncto initii ad cursorem ostenditur.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MeasureShowDistance">
+            <English>Measuring: exact distance</English>
+            <Czech>Měření: přesná vzdálenost</Czech>
+            <French>Mesure : distance exacte</French>
+            <Spanish>Medición: distancia exacta</Spanish>
+            <Italian>Misurazione: distanza esatta</Italian>
+            <Polish>Pomiar: dokładna odległość</Polish>
+            <Portuguese>Medição: distância exata</Portuguese>
+            <Russian>Измерение: точное расстояние</Russian>
+            <German>Messung: genaue Entfernung</German>
+            <Korean>측정: 정확한 거리</Korean>
+            <Japanese>測定：正確な距離</Japanese>
+            <Chinese>測量：精確距離</Chinese>
+            <Chinesesimp>测量：精确距离</Chinesesimp>
+            <Turkish>Ölçüm: tam mesafe</Turkish>
+            <Slovak>Meranie: presná vzdialenosť</Slovak>
+            <Hungarian>Mérés: pontos távolság</Hungarian>
+            <Ukrainian>Вимірювання: точна дистанція</Ukrainian>
+            <Bulgarian>Измерване: точно разстояние</Bulgarian>
+            <Latin>Mensura: distantia accurata</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MeasureShowDistance_Description">
+            <English>The exact distance is shown at the cursor while measuring. The ruler ticks are always shown.</English>
+            <Czech>Přesná vzdálenost se při měření zobrazuje u kurzoru. Dílky pravítka jsou vidět vždy.</Czech>
+            <French>La distance exacte est affichée au curseur pendant la mesure. Les graduations de la règle sont toujours affichées.</French>
+            <Spanish>La distancia exacta se muestra junto al cursor al medir. Las marcas de la regla se muestran siempre.</Spanish>
+            <Italian>La distanza esatta viene mostrata al cursore durante la misurazione. Le tacche del righello sono sempre visibili.</Italian>
+            <Polish>Dokładna odległość jest wyświetlana przy kursorze podczas pomiaru. Podziałka linijki jest zawsze widoczna.</Polish>
+            <Portuguese>A distância exata é mostrada no cursor durante a medição. As marcas da régua são sempre mostradas.</Portuguese>
+            <Russian>Точное расстояние показывается у курсора при измерении. Деления линейки видны всегда.</Russian>
+            <German>Die genaue Entfernung wird beim Messen am Cursor angezeigt. Die Teilstriche des Lineals sind immer sichtbar.</German>
+            <Korean>측정 중 정확한 거리가 커서에 표시됩니다. 자의 눈금은 항상 표시됩니다.</Korean>
+            <Japanese>測定中、正確な距離がカーソルに表示されます。定規の目盛りは常に表示されます。</Japanese>
+            <Chinese>測量時在游標處顯示精確距離。尺規刻度始終顯示。</Chinese>
+            <Chinesesimp>测量时在光标处显示精确距离。标尺刻度始终显示。</Chinesesimp>
+            <Turkish>Ölçüm sırasında tam mesafe imleçte gösterilir. Cetvel çentikleri her zaman gösterilir.</Turkish>
+            <Slovak>Presná vzdialenosť sa pri meraní zobrazuje pri kurzore. Dieliky pravítka sú viditeľné vždy.</Slovak>
+            <Hungarian>Mérés közben a pontos távolság a kurzornál látható. A vonalzó beosztása mindig látható.</Hungarian>
+            <Ukrainian>Точна дистанція показується біля курсора під час вимірювання. Поділки лінійки видно завжди.</Ukrainian>
+            <Bulgarian>Точното разстояние се показва до курсора по време на измерване. Деленията на линийката се виждат винаги.</Bulgarian>
+            <Latin>Dum metiris, distantia accurata ad cursorem ostenditur. Notae regulae semper ostenduntur.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuCopyMarkers">
+            <English>Copy markers</English>
+            <Czech>Kopírovat značky</Czech>
+            <French>Copier les marqueurs</French>
+            <Spanish>Copiar marcadores</Spanish>
+            <Italian>Copia marcatori</Italian>
+            <Polish>Kopiuj znaczniki</Polish>
+            <Portuguese>Copiar marcadores</Portuguese>
+            <Russian>Копировать маркеры</Russian>
+            <German>Marker kopieren</German>
+            <Korean>마커 복사</Korean>
+            <Japanese>マーカーをコピー</Japanese>
+            <Chinese>複製標記</Chinese>
+            <Chinesesimp>复制标记</Chinesesimp>
+            <Turkish>İşaretleri kopyala</Turkish>
+            <Slovak>Kopírovať značky</Slovak>
+            <Hungarian>Jelölők másolása</Hungarian>
+            <Ukrainian>Копіювати маркери</Ukrainian>
+            <Bulgarian>Копиране на маркерите</Bulgarian>
+            <Latin>Signa exscribe</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuCreateMarker">
+            <English>Create marker</English>
+            <Czech>Vytvořit značku</Czech>
+            <French>Créer un marqueur</French>
+            <Spanish>Crear marcador</Spanish>
+            <Italian>Crea marcatore</Italian>
+            <Polish>Utwórz znacznik</Polish>
+            <Portuguese>Criar marcador</Portuguese>
+            <Russian>Создать маркер</Russian>
+            <German>Marker erstellen</German>
+            <Korean>마커 생성</Korean>
+            <Japanese>マーカーを作成</Japanese>
+            <Chinese>建立標記</Chinese>
+            <Chinesesimp>创建标记</Chinesesimp>
+            <Turkish>İşaret oluştur</Turkish>
+            <Slovak>Vytvoriť značku</Slovak>
+            <Hungarian>Jelölő létrehozása</Hungarian>
+            <Ukrainian>Створити маркер</Ukrainian>
+            <Bulgarian>Създаване на маркер</Bulgarian>
+            <Latin>Signum crea</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuDelete">
+            <English>Delete</English>
+            <Czech>Smazat</Czech>
+            <French>Supprimer</French>
+            <Spanish>Borrar</Spanish>
+            <Italian>Elimina</Italian>
+            <Polish>Usuń</Polish>
+            <Portuguese>Excluir</Portuguese>
+            <Russian>Удалить</Russian>
+            <German>Löschen</German>
+            <Korean>삭제</Korean>
+            <Japanese>削除</Japanese>
+            <Chinese>刪除</Chinese>
+            <Chinesesimp>删除</Chinesesimp>
+            <Turkish>Sil</Turkish>
+            <Slovak>Zmazať</Slovak>
+            <Hungarian>Törlés</Hungarian>
+            <Ukrainian>Видалити</Ukrainian>
+            <Bulgarian>Изтриване</Bulgarian>
+            <Latin>Dele</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuDirection">
+            <English>Draw direction</English>
+            <Czech>Nakreslit směr</Czech>
+            <French>Tracer une direction</French>
+            <Spanish>Trazar dirección</Spanish>
+            <Italian>Traccia direzione</Italian>
+            <Polish>Wyznacz kierunek</Polish>
+            <Portuguese>Traçar direção</Portuguese>
+            <Russian>Указать направление</Russian>
+            <German>Richtung zeichnen</German>
+            <Korean>방향 그리기</Korean>
+            <Japanese>方向を描く</Japanese>
+            <Chinese>繪製方向</Chinese>
+            <Chinesesimp>绘制方向</Chinesesimp>
+            <Turkish>Yön çiz</Turkish>
+            <Slovak>Nakresliť smer</Slovak>
+            <Hungarian>Irány rajzolása</Hungarian>
+            <Ukrainian>Провести напрямок</Ukrainian>
+            <Bulgarian>Начертаване на направление</Bulgarian>
+            <Latin>Directionem delinea</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuForward">
+            <English>Forward: %1</English>
+            <Czech>Přeposlat: %1</Czech>
+            <French>Transférer : %1</French>
+            <Spanish>Reenviar: %1</Spanish>
+            <Italian>Inoltra: %1</Italian>
+            <Polish>Przekaż: %1</Polish>
+            <Portuguese>Encaminhar: %1</Portuguese>
+            <Russian>Переслать: %1</Russian>
+            <German>Weiterleiten: %1</German>
+            <Korean>전달: %1</Korean>
+            <Japanese>転送：%1</Japanese>
+            <Chinese>轉發：%1</Chinese>
+            <Chinesesimp>转发：%1</Chinesesimp>
+            <Turkish>İlet: %1</Turkish>
+            <Slovak>Preposlať: %1</Slovak>
+            <Hungarian>Továbbítás: %1</Hungarian>
+            <Ukrainian>Переслати: %1</Ukrainian>
+            <Bulgarian>Препращане: %1</Bulgarian>
+            <Latin>Transmitte: %1</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuMeasure">
+            <English>Measure distance</English>
+            <Czech>Změřit vzdálenost</Czech>
+            <French>Mesurer une distance</French>
+            <Spanish>Medir distancia</Spanish>
+            <Italian>Misura distanza</Italian>
+            <Polish>Zmierz odległość</Polish>
+            <Portuguese>Medir distância</Portuguese>
+            <Russian>Измерить расстояние</Russian>
+            <German>Entfernung messen</German>
+            <Korean>거리 측정</Korean>
+            <Japanese>距離を測定</Japanese>
+            <Chinese>測量距離</Chinese>
+            <Chinesesimp>测量距离</Chinesesimp>
+            <Turkish>Mesafe ölç</Turkish>
+            <Slovak>Zmerať vzdialenosť</Slovak>
+            <Hungarian>Távolság mérése</Hungarian>
+            <Ukrainian>Виміряти дистанцію</Ukrainian>
+            <Bulgarian>Измерване на разстояние</Bulgarian>
+            <Latin>Distantiam metire</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuPasteMarkers">
+            <English>Paste markers</English>
+            <Czech>Vložit značky</Czech>
+            <French>Coller les marqueurs</French>
+            <Spanish>Pegar marcadores</Spanish>
+            <Italian>Incolla marcatori</Italian>
+            <Polish>Wklej znaczniki</Polish>
+            <Portuguese>Colar marcadores</Portuguese>
+            <Russian>Вставить маркеры</Russian>
+            <German>Marker einfügen</German>
+            <Korean>마커 붙여넣기</Korean>
+            <Japanese>マーカーを貼り付け</Japanese>
+            <Chinese>貼上標記</Chinese>
+            <Chinesesimp>粘贴标记</Chinesesimp>
+            <Turkish>İşaretleri yapıştır</Turkish>
+            <Slovak>Vložiť značky</Slovak>
+            <Hungarian>Jelölők beillesztése</Hungarian>
+            <Ukrainian>Вставити маркери</Ukrainian>
+            <Bulgarian>Поставяне на маркерите</Bulgarian>
+            <Latin>Signa insere</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuRepeatMarker">
+            <English>Repeat: %1</English>
+            <Czech>Opakovat: %1</Czech>
+            <French>Répéter : %1</French>
+            <Spanish>Repetir: %1</Spanish>
+            <Italian>Ripeti: %1</Italian>
+            <Polish>Powtórz: %1</Polish>
+            <Portuguese>Repetir: %1</Portuguese>
+            <Russian>Повторить: %1</Russian>
+            <German>Wiederholen: %1</German>
+            <Korean>반복: %1</Korean>
+            <Japanese>繰り返し：%1</Japanese>
+            <Chinese>重複：%1</Chinese>
+            <Chinesesimp>重复：%1</Chinesesimp>
+            <Turkish>Tekrarla: %1</Turkish>
+            <Slovak>Opakovať: %1</Slovak>
+            <Hungarian>Ismétlés: %1</Hungarian>
+            <Ukrainian>Повторити: %1</Ukrainian>
+            <Bulgarian>Повторение: %1</Bulgarian>
+            <Latin>Itera: %1</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuRoute">
+            <English>Draw route</English>
+            <Czech>Nakreslit trasu</Czech>
+            <French>Tracer un itinéraire</French>
+            <Spanish>Trazar ruta</Spanish>
+            <Italian>Traccia percorso</Italian>
+            <Polish>Wyznacz trasę</Polish>
+            <Portuguese>Traçar rota</Portuguese>
+            <Russian>Провести маршрут</Russian>
+            <German>Route zeichnen</German>
+            <Korean>경로 그리기</Korean>
+            <Japanese>ルートを描く</Japanese>
+            <Chinese>繪製路線</Chinese>
+            <Chinesesimp>绘制路线</Chinesesimp>
+            <Turkish>Rota çiz</Turkish>
+            <Slovak>Nakresliť trasu</Slovak>
+            <Hungarian>Útvonal rajzolása</Hungarian>
+            <Ukrainian>Провести маршрут</Ukrainian>
+            <Bulgarian>Начертаване на маршрут</Bulgarian>
+            <Latin>Iter delinea</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuUpdate">
+            <English>Update</English>
+            <Czech>Obnovit</Czech>
+            <French>Actualiser</French>
+            <Spanish>Actualizar</Spanish>
+            <Italian>Aggiorna</Italian>
+            <Polish>Odśwież</Polish>
+            <Portuguese>Atualizar</Portuguese>
+            <Russian>Обновить</Russian>
+            <German>Aktualisieren</German>
+            <Korean>갱신</Korean>
+            <Japanese>更新</Japanese>
+            <Chinese>更新</Chinese>
+            <Chinesesimp>更新</Chinesesimp>
+            <Turkish>Güncelle</Turkish>
+            <Slovak>Obnoviť</Slovak>
+            <Hungarian>Frissítés</Hungarian>
+            <Ukrainian>Оновити</Ukrainian>
+            <Bulgarian>Обновяване</Bulgarian>
+            <Latin>Renova</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_MenuUpdate_Tooltip">
+            <English>Send the marker again to everyone in its channel, e.g. to who joined it after the marker was placed</English>
+            <Czech>Znovu poslat značku všem v jejím kanálu, např. těm, kdo se připojili po jejím umístění</Czech>
+            <French>Renvoyer le marqueur à tous ceux de son canal, par exemple à ceux qui l'ont rejoint après la pose du marqueur</French>
+            <Spanish>Volver a enviar el marcador a todos los de su canal, por ejemplo a quienes entraron después de colocarlo</Spanish>
+            <Italian>Invia di nuovo il marcatore a tutti nel suo canale, ad esempio a chi vi è entrato dopo il posizionamento</Italian>
+            <Polish>Wyślij znacznik ponownie do wszystkich w jego kanale, np. do tych, którzy dołączyli po jego postawieniu</Polish>
+            <Portuguese>Enviar o marcador novamente a todos no seu canal, por exemplo a quem entrou depois que o marcador foi colocado</Portuguese>
+            <Russian>Отправить маркер ещё раз всем в его канале, например тем, кто зашёл в него после установки маркера</Russian>
+            <German>Den Marker erneut an alle in seinem Kanal senden, z. B. an alle, die nach dem Setzen beigetreten sind</German>
+            <Korean>마커를 채널의 모든 사람에게 다시 보냅니다. 예: 마커 배치 후 접속한 사람</Korean>
+            <Japanese>マーカーをそのチャンネルの全員に再送信します。例：配置後に参加した人</Japanese>
+            <Chinese>將標記重新發送給其頻道中的所有人，例如在標記放置後加入的玩家</Chinese>
+            <Chinesesimp>将标记重新发送给其频道中的所有人，例如在标记放置后加入的玩家</Chinesesimp>
+            <Turkish>İşareti kanalındaki herkese yeniden gönder, örneğin işaret konduktan sonra katılanlara</Turkish>
+            <Slovak>Znova poslať značku všetkým v jej kanáli, napr. tým, ktorí sa pripojili po jej umiestnení</Slovak>
+            <Hungarian>A jelölő újraküldése mindenkinek a csatornáján, pl. azoknak, akik az elhelyezése után csatlakoztak</Hungarian>
+            <Ukrainian>Надіслати маркер ще раз усім у його каналі, наприклад тим, хто зайшов у нього після встановлення маркера</Ukrainian>
+            <Bulgarian>Изпращане на маркера отново на всички в неговия канал, напр. на тези, които са се присъединили след поставянето му</Bulgarian>
+            <Latin>Signum iterum omnibus in canali eius mitte, e.g. iis qui post positionem eius advenerunt</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_NoChannels">
+            <English>No available channels</English>
+            <Czech>Žádné dostupné kanály</Czech>
+            <French>Aucun canal disponible</French>
+            <Spanish>No hay canales disponibles</Spanish>
+            <Italian>Nessun canale disponibile</Italian>
+            <Polish>Brak dostępnych kanałów</Polish>
+            <Portuguese>Nenhum canal disponível</Portuguese>
+            <Russian>Нет доступных каналов</Russian>
+            <German>Keine verfügbaren Kanäle</German>
+            <Korean>사용 가능한 채널 없음</Korean>
+            <Japanese>利用可能なチャンネルがありません</Japanese>
+            <Chinese>沒有可用頻道</Chinese>
+            <Chinesesimp>没有可用频道</Chinesesimp>
+            <Turkish>Kullanılabilir kanal yok</Turkish>
+            <Slovak>Žiadne dostupné kanály</Slovak>
+            <Hungarian>Nincs elérhető csatorna</Hungarian>
+            <Ukrainian>Немає доступних каналів</Ukrainian>
+            <Bulgarian>Няма достъпни канали</Bulgarian>
+            <Latin>Nulli canales praesto</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_RecordChannel">
+            <English>Record channel: %1</English>
+            <Czech>Nahrávat kanál: %1</Czech>
+            <French>Enregistrer le canal : %1</French>
+            <Spanish>Grabar canal: %1</Spanish>
+            <Italian>Registra canale: %1</Italian>
+            <Polish>Nagrywaj kanał: %1</Polish>
+            <Portuguese>Gravar canal: %1</Portuguese>
+            <Russian>Записывать канал: %1</Russian>
+            <German>Kanal aufzeichnen: %1</German>
+            <Korean>채널 기록: %1</Korean>
+            <Japanese>チャンネルを記録：%1</Japanese>
+            <Chinese>錄製頻道：%1</Chinese>
+            <Chinesesimp>录制频道：%1</Chinesesimp>
+            <Turkish>Kanalı kaydet: %1</Turkish>
+            <Slovak>Nahrávať kanál: %1</Slovak>
+            <Hungarian>Csatorna rögzítése: %1</Hungarian>
+            <Ukrainian>Записувати канал: %1</Ukrainian>
+            <Bulgarian>Запис на канала: %1</Bulgarian>
+            <Latin>Canalem memora: %1</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_RecordChannel_Description">
+            <English>Markers of the channel are recorded by the replay mods (OCAP).</English>
+            <Czech>Značky kanálu nahrávají módy záznamů (OCAP).</Czech>
+            <French>Les marqueurs du canal sont enregistrés par les mods de replay (OCAP).</French>
+            <Spanish>Los mods de repetición (OCAP) graban los marcadores del canal.</Spanish>
+            <Italian>I marcatori del canale vengono registrati dalle mod di replay (OCAP).</Italian>
+            <Polish>Znaczniki kanału są nagrywane przez mody powtórek (OCAP).</Polish>
+            <Portuguese>Os marcadores do canal são gravados pelos mods de replay (OCAP).</Portuguese>
+            <Russian>Маркеры канала записываются модами реплеев (OCAP).</Russian>
+            <German>Die Marker des Kanals werden von den Replay-Mods (OCAP) aufgezeichnet.</German>
+            <Korean>채널의 마커가 리플레이 모드(OCAP)에 기록됩니다.</Korean>
+            <Japanese>チャンネルのマーカーがリプレイMOD（OCAP）で記録されます。</Japanese>
+            <Chinese>該頻道的標記由重播模組（OCAP）錄製。</Chinese>
+            <Chinesesimp>该频道的标记由回放模组（OCAP）录制。</Chinesesimp>
+            <Turkish>Kanalın işaretleri tekrar modları (OCAP) tarafından kaydedilir.</Turkish>
+            <Slovak>Značky kanála nahrávajú módy záznamov (OCAP).</Slovak>
+            <Hungarian>A csatorna jelölőit a visszajátszó modok (OCAP) rögzítik.</Hungarian>
+            <Ukrainian>Маркери каналу записуються модами реплеїв (OCAP).</Ukrainian>
+            <Bulgarian>Маркерите на канала се записват от модовете за повторения (OCAP).</Bulgarian>
+            <Latin>Signa canalis a modulis spectaculi (OCAP) memorantur.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_RecordExtraChannels">
+            <English>Record radio frequencies and other channels</English>
+            <Czech>Nahrávat rádiové frekvence a další kanály</Czech>
+            <French>Enregistrer les fréquences radio et les autres canaux</French>
+            <Spanish>Grabar frecuencias de radio y otros canales</Spanish>
+            <Italian>Registra frequenze radio e altri canali</Italian>
+            <Polish>Nagrywaj częstotliwości radiowe i inne kanały</Polish>
+            <Portuguese>Gravar frequências de rádio e outros canais</Portuguese>
+            <Russian>Записывать частоты раций и другие каналы</Russian>
+            <German>Funkfrequenzen und andere Kanäle aufzeichnen</German>
+            <Korean>무전 주파수 및 기타 채널 기록</Korean>
+            <Japanese>無線周波数とその他のチャンネルを記録</Japanese>
+            <Chinese>錄製無線電頻率和其他頻道</Chinese>
+            <Chinesesimp>录制无线电频率和其他频道</Chinesesimp>
+            <Turkish>Telsiz frekanslarını ve diğer kanalları kaydet</Turkish>
+            <Slovak>Nahrávať rádiové frekvencie a ďalšie kanály</Slovak>
+            <Hungarian>Rádiófrekvenciák és más csatornák rögzítése</Hungarian>
+            <Ukrainian>Записувати частоти рацій та інші канали</Ukrainian>
+            <Bulgarian>Запис на радиочестоти и други канали</Bulgarian>
+            <Latin>Frequentias radiophonicas et alios canales memora</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ReplaceVanillaDialog">
+            <English>Replace marker dialog</English>
+            <Czech>Nahradit okno značek</Czech>
+            <French>Remplacer la fenêtre des marqueurs</French>
+            <Spanish>Reemplazar el diálogo de marcadores</Spanish>
+            <Italian>Sostituisci la finestra dei marcatori</Italian>
+            <Polish>Zastąp okno znaczników</Polish>
+            <Portuguese>Substituir a janela de marcadores</Portuguese>
+            <Russian>Заменять окно маркера</Russian>
+            <German>Markerdialog ersetzen</German>
+            <Korean>마커 창 교체</Korean>
+            <Japanese>マーカーウィンドウを置き換え</Japanese>
+            <Chinese>替換標記視窗</Chinese>
+            <Chinesesimp>替换标记窗口</Chinesesimp>
+            <Turkish>İşaret penceresini değiştir</Turkish>
+            <Slovak>Nahradiť okno značiek</Slovak>
+            <Hungarian>Jelölőablak cseréje</Hungarian>
+            <Ukrainian>Замінювати вікно маркера</Ukrainian>
+            <Bulgarian>Замяна на прозореца за маркери</Bulgarian>
+            <Latin>Fenestram signorum substitue</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ReplaceVanillaDialog_Description">
+            <English>Replaces the vanilla marker placement dialog (double-click on the map) with the MapTac dialog.</English>
+            <Czech>Nahrazuje standardní okno umístění značky (dvojklik na mapu) oknem MapTac.</Czech>
+            <French>Remplace la fenêtre standard de pose de marqueur (double clic sur la carte) par celle de MapTac.</French>
+            <Spanish>Reemplaza el diálogo estándar para colocar marcadores (doble clic en el mapa) por el de MapTac.</Spanish>
+            <Italian>Sostituisce la finestra standard di posizionamento dei marcatori (doppio clic sulla mappa) con quella di MapTac.</Italian>
+            <Polish>Zastępuje standardowe okno stawiania znaczników (podwójne kliknięcie na mapie) oknem MapTac.</Polish>
+            <Portuguese>Substitui a janela padrão de colocação de marcadores (clique duplo no mapa) pela janela do MapTac.</Portuguese>
+            <Russian>Заменяет стандартное окно установки маркера (двойной клик по карте) окном MapTac.</Russian>
+            <German>Ersetzt den Standarddialog zum Setzen von Markern (Doppelklick auf die Karte) durch den MapTac-Dialog.</German>
+            <Korean>기본 마커 배치 창(지도 더블클릭)을 MapTac 창으로 교체합니다.</Korean>
+            <Japanese>標準のマーカー配置ウィンドウ（マップをダブルクリック）をMapTacのウィンドウに置き換えます。</Japanese>
+            <Chinese>用 MapTac 視窗替換標準的標記放置視窗（雙擊地圖）。</Chinese>
+            <Chinesesimp>用 MapTac 窗口替换标准的标记放置窗口（双击地图）。</Chinesesimp>
+            <Turkish>Standart işaret koyma penceresini (haritaya çift tık) MapTac penceresiyle değiştirir.</Turkish>
+            <Slovak>Nahrádza štandardné okno umiestnenia značky (dvojklik na mapu) oknom MapTac.</Slovak>
+            <Hungarian>A szabványos jelölőelhelyező ablakot (dupla kattintás a térképen) a MapTac ablakára cseréli.</Hungarian>
+            <Ukrainian>Замінює стандартне вікно встановлення маркера (подвійний клік по мапі) вікном MapTac.</Ukrainian>
+            <Bulgarian>Заменя стандартния прозорец за поставяне на маркер (двоен клик върху картата) с прозореца на MapTac.</Bulgarian>
+            <Latin>Fenestram solitam signi ponendi (bis in tabula preme) fenestra MapTac substituit.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_Send">
+            <English>Send</English>
+            <Czech>Odeslat</Czech>
+            <French>Envoyer</French>
+            <Spanish>Enviar</Spanish>
+            <Italian>Invia</Italian>
+            <Polish>Wyślij</Polish>
+            <Portuguese>Enviar</Portuguese>
+            <Russian>Отправить</Russian>
+            <German>Senden</German>
+            <Korean>보내기</Korean>
+            <Japanese>送信</Japanese>
+            <Chinese>發送</Chinese>
+            <Chinesesimp>发送</Chinesesimp>
+            <Turkish>Gönder</Turkish>
+            <Slovak>Odoslať</Slovak>
+            <Hungarian>Küldés</Hungarian>
+            <Ukrainian>Відправити</Ukrainian>
+            <Bulgarian>Изпращане</Bulgarian>
+            <Latin>Mitte</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowAuthorLabels">
+            <English>Show authors on markers (hold)</English>
+            <Czech>Zobrazit autory na značkách (držet)</Czech>
+            <French>Afficher les auteurs sur les marqueurs (maintenir)</French>
+            <Spanish>Mostrar autores en los marcadores (mantener)</Spanish>
+            <Italian>Mostra autori sui marcatori (tieni premuto)</Italian>
+            <Polish>Pokaż autorów na znacznikach (przytrzymaj)</Polish>
+            <Portuguese>Mostrar autores nos marcadores (segurar)</Portuguese>
+            <Russian>Показать авторов на маркерах (удерживать)</Russian>
+            <German>Autoren auf Markern zeigen (halten)</German>
+            <Korean>마커에 작성자 표시 (누르고 있기)</Korean>
+            <Japanese>マーカーに作成者を表示（長押し）</Japanese>
+            <Chinese>在標記上顯示作者（按住）</Chinese>
+            <Chinesesimp>在标记上显示作者（按住）</Chinesesimp>
+            <Turkish>İşaretlerde yazarları göster (basılı tut)</Turkish>
+            <Slovak>Zobraziť autorov na značkách (držať)</Slovak>
+            <Hungarian>Szerzők mutatása a jelölőkön (nyomva tartva)</Hungarian>
+            <Ukrainian>Показати авторів на маркерах (утримувати)</Ukrainian>
+            <Bulgarian>Показване на авторите на маркерите (задръжте)</Bulgarian>
+            <Latin>Auctores in signis ostende (tene)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowAuthorLabels_Description">
+            <English>Marker author names are shown next to the markers while the key is held.</English>
+            <Czech>Jména autorů se zobrazují vedle značek, dokud je klávesa stisknutá.</Czech>
+            <French>Les noms des auteurs sont affichés à côté des marqueurs tant que la touche est maintenue.</French>
+            <Spanish>Los nombres de los autores se muestran junto a los marcadores mientras se mantiene la tecla.</Spanish>
+            <Italian>I nomi degli autori vengono mostrati accanto ai marcatori finché il tasto è premuto.</Italian>
+            <Polish>Imiona autorów są wyświetlane obok znaczników, dopóki klawisz jest wciśnięty.</Polish>
+            <Portuguese>Os nomes dos autores são mostrados ao lado dos marcadores enquanto a tecla está pressionada.</Portuguese>
+            <Russian>Имена авторов видны возле маркеров, пока клавиша зажата.</Russian>
+            <German>Die Namen der Markerautoren werden neben den Markern angezeigt, solange die Taste gehalten wird.</German>
+            <Korean>키를 누르고 있는 동안 마커 옆에 작성자 이름이 표시됩니다.</Korean>
+            <Japanese>キーを押している間、マーカーの横に作成者名が表示されます。</Japanese>
+            <Chinese>按住按鍵時，作者名稱顯示在標記旁。</Chinese>
+            <Chinesesimp>按住按键时，作者名称显示在标记旁。</Chinesesimp>
+            <Turkish>Tuş basılı tutulduğu sürece yazar adları işaretlerin yanında gösterilir.</Turkish>
+            <Slovak>Mená autorov sa zobrazujú vedľa značiek, kým je kláves stlačený.</Slovak>
+            <Hungarian>A szerzők neve a jelölők mellett látható, amíg a billentyű le van nyomva.</Hungarian>
+            <Ukrainian>Імена авторів видно біля маркерів, поки клавішу затиснуто.</Ukrainian>
+            <Bulgarian>Имената на авторите се показват до маркерите, докато клавишът е натиснат.</Bulgarian>
+            <Latin>Nomina auctorum iuxta signa ostenduntur dum clavis premitur.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowGroupLabels">
+            <English>Show squads on markers (hold)</English>
+            <Czech>Zobrazit družstva na značkách (držet)</Czech>
+            <French>Afficher les escouades sur les marqueurs (maintenir)</French>
+            <Spanish>Mostrar escuadras en los marcadores (mantener)</Spanish>
+            <Italian>Mostra squadre sui marcatori (tieni premuto)</Italian>
+            <Polish>Pokaż drużyny na znacznikach (przytrzymaj)</Polish>
+            <Portuguese>Mostrar esquadrões nos marcadores (segurar)</Portuguese>
+            <Russian>Показать отделения на маркерах (удерживать)</Russian>
+            <German>Trupps auf Markern zeigen (halten)</German>
+            <Korean>마커에 분대 표시 (누르고 있기)</Korean>
+            <Japanese>マーカーに分隊を表示（長押し）</Japanese>
+            <Chinese>在標記上顯示班組（按住）</Chinese>
+            <Chinesesimp>在标记上显示班组（按住）</Chinesesimp>
+            <Turkish>İşaretlerde timleri göster (basılı tut)</Turkish>
+            <Slovak>Zobraziť družstvá na značkách (držať)</Slovak>
+            <Hungarian>Rajok mutatása a jelölőkön (nyomva tartva)</Hungarian>
+            <Ukrainian>Показати відділення на маркерах (утримувати)</Ukrainian>
+            <Bulgarian>Показване на отделенията на маркерите (задръжте)</Bulgarian>
+            <Latin>Manipulos in signis ostende (tene)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowGroupLabels_Description">
+            <English>Squad callsigns are shown next to the markers while the key is held.</English>
+            <Czech>Volací znaky družstev se zobrazují vedle značek, dokud je klávesa stisknutá.</Czech>
+            <French>Les indicatifs des escouades sont affichés à côté des marqueurs tant que la touche est maintenue.</French>
+            <Spanish>Los indicativos de las escuadras se muestran junto a los marcadores mientras se mantiene la tecla.</Spanish>
+            <Italian>I nominativi delle squadre vengono mostrati accanto ai marcatori finché il tasto è premuto.</Italian>
+            <Polish>Kryptonimy drużyn są wyświetlane obok znaczników, dopóki klawisz jest wciśnięty.</Polish>
+            <Portuguese>Os indicativos dos esquadrões são mostrados ao lado dos marcadores enquanto a tecla está pressionada.</Portuguese>
+            <Russian>Позывные отделений видны возле маркеров, пока клавиша зажата.</Russian>
+            <German>Die Rufzeichen der Trupps werden neben den Markern angezeigt, solange die Taste gehalten wird.</German>
+            <Korean>키를 누르고 있는 동안 마커 옆에 분대 호출부호가 표시됩니다.</Korean>
+            <Japanese>キーを押している間、マーカーの横に分隊のコールサインが表示されます。</Japanese>
+            <Chinese>按住按鍵時，班組呼號顯示在標記旁。</Chinese>
+            <Chinesesimp>按住按键时，班组呼号显示在标记旁。</Chinesesimp>
+            <Turkish>Tuş basılı tutulduğu sürece tim çağrı adları işaretlerin yanında gösterilir.</Turkish>
+            <Slovak>Volacie znaky družstiev sa zobrazujú vedľa značiek, kým je kláves stlačený.</Slovak>
+            <Hungarian>A rajok hívójelei a jelölők mellett láthatók, amíg a billentyű le van nyomva.</Hungarian>
+            <Ukrainian>Позивні відділень видно біля маркерів, поки клавішу затиснуто.</Ukrainian>
+            <Bulgarian>Позивните на отделенията се показват до маркерите, докато клавишът е натиснат.</Bulgarian>
+            <Latin>Nomina manipulorum iuxta signa ostenduntur dum clavis premitur.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowLabelAuthor">
+            <English>Show marker authors</English>
+            <Czech>Zobrazovat autory značek</Czech>
+            <French>Afficher les auteurs des marqueurs</French>
+            <Spanish>Mostrar autores de los marcadores</Spanish>
+            <Italian>Mostra autori dei marcatori</Italian>
+            <Polish>Pokazuj autorów znaczników</Polish>
+            <Portuguese>Mostrar autores dos marcadores</Portuguese>
+            <Russian>Показывать авторов маркеров</Russian>
+            <German>Markerautoren anzeigen</German>
+            <Korean>마커 작성자 표시</Korean>
+            <Japanese>マーカーの作成者を表示</Japanese>
+            <Chinese>顯示標記作者</Chinese>
+            <Chinesesimp>显示标记作者</Chinesesimp>
+            <Turkish>İşaret yazarlarını göster</Turkish>
+            <Slovak>Zobrazovať autorov značiek</Slovak>
+            <Hungarian>Jelölők szerzőinek mutatása</Hungarian>
+            <Ukrainian>Показувати авторів маркерів</Ukrainian>
+            <Bulgarian>Показване на авторите на маркерите</Bulgarian>
+            <Latin>Auctores signorum ostende</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowLabelGroup">
+            <English>Show squads on markers</English>
+            <Czech>Zobrazovat družstva na značkách</Czech>
+            <French>Afficher les escouades sur les marqueurs</French>
+            <Spanish>Mostrar escuadras en los marcadores</Spanish>
+            <Italian>Mostra squadre sui marcatori</Italian>
+            <Polish>Pokazuj drużyny na znacznikach</Polish>
+            <Portuguese>Mostrar esquadrões nos marcadores</Portuguese>
+            <Russian>Показывать отделения на маркерах</Russian>
+            <German>Trupps auf Markern anzeigen</German>
+            <Korean>마커에 분대 표시</Korean>
+            <Japanese>マーカーに分隊を表示</Japanese>
+            <Chinese>在標記上顯示班組</Chinese>
+            <Chinesesimp>在标记上显示班组</Chinesesimp>
+            <Turkish>İşaretlerde timleri göster</Turkish>
+            <Slovak>Zobrazovať družstvá na značkách</Slovak>
+            <Hungarian>Rajok mutatása a jelölőkön</Hungarian>
+            <Ukrainian>Показувати відділення на маркерах</Ukrainian>
+            <Bulgarian>Показване на отделенията на маркерите</Bulgarian>
+            <Latin>Manipulos in signis ostende</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowLabelText">
+            <English>Show marker texts</English>
+            <Czech>Zobrazovat texty značek</Czech>
+            <French>Afficher les textes des marqueurs</French>
+            <Spanish>Mostrar textos de los marcadores</Spanish>
+            <Italian>Mostra testi dei marcatori</Italian>
+            <Polish>Pokazuj teksty znaczników</Polish>
+            <Portuguese>Mostrar textos dos marcadores</Portuguese>
+            <Russian>Показывать тексты маркеров</Russian>
+            <German>Markertexte anzeigen</German>
+            <Korean>마커 텍스트 표시</Korean>
+            <Japanese>マーカーのテキストを表示</Japanese>
+            <Chinese>顯示標記文字</Chinese>
+            <Chinesesimp>显示标记文本</Chinesesimp>
+            <Turkish>İşaret metinlerini göster</Turkish>
+            <Slovak>Zobrazovať texty značiek</Slovak>
+            <Hungarian>Jelölők szövegének mutatása</Hungarian>
+            <Ukrainian>Показувати тексти маркерів</Ukrainian>
+            <Bulgarian>Показване на текстовете на маркерите</Bulgarian>
+            <Latin>Textus signorum ostende</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowLabel_Description">
+            <English>Default state of the map button, the button switches it until the end of the mission.</English>
+            <Czech>Výchozí stav tlačítka na mapě, tlačítko ho přepíná do konce mise.</Czech>
+            <French>État par défaut du bouton de la carte, le bouton le change jusqu'à la fin de la mission.</French>
+            <Spanish>Estado predeterminado del botón del mapa, el botón lo cambia hasta el final de la misión.</Spanish>
+            <Italian>Stato predefinito del pulsante della mappa, il pulsante lo cambia fino alla fine della missione.</Italian>
+            <Polish>Domyślny stan przycisku na mapie, przycisk przełącza go do końca misji.</Polish>
+            <Portuguese>Estado padrão do botão do mapa, o botão o alterna até o fim da missão.</Portuguese>
+            <Russian>Состояние кнопки на карте по умолчанию, кнопка переключает его до конца миссии.</Russian>
+            <German>Voreinstellung der Kartenschaltfläche, die Schaltfläche schaltet sie bis zum Ende der Mission um.</German>
+            <Korean>지도 버튼의 기본 상태이며, 버튼으로 임무가 끝날 때까지 전환합니다.</Korean>
+            <Japanese>マップボタンの初期状態。ボタンでミッション終了まで切り替えられます。</Japanese>
+            <Chinese>地圖按鈕的預設狀態，按鈕可在任務結束前切換。</Chinese>
+            <Chinesesimp>地图按钮的默认状态，按钮可在任务结束前切换。</Chinesesimp>
+            <Turkish>Harita düğmesinin varsayılan durumu, düğme bunu görev sonuna kadar değiştirir.</Turkish>
+            <Slovak>Predvolený stav tlačidla na mape, tlačidlo ho prepína do konca misie.</Slovak>
+            <Hungarian>A térképgomb alapállapota, a gomb a küldetés végéig váltja.</Hungarian>
+            <Ukrainian>Стан кнопки на мапі за замовчуванням, кнопка перемикає його до кінця місії.</Ukrainian>
+            <Bulgarian>Състояние по подразбиране на бутона на картата, бутонът го превключва до края на мисията.</Bulgarian>
+            <Latin>Status praefinitus globuli in tabula, globulus eum usque ad finem missionis mutat.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowTextLabels">
+            <English>Show text on markers (hold)</English>
+            <Czech>Zobrazit text na značkách (držet)</Czech>
+            <French>Afficher le texte sur les marqueurs (maintenir)</French>
+            <Spanish>Mostrar texto en los marcadores (mantener)</Spanish>
+            <Italian>Mostra testo sui marcatori (tieni premuto)</Italian>
+            <Polish>Pokaż tekst na znacznikach (przytrzymaj)</Polish>
+            <Portuguese>Mostrar texto nos marcadores (segurar)</Portuguese>
+            <Russian>Показать текст на маркерах (удерживать)</Russian>
+            <German>Text auf Markern zeigen (halten)</German>
+            <Korean>마커에 텍스트 표시 (누르고 있기)</Korean>
+            <Japanese>マーカーにテキストを表示（長押し）</Japanese>
+            <Chinese>在標記上顯示文字（按住）</Chinese>
+            <Chinesesimp>在标记上显示文本（按住）</Chinesesimp>
+            <Turkish>İşaretlerde metni göster (basılı tut)</Turkish>
+            <Slovak>Zobraziť text na značkách (držať)</Slovak>
+            <Hungarian>Szöveg mutatása a jelölőkön (nyomva tartva)</Hungarian>
+            <Ukrainian>Показати текст на маркерах (утримувати)</Ukrainian>
+            <Bulgarian>Показване на текста на маркерите (задръжте)</Bulgarian>
+            <Latin>Textum in signis ostende (tene)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ShowTextLabels_Description">
+            <English>Marker texts are shown while the key is held.</English>
+            <Czech>Texty značek se zobrazují, dokud je klávesa stisknutá.</Czech>
+            <French>Les textes des marqueurs sont affichés tant que la touche est maintenue.</French>
+            <Spanish>Los textos de los marcadores se muestran mientras se mantiene la tecla.</Spanish>
+            <Italian>I testi dei marcatori vengono mostrati finché il tasto è premuto.</Italian>
+            <Polish>Teksty znaczników są wyświetlane, dopóki klawisz jest wciśnięty.</Polish>
+            <Portuguese>Os textos dos marcadores são mostrados enquanto a tecla está pressionada.</Portuguese>
+            <Russian>Тексты маркеров видны, пока клавиша зажата.</Russian>
+            <German>Die Markertexte werden angezeigt, solange die Taste gehalten wird.</German>
+            <Korean>키를 누르고 있는 동안 마커 텍스트가 표시됩니다.</Korean>
+            <Japanese>キーを押している間、マーカーのテキストが表示されます。</Japanese>
+            <Chinese>按住按鍵時顯示標記文字。</Chinese>
+            <Chinesesimp>按住按键时显示标记文本。</Chinesesimp>
+            <Turkish>Tuş basılı tutulduğu sürece işaret metinleri gösterilir.</Turkish>
+            <Slovak>Texty značiek sa zobrazujú, kým je kláves stlačený.</Slovak>
+            <Hungarian>A jelölők szövegei láthatók, amíg a billentyű le van nyomva.</Hungarian>
+            <Ukrainian>Тексти маркерів видно, поки клавішу затиснуто.</Ukrainian>
+            <Bulgarian>Текстовете на маркерите се показват, докато клавишът е натиснат.</Bulgarian>
+            <Latin>Textus signorum ostenduntur dum clavis premitur.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TextPlaceholder">
+            <English>Marker text</English>
+            <Czech>Text značky</Czech>
+            <French>Texte du marqueur</French>
+            <Spanish>Texto del marcador</Spanish>
+            <Italian>Testo del marcatore</Italian>
+            <Polish>Tekst znacznika</Polish>
+            <Portuguese>Texto do marcador</Portuguese>
+            <Russian>Текст маркера</Russian>
+            <German>Markertext</German>
+            <Korean>마커 텍스트</Korean>
+            <Japanese>マーカーのテキスト</Japanese>
+            <Chinese>標記文字</Chinese>
+            <Chinesesimp>标记文本</Chinesesimp>
+            <Turkish>İşaret metni</Turkish>
+            <Slovak>Text značky</Slovak>
+            <Hungarian>Jelölő szövege</Hungarian>
+            <Ukrainian>Текст маркеру</Ukrainian>
+            <Bulgarian>Текст на маркера</Bulgarian>
+            <Latin>Textus signi</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ToolKey_Description">
+            <English>Used while drawing a route or a direction from the map menu.</English>
+            <Czech>Používá se při kreslení trasy nebo směru z nabídky mapy.</Czech>
+            <French>Utilisé pendant le tracé d'un itinéraire ou d'une direction depuis le menu de la carte.</French>
+            <Spanish>Se usa al trazar una ruta o una dirección desde el menú del mapa.</Spanish>
+            <Italian>Usato durante il tracciamento di un percorso o di una direzione dal menu della mappa.</Italian>
+            <Polish>Używane podczas wyznaczania trasy lub kierunku z menu mapy.</Polish>
+            <Portuguese>Usado ao traçar uma rota ou uma direção pelo menu do mapa.</Portuguese>
+            <Russian>Используется при проведении маршрута или направления из меню карты.</Russian>
+            <German>Wird beim Zeichnen einer Route oder Richtung aus dem Kartenmenü verwendet.</German>
+            <Korean>지도 메뉴에서 경로나 방향을 그릴 때 사용됩니다.</Korean>
+            <Japanese>マップメニューからルートや方向を描くときに使用します。</Japanese>
+            <Chinese>從地圖選單繪製路線或方向時使用。</Chinese>
+            <Chinesesimp>从地图菜单绘制路线或方向时使用。</Chinesesimp>
+            <Turkish>Harita menüsünden rota veya yön çizerken kullanılır.</Turkish>
+            <Slovak>Používa sa pri kreslení trasy alebo smeru z ponuky mapy.</Slovak>
+            <Hungarian>Útvonal vagy irány rajzolásakor használatos a térképmenüből.</Hungarian>
+            <Ukrainian>Використовується під час проведення маршруту чи напрямку з меню мапи.</Ukrainian>
+            <Bulgarian>Използва се при начертаване на маршрут или направление от менюто на картата.</Bulgarian>
+            <Latin>Adhibetur cum iter vel directio ex indice tabulae delineatur.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ToolNextChannel">
+            <English>Drawing: next channel</English>
+            <Czech>Kreslení: další kanál</Czech>
+            <French>Tracé : canal suivant</French>
+            <Spanish>Trazado: canal siguiente</Spanish>
+            <Italian>Tracciamento: canale successivo</Italian>
+            <Polish>Rysowanie: następny kanał</Polish>
+            <Portuguese>Traçado: próximo canal</Portuguese>
+            <Russian>Рисование: следующий канал</Russian>
+            <German>Zeichnen: nächster Kanal</German>
+            <Korean>그리기: 다음 채널</Korean>
+            <Japanese>描画：次のチャンネル</Japanese>
+            <Chinese>繪製：下一個頻道</Chinese>
+            <Chinesesimp>绘制：下一个频道</Chinesesimp>
+            <Turkish>Çizim: sonraki kanal</Turkish>
+            <Slovak>Kreslenie: ďalší kanál</Slovak>
+            <Hungarian>Rajzolás: következő csatorna</Hungarian>
+            <Ukrainian>Малювання: наступний канал</Ukrainian>
+            <Bulgarian>Чертане: следващ канал</Bulgarian>
+            <Latin>Delineatio: canalis sequens</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ToolNextColor">
+            <English>Drawing: next color</English>
+            <Czech>Kreslení: další barva</Czech>
+            <French>Tracé : couleur suivante</French>
+            <Spanish>Trazado: color siguiente</Spanish>
+            <Italian>Tracciamento: colore successivo</Italian>
+            <Polish>Rysowanie: następny kolor</Polish>
+            <Portuguese>Traçado: próxima cor</Portuguese>
+            <Russian>Рисование: следующий цвет</Russian>
+            <German>Zeichnen: nächste Farbe</German>
+            <Korean>그리기: 다음 색상</Korean>
+            <Japanese>描画：次の色</Japanese>
+            <Chinese>繪製：下一個顏色</Chinese>
+            <Chinesesimp>绘制：下一个颜色</Chinesesimp>
+            <Turkish>Çizim: sonraki renk</Turkish>
+            <Slovak>Kreslenie: ďalšia farba</Slovak>
+            <Hungarian>Rajzolás: következő szín</Hungarian>
+            <Ukrainian>Малювання: наступний колір</Ukrainian>
+            <Bulgarian>Чертане: следващ цвят</Bulgarian>
+            <Latin>Delineatio: color sequens</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ToolPreviousChannel">
+            <English>Drawing: previous channel</English>
+            <Czech>Kreslení: předchozí kanál</Czech>
+            <French>Tracé : canal précédent</French>
+            <Spanish>Trazado: canal anterior</Spanish>
+            <Italian>Tracciamento: canale precedente</Italian>
+            <Polish>Rysowanie: poprzedni kanał</Polish>
+            <Portuguese>Traçado: canal anterior</Portuguese>
+            <Russian>Рисование: предыдущий канал</Russian>
+            <German>Zeichnen: vorheriger Kanal</German>
+            <Korean>그리기: 이전 채널</Korean>
+            <Japanese>描画：前のチャンネル</Japanese>
+            <Chinese>繪製：上一個頻道</Chinese>
+            <Chinesesimp>绘制：上一个频道</Chinesesimp>
+            <Turkish>Çizim: önceki kanal</Turkish>
+            <Slovak>Kreslenie: predchádzajúci kanál</Slovak>
+            <Hungarian>Rajzolás: előző csatorna</Hungarian>
+            <Ukrainian>Малювання: попередній канал</Ukrainian>
+            <Bulgarian>Чертане: предишен канал</Bulgarian>
+            <Latin>Delineatio: canalis prior</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ToolPreviousColor">
+            <English>Drawing: previous color</English>
+            <Czech>Kreslení: předchozí barva</Czech>
+            <French>Tracé : couleur précédente</French>
+            <Spanish>Trazado: color anterior</Spanish>
+            <Italian>Tracciamento: colore precedente</Italian>
+            <Polish>Rysowanie: poprzedni kolor</Polish>
+            <Portuguese>Traçado: cor anterior</Portuguese>
+            <Russian>Рисование: предыдущий цвет</Russian>
+            <German>Zeichnen: vorherige Farbe</German>
+            <Korean>그리기: 이전 색상</Korean>
+            <Japanese>描画：前の色</Japanese>
+            <Chinese>繪製：上一個顏色</Chinese>
+            <Chinesesimp>绘制：上一个颜色</Chinesesimp>
+            <Turkish>Çizim: önceki renk</Turkish>
+            <Slovak>Kreslenie: predchádzajúca farba</Slovak>
+            <Hungarian>Rajzolás: előző szín</Hungarian>
+            <Ukrainian>Малювання: попередній колір</Ukrainian>
+            <Bulgarian>Чертане: предишен цвят</Bulgarian>
+            <Latin>Delineatio: color prior</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_ToolSnapToRoad">
+            <English>Snap route point to road (hold)</English>
+            <Czech>Přichytit bod trasy k silnici (držet)</Czech>
+            <French>Accrocher le point d'itinéraire à la route (maintenir)</French>
+            <Spanish>Ajustar el punto de ruta a la carretera (mantener)</Spanish>
+            <Italian>Aggancia il punto del percorso alla strada (tieni premuto)</Italian>
+            <Polish>Przyciągnij punkt trasy do drogi (przytrzymaj)</Polish>
+            <Portuguese>Ajustar o ponto da rota à estrada (segurar)</Portuguese>
+            <Russian>Привязать точку маршрута к дороге (удерживать)</Russian>
+            <German>Routenpunkt an Straße ausrichten (halten)</German>
+            <Korean>경로 지점을 도로에 맞춤 (누르고 있기)</Korean>
+            <Japanese>ルート地点を道路に吸着（長押し）</Japanese>
+            <Chinese>將路線點吸附到道路（按住）</Chinese>
+            <Chinesesimp>将路线点吸附到道路（按住）</Chinesesimp>
+            <Turkish>Rota noktasını yola yapıştır (basılı tut)</Turkish>
+            <Slovak>Prichytiť bod trasy k ceste (držať)</Slovak>
+            <Hungarian>Útvonalpont illesztése az útra (nyomva tartva)</Hungarian>
+            <Ukrainian>Привʼязати точку маршруту до дороги (утримувати)</Ukrainian>
+            <Bulgarian>Прилепване на точката на маршрута към пътя (задръжте)</Bulgarian>
+            <Latin>Punctum itineris viae adhaere (tene)</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TooltipChannel">
+            <English>Channel</English>
+            <Czech>Kanál</Czech>
+            <French>Canal</French>
+            <Spanish>Canal</Spanish>
+            <Italian>Canale</Italian>
+            <Polish>Kanał</Polish>
+            <Portuguese>Canal</Portuguese>
+            <Russian>Канал</Russian>
+            <German>Kanal</German>
+            <Korean>채널</Korean>
+            <Japanese>チャンネル</Japanese>
+            <Chinese>頻道</Chinese>
+            <Chinesesimp>频道</Chinesesimp>
+            <Turkish>Kanal</Turkish>
+            <Slovak>Kanál</Slovak>
+            <Hungarian>Csatorna</Hungarian>
+            <Ukrainian>Канал</Ukrainian>
+            <Bulgarian>Канал</Bulgarian>
+            <Latin>Canalis</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TooltipCreated">
+            <English>Created</English>
+            <Czech>Vytvořeno</Czech>
+            <French>Créé</French>
+            <Spanish>Creado</Spanish>
+            <Italian>Creato</Italian>
+            <Polish>Utworzono</Polish>
+            <Portuguese>Criado</Portuguese>
+            <Russian>Создан</Russian>
+            <German>Erstellt</German>
+            <Korean>생성됨</Korean>
+            <Japanese>作成</Japanese>
+            <Chinese>已建立</Chinese>
+            <Chinesesimp>已创建</Chinesesimp>
+            <Turkish>Oluşturuldu</Turkish>
+            <Slovak>Vytvorené</Slovak>
+            <Hungarian>Létrehozva</Hungarian>
+            <Ukrainian>Створено</Ukrainian>
+            <Bulgarian>Създаден</Bulgarian>
+            <Latin>Creatum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TooltipModified">
+            <English>Modified</English>
+            <Czech>Změněno</Czech>
+            <French>Modifié</French>
+            <Spanish>Modificado</Spanish>
+            <Italian>Modificato</Italian>
+            <Polish>Zmieniono</Polish>
+            <Portuguese>Modificado</Portuguese>
+            <Russian>Изменён</Russian>
+            <German>Geändert</German>
+            <Korean>수정됨</Korean>
+            <Japanese>変更</Japanese>
+            <Chinese>已修改</Chinese>
+            <Chinesesimp>已修改</Chinesesimp>
+            <Turkish>Değiştirildi</Turkish>
+            <Slovak>Zmenené</Slovak>
+            <Hungarian>Módosítva</Hungarian>
+            <Ukrainian>Змінено</Ukrainian>
+            <Bulgarian>Променен</Bulgarian>
+            <Latin>Mutatum</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TooltipPlacedBy">
+            <English>Placed by</English>
+            <Czech>Umístil</Czech>
+            <French>Placé par</French>
+            <Spanish>Colocado por</Spanish>
+            <Italian>Posizionato da</Italian>
+            <Polish>Postawił</Polish>
+            <Portuguese>Colocado por</Portuguese>
+            <Russian>Установил</Russian>
+            <German>Gesetzt von</German>
+            <Korean>배치한 사람</Korean>
+            <Japanese>配置者</Japanese>
+            <Chinese>放置者</Chinese>
+            <Chinesesimp>放置者</Chinesesimp>
+            <Turkish>Koyan</Turkish>
+            <Slovak>Umiestnil</Slovak>
+            <Hungarian>Elhelyezte</Hungarian>
+            <Ukrainian>Поставив</Ukrainian>
+            <Bulgarian>Поставил</Bulgarian>
+            <Latin>Posuit</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TransferClose">
+            <English>Close</English>
+            <Czech>Zavřít</Czech>
+            <French>Fermer</French>
+            <Spanish>Cerrar</Spanish>
+            <Italian>Chiudi</Italian>
+            <Polish>Zamknij</Polish>
+            <Portuguese>Fechar</Portuguese>
+            <Russian>Закрыть</Russian>
+            <German>Schließen</German>
+            <Korean>닫기</Korean>
+            <Japanese>閉じる</Japanese>
+            <Chinese>關閉</Chinese>
+            <Chinesesimp>关闭</Chinesesimp>
+            <Turkish>Kapat</Turkish>
+            <Slovak>Zavrieť</Slovak>
+            <Hungarian>Bezárás</Hungarian>
+            <Ukrainian>Закрити</Ukrainian>
+            <Bulgarian>Затваряне</Bulgarian>
+            <Latin>Claude</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TransferCopyHint">
+            <English>The text of all visible markers is selected: press Ctrl+C to copy it. Paste it with Paste markers.</English>
+            <Czech>Text všech viditelných značek je označen: stiskněte Ctrl+C pro zkopírování. Vložte ho přes Vložit značky.</Czech>
+            <French>Le texte de tous les marqueurs visibles est sélectionné : appuyez sur Ctrl+C pour le copier. Collez-le avec Coller les marqueurs.</French>
+            <Spanish>El texto de todos los marcadores visibles está seleccionado: pulsa Ctrl+C para copiarlo. Pégalo con Pegar marcadores.</Spanish>
+            <Italian>Il testo di tutti i marcatori visibili è selezionato: premi Ctrl+C per copiarlo. Incollalo con Incolla marcatori.</Italian>
+            <Polish>Tekst wszystkich widocznych znaczników jest zaznaczony: naciśnij Ctrl+C, aby go skopiować. Wklej go przez Wklej znaczniki.</Polish>
+            <Portuguese>O texto de todos os marcadores visíveis está selecionado: pressione Ctrl+C para copiá-lo. Cole-o com Colar marcadores.</Portuguese>
+            <Russian>Текст всех видимых маркеров выделен: нажмите Ctrl+C, чтобы скопировать. Вставьте его через Вставить маркеры.</Russian>
+            <German>Der Text aller sichtbaren Marker ist markiert: Drücken Sie Strg+C, um ihn zu kopieren. Fügen Sie ihn mit Marker einfügen ein.</German>
+            <Korean>보이는 모든 마커의 텍스트가 선택되었습니다: Ctrl+C를 눌러 복사하세요. 마커 붙여넣기로 붙여넣으세요.</Korean>
+            <Japanese>表示中の全マーカーのテキストが選択されています：Ctrl+Cでコピーしてください。「マーカーを貼り付け」で貼り付けます。</Japanese>
+            <Chinese>所有可見標記的文字已選取：按 Ctrl+C 複製。透過「貼上標記」貼上。</Chinese>
+            <Chinesesimp>所有可见标记的文本已选中：按 Ctrl+C 复制。通过“粘贴标记”粘贴。</Chinesesimp>
+            <Turkish>Tüm görünür işaretlerin metni seçili: kopyalamak için Ctrl+C tuşlarına basın. İşaretleri yapıştır ile yapıştırın.</Turkish>
+            <Slovak>Text všetkých viditeľných značiek je označený: stlačte Ctrl+C na skopírovanie. Vložte ho cez Vložiť značky.</Slovak>
+            <Hungarian>Az összes látható jelölő szövege ki van jelölve: nyomja meg a Ctrl+C-t a másoláshoz. Illessze be a Jelölők beillesztése menüponttal.</Hungarian>
+            <Ukrainian>Текст усіх видимих маркерів виділено: натисніть Ctrl+C, щоб скопіювати. Вставте його через Вставити маркери.</Ukrainian>
+            <Bulgarian>Текстът на всички видими маркери е маркиран: натиснете Ctrl+C, за да го копирате. Поставете го чрез Поставяне на маркерите.</Bulgarian>
+            <Latin>Textus omnium signorum visibilium selectus est: preme Ctrl+C ut exscribas. Per Signa insere insere.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TransferCopyTitle">
+            <English>Copy markers</English>
+            <Czech>Kopírování značek</Czech>
+            <French>Copier les marqueurs</French>
+            <Spanish>Copiar marcadores</Spanish>
+            <Italian>Copia marcatori</Italian>
+            <Polish>Kopiowanie znaczników</Polish>
+            <Portuguese>Copiar marcadores</Portuguese>
+            <Russian>Копирование маркеров</Russian>
+            <German>Marker kopieren</German>
+            <Korean>마커 복사</Korean>
+            <Japanese>マーカーのコピー</Japanese>
+            <Chinese>複製標記</Chinese>
+            <Chinesesimp>复制标记</Chinesesimp>
+            <Turkish>İşaretleri kopyala</Turkish>
+            <Slovak>Kopírovanie značiek</Slovak>
+            <Hungarian>Jelölők másolása</Hungarian>
+            <Ukrainian>Копіювання маркерів</Ukrainian>
+            <Bulgarian>Копиране на маркерите</Bulgarian>
+            <Latin>Signa exscribere</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TransferCount">
+            <English>Markers: %1</English>
+            <Czech>Značky: %1</Czech>
+            <French>Marqueurs : %1</French>
+            <Spanish>Marcadores: %1</Spanish>
+            <Italian>Marcatori: %1</Italian>
+            <Polish>Znaczniki: %1</Polish>
+            <Portuguese>Marcadores: %1</Portuguese>
+            <Russian>Маркеров: %1</Russian>
+            <German>Marker: %1</German>
+            <Korean>마커: %1</Korean>
+            <Japanese>マーカー：%1</Japanese>
+            <Chinese>標記：%1</Chinese>
+            <Chinesesimp>标记：%1</Chinesesimp>
+            <Turkish>İşaretler: %1</Turkish>
+            <Slovak>Značky: %1</Slovak>
+            <Hungarian>Jelölők: %1</Hungarian>
+            <Ukrainian>Маркерів: %1</Ukrainian>
+            <Bulgarian>Маркери: %1</Bulgarian>
+            <Latin>Signa: %1</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TransferInvalid">
+            <English>This is not MapTac markers text</English>
+            <Czech>Toto není text značek MapTac</Czech>
+            <French>Ce n'est pas un texte de marqueurs MapTac</French>
+            <Spanish>Esto no es texto de marcadores de MapTac</Spanish>
+            <Italian>Questo non è un testo di marcatori MapTac</Italian>
+            <Polish>To nie jest tekst znaczników MapTac</Polish>
+            <Portuguese>Isto não é texto de marcadores do MapTac</Portuguese>
+            <Russian>Это не текст маркеров MapTac</Russian>
+            <German>Das ist kein MapTac-Markertext</German>
+            <Korean>MapTac 마커 텍스트가 아닙니다</Korean>
+            <Japanese>MapTacのマーカーテキストではありません</Japanese>
+            <Chinese>這不是 MapTac 標記文字</Chinese>
+            <Chinesesimp>这不是 MapTac 标记文本</Chinesesimp>
+            <Turkish>Bu bir MapTac işaret metni değil</Turkish>
+            <Slovak>Toto nie je text značiek MapTac</Slovak>
+            <Hungarian>Ez nem MapTac jelölőszöveg</Hungarian>
+            <Ukrainian>Це не текст маркерів MapTac</Ukrainian>
+            <Bulgarian>Това не е текст на маркери на MapTac</Bulgarian>
+            <Latin>Hic non est textus signorum MapTac</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TransferPaste">
+            <English>Paste</English>
+            <Czech>Vložit</Czech>
+            <French>Coller</French>
+            <Spanish>Pegar</Spanish>
+            <Italian>Incolla</Italian>
+            <Polish>Wklej</Polish>
+            <Portuguese>Colar</Portuguese>
+            <Russian>Вставить</Russian>
+            <German>Einfügen</German>
+            <Korean>붙여넣기</Korean>
+            <Japanese>貼り付け</Japanese>
+            <Chinese>貼上</Chinese>
+            <Chinesesimp>粘贴</Chinesesimp>
+            <Turkish>Yapıştır</Turkish>
+            <Slovak>Vložiť</Slovak>
+            <Hungarian>Beillesztés</Hungarian>
+            <Ukrainian>Вставити</Ukrainian>
+            <Bulgarian>Поставяне</Bulgarian>
+            <Latin>Insere</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TransferPasteHint">
+            <English>Paste the copied markers text (Ctrl+V) and choose the channel. The markers are placed at their positions, you are their author.</English>
+            <Czech>Vložte zkopírovaný text značek (Ctrl+V) a vyberte kanál. Značky se umístí na své pozice, vy budete jejich autorem.</Czech>
+            <French>Collez le texte des marqueurs copiés (Ctrl+V) et choisissez le canal. Les marqueurs sont placés à leurs positions, vous en êtes l'auteur.</French>
+            <Spanish>Pega el texto de los marcadores copiados (Ctrl+V) y elige el canal. Los marcadores se colocan en sus posiciones y tú eres su autor.</Spanish>
+            <Italian>Incolla il testo dei marcatori copiati (Ctrl+V) e scegli il canale. I marcatori vengono posizionati nelle loro posizioni, tu ne sei l'autore.</Italian>
+            <Polish>Wklej skopiowany tekst znaczników (Ctrl+V) i wybierz kanał. Znaczniki zostaną postawione na swoich pozycjach, ty będziesz ich autorem.</Polish>
+            <Portuguese>Cole o texto dos marcadores copiados (Ctrl+V) e escolha o canal. Os marcadores são colocados nas suas posições, e você é o autor deles.</Portuguese>
+            <Russian>Вставьте скопированный текст маркеров (Ctrl+V) и выберите канал. Маркеры появятся на своих местах, вы будете их автором.</Russian>
+            <German>Fügen Sie den kopierten Markertext ein (Strg+V) und wählen Sie den Kanal. Die Marker werden an ihren Positionen gesetzt, Sie sind ihr Autor.</German>
+            <Korean>복사한 마커 텍스트를 붙여넣고(Ctrl+V) 채널을 선택하세요. 마커는 원래 위치에 배치되며 작성자는 본인이 됩니다.</Korean>
+            <Japanese>コピーしたマーカーのテキストを貼り付け（Ctrl+V）、チャンネルを選択してください。マーカーは元の位置に配置され、作成者はあなたになります。</Japanese>
+            <Chinese>貼上複製的標記文字（Ctrl+V）並選擇頻道。標記將放置在原位置，作者為您。</Chinese>
+            <Chinesesimp>粘贴复制的标记文本（Ctrl+V）并选择频道。标记将放置在原位置，作者为您。</Chinesesimp>
+            <Turkish>Kopyalanan işaret metnini yapıştırın (Ctrl+V) ve kanalı seçin. İşaretler kendi konumlarına konur, yazarları siz olursunuz.</Turkish>
+            <Slovak>Vložte skopírovaný text značiek (Ctrl+V) a vyberte kanál. Značky sa umiestnia na svoje pozície, vy budete ich autorom.</Slovak>
+            <Hungarian>Illessze be a másolt jelölőszöveget (Ctrl+V), és válassza ki a csatornát. A jelölők a helyükre kerülnek, és Ön lesz a szerzőjük.</Hungarian>
+            <Ukrainian>Вставте скопійований текст маркерів (Ctrl+V) і оберіть канал. Маркери зʼявляться на своїх місцях, ви будете їхнім автором.</Ukrainian>
+            <Bulgarian>Поставете копирания текст на маркерите (Ctrl+V) и изберете канала. Маркерите се поставят на своите позиции, вие сте техният автор.</Bulgarian>
+            <Latin>Textum signorum exscriptum insere (Ctrl+V) et canalem elige. Signa in locis suis ponentur, tu auctor eris.</Latin>
+        </Key>
+        <Key ID="STR_maptac_markers_TransferPasteTitle">
+            <English>Paste markers</English>
+            <Czech>Vkládání značek</Czech>
+            <French>Coller les marqueurs</French>
+            <Spanish>Pegar marcadores</Spanish>
+            <Italian>Incolla marcatori</Italian>
+            <Polish>Wklejanie znaczników</Polish>
+            <Portuguese>Colar marcadores</Portuguese>
+            <Russian>Вставка маркеров</Russian>
+            <German>Marker einfügen</German>
+            <Korean>마커 붙여넣기</Korean>
+            <Japanese>マーカーの貼り付け</Japanese>
+            <Chinese>貼上標記</Chinese>
+            <Chinesesimp>粘贴标记</Chinesesimp>
+            <Turkish>İşaretleri yapıştır</Turkish>
+            <Slovak>Vkladanie značiek</Slovak>
+            <Hungarian>Jelölők beillesztése</Hungarian>
+            <Ukrainian>Вставка маркерів</Ukrainian>
+            <Bulgarian>Поставяне на маркерите</Bulgarian>
+            <Latin>Signa inserere</Latin>
+        </Key>
+    </Package>
+</Project>

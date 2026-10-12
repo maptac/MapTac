@@ -1,0 +1,16 @@
+// MapTac test mission, opened by `hemtt launch test*`
+author = "MapTac";
+onLoadName = "MapTac test";
+onLoadMission = "Channels, devices, radios, map tools";
+
+// Debug console for everyone, test only
+enableDebugConsole = 2;
+
+// Respawn at base, devices and channel access change with the loadout
+respawn = 3;
+respawnDelay = 3;
+respawnOnStart = -1;
+
+// AI in empty and left slots: the unit stays when its player leaves, the player returns to it
+// (markers belong to the unit). Channels resolve players only.
+disabledAI = 0;

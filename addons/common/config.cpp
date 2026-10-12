@@ -6,7 +6,11 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"nts_main"};
+        requiredAddons[] = {"maptac_main"};
+        author = ECSTRING(main,Team);
+        authors[] = {"Smith"};
         VERSION_CONFIG;
     };
 };
+
+#include "CfgEventHandlers.hpp"

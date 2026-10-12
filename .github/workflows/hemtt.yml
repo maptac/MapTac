@@ -1,0 +1,35 @@
+name: HEMTT
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+  checks: write
+  statuses: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v4
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+        with:
+          annotate: true # check results as annotations on the changed lines
+      - name: Check
+        run: hemtt check --pedantic
+      - name: Build
+        run: hemtt build
+      - name: Rename build folder
+        run: mv .hemttout/build .hemttout/@maptac
+      # Dev build of every push and pull request, to test without building
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: maptac-${{ github.sha }}
+          path: .hemttout/@*
+          include-hidden-files: true # .hemttout is hidden

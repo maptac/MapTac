@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="MapTac">
+    <Package name="Main">
+        <Key ID="STR_maptac_main_Category">
+            <English>MapTac</English>
+            <Czech>MapTac</Czech>
+            <French>MapTac</French>
+            <Spanish>MapTac</Spanish>
+            <Italian>MapTac</Italian>
+            <Polish>MapTac</Polish>
+            <Portuguese>MapTac</Portuguese>
+            <Russian>MapTac</Russian>
+            <German>MapTac</German>
+            <Korean>MapTac</Korean>
+            <Japanese>MapTac</Japanese>
+            <Chinese>MapTac</Chinese>
+            <Chinesesimp>MapTac</Chinesesimp>
+            <Turkish>MapTac</Turkish>
+            <Slovak>MapTac</Slovak>
+            <Hungarian>MapTac</Hungarian>
+            <Ukrainian>MapTac</Ukrainian>
+            <Bulgarian>MapTac</Bulgarian>
+            <Latin>MapTac</Latin>
+        </Key>
+        <Key ID="STR_maptac_main_Team">
+            <English>MapTac Team</English>
+            <Czech>Tým MapTac</Czech>
+            <French>Équipe MapTac</French>
+            <Spanish>Equipo de MapTac</Spanish>
+            <Italian>Team MapTac</Italian>
+            <Polish>Zespół MapTac</Polish>
+            <Portuguese>Equipe MapTac</Portuguese>
+            <Russian>Команда MapTac</Russian>
+            <German>MapTac-Team</German>
+            <Korean>MapTac 팀</Korean>
+            <Japanese>MapTacチーム</Japanese>
+            <Chinese>MapTac 團隊</Chinese>
+            <Chinesesimp>MapTac 团队</Chinesesimp>
+            <Turkish>MapTac Ekibi</Turkish>
+            <Slovak>Tím MapTac</Slovak>
+            <Hungarian>MapTac csapat</Hungarian>
+            <Ukrainian>Команда MapTac</Ukrainian>
+            <Bulgarian>Екипът на MapTac</Bulgarian>
+            <Latin>Turma MapTac</Latin>
+        </Key>
+    </Package>
+</Project>

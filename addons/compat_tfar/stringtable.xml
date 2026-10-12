@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="MapTac">
+    <Package name="Compat_TFAR">
+        <Key ID="STR_maptac_compat_tfar_AdditionalChannel">
+            <English>add. channel</English>
+            <Czech>dopl. kanál</Czech>
+            <French>canal add.</French>
+            <Spanish>canal adic.</Spanish>
+            <Italian>canale agg.</Italian>
+            <Polish>kanał dod.</Polish>
+            <Portuguese>canal adic.</Portuguese>
+            <Russian>доп. канал</Russian>
+            <German>Zusatzkanal</German>
+            <Korean>추가 채널</Korean>
+            <Japanese>追加チャンネル</Japanese>
+            <Chinese>附加頻道</Chinese>
+            <Chinesesimp>附加频道</Chinesesimp>
+            <Turkish>ek kanal</Turkish>
+            <Slovak>dopl. kanál</Slovak>
+            <Hungarian>kieg. csatorna</Hungarian>
+            <Ukrainian>дод. канал</Ukrainian>
+            <Bulgarian>доп. канал</Bulgarian>
+            <Latin>canalis addit.</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_Category">
+            <English>TFAR</English>
+            <Czech>TFAR</Czech>
+            <French>TFAR</French>
+            <Spanish>TFAR</Spanish>
+            <Italian>TFAR</Italian>
+            <Polish>TFAR</Polish>
+            <Portuguese>TFAR</Portuguese>
+            <Russian>TFAR</Russian>
+            <German>TFAR</German>
+            <Korean>TFAR</Korean>
+            <Japanese>TFAR</Japanese>
+            <Chinese>TFAR</Chinese>
+            <Chinesesimp>TFAR</Chinesesimp>
+            <Turkish>TFAR</Turkish>
+            <Slovak>TFAR</Slovak>
+            <Hungarian>TFAR</Hungarian>
+            <Ukrainian>TFAR</Ukrainian>
+            <Bulgarian>TFAR</Bulgarian>
+            <Latin>TFAR</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_ChannelNotes">
+            <English>%1 (%2)</English>
+            <Czech>%1 (%2)</Czech>
+            <French>%1 (%2)</French>
+            <Spanish>%1 (%2)</Spanish>
+            <Italian>%1 (%2)</Italian>
+            <Polish>%1 (%2)</Polish>
+            <Portuguese>%1 (%2)</Portuguese>
+            <Russian>%1 (%2)</Russian>
+            <German>%1 (%2)</German>
+            <Korean>%1 (%2)</Korean>
+            <Japanese>%1 (%2)</Japanese>
+            <Chinese>%1 (%2)</Chinese>
+            <Chinesesimp>%1 (%2)</Chinesesimp>
+            <Turkish>%1 (%2)</Turkish>
+            <Slovak>%1 (%2)</Slovak>
+            <Hungarian>%1 (%2)</Hungarian>
+            <Ukrainian>%1 (%2)</Ukrainian>
+            <Bulgarian>%1 (%2)</Bulgarian>
+            <Latin>%1 (%2)</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_CodeEast">
+            <English>OPFOR</English>
+            <Czech>OPFOR</Czech>
+            <French>OPFOR</French>
+            <Spanish>OPFOR</Spanish>
+            <Italian>OPFOR</Italian>
+            <Polish>OPFOR</Polish>
+            <Portuguese>OPFOR</Portuguese>
+            <Russian>OPFOR</Russian>
+            <German>OPFOR</German>
+            <Korean>OPFOR</Korean>
+            <Japanese>OPFOR</Japanese>
+            <Chinese>OPFOR</Chinese>
+            <Chinesesimp>OPFOR</Chinesesimp>
+            <Turkish>OPFOR</Turkish>
+            <Slovak>OPFOR</Slovak>
+            <Hungarian>OPFOR</Hungarian>
+            <Ukrainian>OPFOR</Ukrainian>
+            <Bulgarian>OPFOR</Bulgarian>
+            <Latin>OPFOR</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_CodeIndependent">
+            <English>INDFOR</English>
+            <Czech>INDFOR</Czech>
+            <French>INDFOR</French>
+            <Spanish>INDFOR</Spanish>
+            <Italian>INDFOR</Italian>
+            <Polish>INDFOR</Polish>
+            <Portuguese>INDFOR</Portuguese>
+            <Russian>INDFOR</Russian>
+            <German>INDFOR</German>
+            <Korean>INDFOR</Korean>
+            <Japanese>INDFOR</Japanese>
+            <Chinese>INDFOR</Chinese>
+            <Chinesesimp>INDFOR</Chinesesimp>
+            <Turkish>INDFOR</Turkish>
+            <Slovak>INDFOR</Slovak>
+            <Hungarian>INDFOR</Hungarian>
+            <Ukrainian>INDFOR</Ukrainian>
+            <Bulgarian>INDFOR</Bulgarian>
+            <Latin>INDFOR</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_CodeNone">
+            <English>no encryption</English>
+            <Czech>bez šifrování</Czech>
+            <French>non chiffré</French>
+            <Spanish>sin cifrado</Spanish>
+            <Italian>non cifrato</Italian>
+            <Polish>bez szyfrowania</Polish>
+            <Portuguese>sem criptografia</Portuguese>
+            <Russian>без шифрования</Russian>
+            <German>unverschlüsselt</German>
+            <Korean>암호화 없음</Korean>
+            <Japanese>暗号化なし</Japanese>
+            <Chinese>無加密</Chinese>
+            <Chinesesimp>无加密</Chinesesimp>
+            <Turkish>şifresiz</Turkish>
+            <Slovak>bez šifrovania</Slovak>
+            <Hungarian>titkosítás nélkül</Hungarian>
+            <Ukrainian>без шифрування</Ukrainian>
+            <Bulgarian>без криптиране</Bulgarian>
+            <Latin>sine cifra</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_CodeWest">
+            <English>BLUFOR</English>
+            <Czech>BLUFOR</Czech>
+            <French>BLUFOR</French>
+            <Spanish>BLUFOR</Spanish>
+            <Italian>BLUFOR</Italian>
+            <Polish>BLUFOR</Polish>
+            <Portuguese>BLUFOR</Portuguese>
+            <Russian>BLUFOR</Russian>
+            <German>BLUFOR</German>
+            <Korean>BLUFOR</Korean>
+            <Japanese>BLUFOR</Japanese>
+            <Chinese>BLUFOR</Chinese>
+            <Chinesesimp>BLUFOR</Chinesesimp>
+            <Turkish>BLUFOR</Turkish>
+            <Slovak>BLUFOR</Slovak>
+            <Hungarian>BLUFOR</Hungarian>
+            <Ukrainian>BLUFOR</Ukrainian>
+            <Bulgarian>BLUFOR</Bulgarian>
+            <Latin>BLUFOR</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_FrequencyMHz">
+            <English>%1 MHz</English>
+            <Czech>%1 MHz</Czech>
+            <French>%1 MHz</French>
+            <Spanish>%1 MHz</Spanish>
+            <Italian>%1 MHz</Italian>
+            <Polish>%1 MHz</Polish>
+            <Portuguese>%1 MHz</Portuguese>
+            <Russian>%1 МГц</Russian>
+            <German>%1 MHz</German>
+            <Korean>%1 MHz</Korean>
+            <Japanese>%1 MHz</Japanese>
+            <Chinese>%1 MHz</Chinese>
+            <Chinesesimp>%1 MHz</Chinesesimp>
+            <Turkish>%1 MHz</Turkish>
+            <Slovak>%1 MHz</Slovak>
+            <Hungarian>%1 MHz</Hungarian>
+            <Ukrainian>%1 МГц</Ukrainian>
+            <Bulgarian>%1 MHz</Bulgarian>
+            <Latin>%1 MHz</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_LimitRange">
+            <English>Limit markers to radio range</English>
+            <Czech>Omezit značky na dosah rádia</Czech>
+            <French>Limiter les marqueurs à la portée radio</French>
+            <Spanish>Limitar marcadores al alcance de la radio</Spanish>
+            <Italian>Limita i marcatori alla portata radio</Italian>
+            <Polish>Ogranicz znaczniki do zasięgu radia</Polish>
+            <Portuguese>Limitar marcadores ao alcance do rádio</Portuguese>
+            <Russian>Ограничить маркеры дальностью рации</Russian>
+            <German>Marker auf Funkreichweite begrenzen</German>
+            <Korean>마커를 무전기 범위로 제한</Korean>
+            <Japanese>マーカーを無線の範囲に制限</Japanese>
+            <Chinese>將標記限制在無線電範圍內</Chinese>
+            <Chinesesimp>将标记限制在无线电范围内</Chinesesimp>
+            <Turkish>İşaretleri telsiz menziliyle sınırla</Turkish>
+            <Slovak>Obmedziť značky na dosah rádia</Slovak>
+            <Hungarian>Jelölők korlátozása a rádió hatótávjára</Hungarian>
+            <Ukrainian>Обмежити маркери дальністю рації</Ukrainian>
+            <Bulgarian>Ограничаване на маркерите до обхвата на радиото</Bulgarian>
+            <Latin>Signa ad spatium radiophoni limitare</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_LimitRange_Description">
+            <English>Markers on radio frequencies (and their moving and deleting) reach only the players who would hear the sender over the radio: by the range of the sender radio and the TFAR distance multipliers. Terrain is not taken into account. Without the limit they reach everyone on the frequency. In both cases the sender must listen to the frequency.</English>
+            <Czech>Značky na rádiových frekvencích (a jejich přesouvání a mazání) dostanou jen hráči, kteří by odesílatele slyšeli rádiem: podle dosahu jeho rádia a násobitelů dosahu TFAR. Terén se nezohledňuje. Bez omezení je dostanou všichni na frekvenci. V obou případech musí odesílatel frekvenci poslouchat.</Czech>
+            <French>Les marqueurs sur les fréquences radio (ainsi que leur déplacement et leur suppression) n'atteignent que les joueurs qui entendraient l'émetteur par radio : selon la portée de sa radio et les multiplicateurs de portée de TFAR. Le relief n'est pas pris en compte. Sans limite, ils atteignent tous ceux qui sont sur la fréquence. Dans les deux cas, l'émetteur doit écouter la fréquence.</French>
+            <Spanish>Los marcadores en frecuencias de radio (y su movimiento y borrado) solo llegan a los jugadores que oirían al emisor por radio: según el alcance de su radio y los multiplicadores de alcance de TFAR. No se tiene en cuenta el terreno. Sin límite llegan a todos los que están en la frecuencia. En ambos casos el emisor debe escuchar la frecuencia.</Spanish>
+            <Italian>I marcatori sulle frequenze radio (e il loro spostamento ed eliminazione) raggiungono solo i giocatori che sentirebbero il mittente via radio: in base alla portata della sua radio e ai moltiplicatori di portata di TFAR. Il terreno non viene considerato. Senza limite raggiungono tutti quelli sulla frequenza. In entrambi i casi il mittente deve ascoltare la frequenza.</Italian>
+            <Polish>Znaczniki na częstotliwościach radiowych (oraz ich przesuwanie i usuwanie) docierają tylko do graczy, którzy usłyszeliby nadawcę przez radio: według zasięgu jego radia i mnożników zasięgu TFAR. Teren nie jest uwzględniany. Bez ograniczenia docierają do wszystkich na częstotliwości. W obu przypadkach nadawca musi słuchać częstotliwości.</Polish>
+            <Portuguese>Os marcadores em frequências de rádio (e sua movimentação e exclusão) chegam apenas aos jogadores que ouviriam o remetente pelo rádio: pelo alcance do rádio dele e pelos multiplicadores de alcance do TFAR. O terreno não é considerado. Sem o limite, chegam a todos na frequência. Em ambos os casos o remetente precisa ouvir a frequência.</Portuguese>
+            <Russian>Маркеры на частотах раций (и их перемещение и удаление) получают только игроки, которые услышали бы отправителя по рации: по дальности его рации и множителям дальности TFAR. Рельеф не учитывается. Без ограничения их получают все на частоте. В обоих случаях отправитель должен слушать частоту.</Russian>
+            <German>Marker auf Funkfrequenzen (und deren Verschieben und Löschen) erreichen nur die Spieler, die den Absender über Funk hören würden: nach der Reichweite seines Funkgeräts und den TFAR-Reichweitenfaktoren. Das Gelände wird nicht berücksichtigt. Ohne Begrenzung erreichen sie alle auf der Frequenz. In beiden Fällen muss der Absender die Frequenz abhören.</German>
+            <Korean>무전 주파수의 마커(및 이동과 삭제)는 무전으로 발신자를 들을 수 있는 플레이어에게만 전달됩니다: 발신자 무전기의 범위와 TFAR 범위 배수에 따릅니다. 지형은 고려되지 않습니다. 제한이 없으면 주파수의 모든 사람에게 전달됩니다. 두 경우 모두 발신자가 주파수를 청취하고 있어야 합니다.</Korean>
+            <Japanese>無線周波数のマーカー（およびその移動と削除）は、無線で送信者の声が聞こえるプレイヤーにのみ届きます：送信者の無線機の範囲とTFARの範囲倍率に基づきます。地形は考慮されません。制限なしでは周波数上の全員に届きます。どちらの場合も送信者はその周波数を聴取している必要があります。</Japanese>
+            <Chinese>無線電頻率上的標記（及其移動和刪除）僅送達能透過無線電聽到發送者的玩家：取決於發送者無線電的範圍和 TFAR 範圍倍率。不考慮地形。不限制時，頻率上的所有人都會收到。兩種情況下發送者都必須收聽該頻率。</Chinese>
+            <Chinesesimp>无线电频率上的标记（及其移动和删除）仅送达能通过无线电听到发送者的玩家：取决于发送者无线电的范围和 TFAR 范围倍率。不考虑地形。不限制时，频率上的所有人都会收到。两种情况下发送者都必须收听该频率。</Chinesesimp>
+            <Turkish>Telsiz frekanslarındaki işaretler (ve taşınmaları ile silinmeleri) yalnızca göndereni telsizden duyacak oyunculara ulaşır: gönderenin telsiz menziline ve TFAR menzil çarpanlarına göre. Arazi hesaba katılmaz. Sınır olmadan frekanstaki herkese ulaşır. Her iki durumda da gönderenin frekansı dinlemesi gerekir.</Turkish>
+            <Slovak>Značky na rádiových frekvenciách (a ich presúvanie a mazanie) dostanú len hráči, ktorí by odosielateľa počuli rádiom: podľa dosahu jeho rádia a násobiteľov dosahu TFAR. Terén sa nezohľadňuje. Bez obmedzenia ich dostanú všetci na frekvencii. V oboch prípadoch musí odosielateľ frekvenciu počúvať.</Slovak>
+            <Hungarian>A rádiófrekvenciákon lévő jelölők (és azok mozgatása és törlése) csak azokhoz a játékosokhoz jutnak el, akik rádión hallanák a küldőt: a küldő rádiójának hatótávja és a TFAR hatótáv-szorzói szerint. A terep nincs figyelembe véve. Korlátozás nélkül mindenkihez eljutnak a frekvencián. Mindkét esetben a küldőnek hallgatnia kell a frekvenciát.</Hungarian>
+            <Ukrainian>Маркери на частотах рацій (та їх переміщення й видалення) отримують лише гравці, які почули б відправника по рації: за дальністю його рації та множниками дальності TFAR. Рельєф не враховується. Без обмеження їх отримують усі на частоті. В обох випадках відправник має слухати частоту.</Ukrainian>
+            <Bulgarian>Маркерите на радиочестоти (и тяхното преместване и изтриване) достигат само до играчите, които биха чули подателя по радиото: според обхвата на радиото му и множителите на обхвата на TFAR. Теренът не се отчита. Без ограничение те достигат до всички на честотата. И в двата случая подателят трябва да слуша честотата.</Bulgarian>
+            <Latin>Signa in frequentiis radiophonicis (et eorum motus ac deletiones) solum ad lusores perveniunt qui mittentem per radiophonum audirent: secundum spatium radiophoni eius et multiplicatores spatii TFAR. Terra non computatur. Sine limite ad omnes in frequentia perveniunt. Utroque modo mittens frequentiam audire debet.</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_RadioChannel">
+            <English>%1 - %2</English>
+            <Czech>%1 - %2</Czech>
+            <French>%1 - %2</French>
+            <Spanish>%1 - %2</Spanish>
+            <Italian>%1 - %2</Italian>
+            <Polish>%1 - %2</Polish>
+            <Portuguese>%1 - %2</Portuguese>
+            <Russian>%1 - %2</Russian>
+            <German>%1 - %2</German>
+            <Korean>%1 - %2</Korean>
+            <Japanese>%1 - %2</Japanese>
+            <Chinese>%1 - %2</Chinese>
+            <Chinesesimp>%1 - %2</Chinesesimp>
+            <Turkish>%1 - %2</Turkish>
+            <Slovak>%1 - %2</Slovak>
+            <Hungarian>%1 - %2</Hungarian>
+            <Ukrainian>%1 - %2</Ukrainian>
+            <Bulgarian>%1 - %2</Bulgarian>
+            <Latin>%1 - %2</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_RecordFrequencies">
+            <English>Replay recording: frequencies</English>
+            <Czech>Nahrávání záznamů: frekvence</Czech>
+            <French>Enregistrement des replays : fréquences</French>
+            <Spanish>Grabación de repeticiones: frecuencias</Spanish>
+            <Italian>Registrazione replay: frequenze</Italian>
+            <Polish>Nagrywanie powtórek: częstotliwości</Polish>
+            <Portuguese>Gravação de replays: frequências</Portuguese>
+            <Russian>Запись реплеев: частоты</Russian>
+            <German>Replay-Aufzeichnung: Frequenzen</German>
+            <Korean>리플레이 기록: 주파수</Korean>
+            <Japanese>リプレイ記録：周波数</Japanese>
+            <Chinese>重播錄製：頻率</Chinese>
+            <Chinesesimp>回放录制：频率</Chinesesimp>
+            <Turkish>Tekrar kaydı: frekanslar</Turkish>
+            <Slovak>Nahrávanie záznamov: frekvencie</Slovak>
+            <Hungarian>Visszajátszás rögzítése: frekvenciák</Hungarian>
+            <Ukrainian>Запис реплеїв: частоти</Ukrainian>
+            <Bulgarian>Запис на повторения: честоти</Bulgarian>
+            <Latin>Memoria spectaculi: frequentiae</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_RecordFrequencies_All">
+            <English>All frequencies</English>
+            <Czech>Všechny frekvence</Czech>
+            <French>Toutes les fréquences</French>
+            <Spanish>Todas las frecuencias</Spanish>
+            <Italian>Tutte le frequenze</Italian>
+            <Polish>Wszystkie częstotliwości</Polish>
+            <Portuguese>Todas as frequências</Portuguese>
+            <Russian>Все частоты</Russian>
+            <German>Alle Frequenzen</German>
+            <Korean>모든 주파수</Korean>
+            <Japanese>すべての周波数</Japanese>
+            <Chinese>所有頻率</Chinese>
+            <Chinesesimp>所有频率</Chinesesimp>
+            <Turkish>Tüm frekanslar</Turkish>
+            <Slovak>Všetky frekvencie</Slovak>
+            <Hungarian>Minden frekvencia</Hungarian>
+            <Ukrainian>Усі частоти</Ukrainian>
+            <Bulgarian>Всички честоти</Bulgarian>
+            <Latin>Omnes frequentiae</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_RecordFrequencies_Description">
+            <English>Which radio frequency markers are recorded by the replay mods (OCAP), when the radio frequencies are recorded (MapTac, Replay recording).</English>
+            <Czech>Které značky rádiových frekvencí nahrávají módy záznamů (OCAP), když se rádiové frekvence nahrávají (MapTac, Nahrávání záznamů).</Czech>
+            <French>Quels marqueurs de fréquences radio sont enregistrés par les mods de replay (OCAP), lorsque l'enregistrement des fréquences est activé (MapTac, Enregistrement des replays).</French>
+            <Spanish>Qué marcadores de frecuencias de radio graban los mods de repetición (OCAP) cuando se graban las frecuencias de radio (MapTac, Grabación de repeticiones).</Spanish>
+            <Italian>Quali marcatori delle frequenze radio vengono registrati dalle mod di replay (OCAP), quando le frequenze radio vengono registrate (MapTac, Registrazione replay).</Italian>
+            <Polish>Które znaczniki częstotliwości radiowych są nagrywane przez mody powtórek (OCAP), gdy częstotliwości radiowe są nagrywane (MapTac, Nagrywanie powtórek).</Polish>
+            <Portuguese>Quais marcadores de frequências de rádio são gravados pelos mods de replay (OCAP) quando as frequências de rádio são gravadas (MapTac, Gravação de replays).</Portuguese>
+            <Russian>Какие маркеры частот раций записываются модами реплеев (OCAP), когда запись частот включена (MapTac, Запись реплеев).</Russian>
+            <German>Welche Funkfrequenz-Marker von den Replay-Mods (OCAP) aufgezeichnet werden, wenn die Funkfrequenzen aufgezeichnet werden (MapTac, Replay-Aufzeichnung).</German>
+            <Korean>무전 주파수 기록이 켜져 있을 때(MapTac, 리플레이 기록) 리플레이 모드(OCAP)가 기록하는 주파수 마커.</Korean>
+            <Japanese>無線周波数の記録が有効なとき（MapTac、リプレイ記録）、リプレイMOD（OCAP）が記録する周波数マーカー。</Japanese>
+            <Chinese>開啟無線電頻率錄製時（MapTac，重播錄製），重播模組（OCAP）錄製哪些頻率標記。</Chinese>
+            <Chinesesimp>开启无线电频率录制时（MapTac，回放录制），回放模组（OCAP）录制哪些频率标记。</Chinesesimp>
+            <Turkish>Telsiz frekansları kaydedildiğinde (MapTac, Tekrar kaydı) tekrar modlarının (OCAP) hangi frekans işaretlerini kaydettiği.</Turkish>
+            <Slovak>Ktoré značky rádiových frekvencií nahrávajú módy záznamov (OCAP), keď sa rádiové frekvencie nahrávajú (MapTac, Nahrávanie záznamov).</Slovak>
+            <Hungarian>Mely rádiófrekvencia-jelölőket rögzítik a visszajátszó modok (OCAP), amikor a rádiófrekvenciák rögzítése be van kapcsolva (MapTac, Visszajátszás rögzítése).</Hungarian>
+            <Ukrainian>Які маркери частот рацій записуються модами реплеїв (OCAP), коли запис частот увімкнено (MapTac, Запис реплеїв).</Ukrainian>
+            <Bulgarian>Кои маркери на радиочестоти се записват от модовете за повторения (OCAP), когато радиочестотите се записват (MapTac, Запис на повторения).</Bulgarian>
+            <Latin>Quae signa frequentiarum moduli spectaculi (OCAP) memorant, cum frequentiae radiophonicae memorantur (MapTac, Memoria spectaculi).</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_RecordFrequencies_LongRangeBand">
+            <English>LR band frequencies (30-87 MHz)</English>
+            <Czech>Frekvence pásma LR (30-87 MHz)</Czech>
+            <French>Fréquences de la bande LR (30-87 MHz)</French>
+            <Spanish>Frecuencias de la banda LR (30-87 MHz)</Spanish>
+            <Italian>Frequenze della banda LR (30-87 MHz)</Italian>
+            <Polish>Częstotliwości pasma LR (30-87 MHz)</Polish>
+            <Portuguese>Frequências da faixa LR (30-87 MHz)</Portuguese>
+            <Russian>Частоты диапазона ДВ (30-87 МГц)</Russian>
+            <German>Frequenzen des LR-Bands (30-87 MHz)</German>
+            <Korean>LR 대역 주파수 (30-87 MHz)</Korean>
+            <Japanese>LR帯の周波数（30-87 MHz）</Japanese>
+            <Chinese>LR 波段頻率（30-87 MHz）</Chinese>
+            <Chinesesimp>LR 波段频率（30-87 MHz）</Chinesesimp>
+            <Turkish>LR bandı frekansları (30-87 MHz)</Turkish>
+            <Slovak>Frekvencie pásma LR (30-87 MHz)</Slovak>
+            <Hungarian>Az LR-sáv frekvenciái (30-87 MHz)</Hungarian>
+            <Ukrainian>Частоти діапазону ДХ (30-87 МГц)</Ukrainian>
+            <Bulgarian>Честоти от обхвата LR (30-87 MHz)</Bulgarian>
+            <Latin>Frequentiae fasciae LR (30-87 MHz)</Latin>
+        </Key>
+        <Key ID="STR_maptac_compat_tfar_RecordFrequencies_LongRangePlaced">
+            <English>Placed on LR radios (backpacks, vehicles)</English>
+            <Czech>Umístěné přes rádia LR (batohy, vozidla)</Czech>
+            <French>Placés via des radios LR (sacs, véhicules)</French>
+            <Spanish>Colocados con radios LR (mochilas, vehículos)</Spanish>
+            <Italian>Posizionati con radio LR (zaini, veicoli)</Italian>
+            <Polish>Postawione przez radia LR (plecaki, pojazdy)</Polish>
+            <Portuguese>Colocados por rádios LR (mochilas, veículos)</Portuguese>
+            <Russian>Поставленные через ДВ (рюкзаки, техника)</Russian>
+            <German>Über LR-Funkgeräte gesetzt (Rucksäcke, Fahrzeuge)</German>
+            <Korean>LR 무전기로 배치됨 (배낭, 차량)</Korean>
+            <Japanese>LR無線機で配置（バックパック、車両）</Japanese>
+            <Chinese>透過 LR 無線電放置（背包、載具）</Chinese>
+            <Chinesesimp>通过 LR 无线电放置（背包、载具）</Chinesesimp>
+            <Turkish>LR telsizleriyle konan (sırt çantaları, araçlar)</Turkish>
+            <Slovak>Umiestnené cez rádiá LR (batohy, vozidlá)</Slovak>
+            <Hungarian>LR-rádiókkal elhelyezett (hátizsákok, járművek)</Hungarian>
+            <Ukrainian>Поставлені через ДХ (рюкзаки, техніка)</Ukrainian>
+            <Bulgarian>Поставени чрез радиостанции LR (раници, превозни средства)</Bulgarian>
+            <Latin>Per radiophona LR posita (sarcinae, vehicula)</Latin>
+        </Key>
+    </Package>
+</Project>

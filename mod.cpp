@@ -1,0 +1,10 @@
+name = "MapTac 0.0.0";
+author = "MapTac Team";
+description = "MapTac - Version 0.0.0";
+tooltip = "MapTac";
+tooltipOwned = "MapTac";
+overview = "Improved map markers for Arma 3.";
+picture = "logo_maptac_ca.paa";
+logo = "logo_maptac_ca.paa";
+logoOver = "logo_maptac_ca.paa";
+logoSmall = "logo_maptac_small_ca.paa";

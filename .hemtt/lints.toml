@@ -1,0 +1,24 @@
+# Stricter SQF lints, see CLAUDE.md
+[sqf.var_all_caps]
+options.ignore = [
+    "MAPTAC_*", # PREP_RECOMPILE debug macros
+]
+
+# No debug builds in releases
+[sqf.banned_macros]
+options.release = [
+    "DEBUG_MODE_FULL",
+    "DISABLE_COMPILE_CACHE",
+    "ENABLE_PERFORMANCE_COUNTERS",
+]
+
+[sqf.undefined]
+enabled = true
+options.check_orphan_code = true
+
+[sqf.not_private]
+enabled = true
+
+[sqf.unused]
+enabled = true
+options.check_params = false

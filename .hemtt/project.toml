@@ -1,4 +1,17 @@
-name = "NATO Tactical Symbology"
-author = "Smith"
-prefix = "nts"
+name = "MapTac"
+author = "MapTac Team"
+prefix = "maptac"
 mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "LICENSE",
+    "README.md",
+    "logo_maptac_ca.paa",
+    "logo_maptac_small_ca.paa",
+]
+
+[version]
+path = "addons/main/script_version.hpp"
+git_hash = 0

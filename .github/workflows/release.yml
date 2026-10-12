@@ -1,0 +1,26 @@
+name: Release
+
+# Version tag (v1.0.0): release build attached to a GitHub release draft
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v4
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+      - name: Release build
+        run: hemtt release
+      - name: Create release draft
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          files: releases/maptac_*.zip
