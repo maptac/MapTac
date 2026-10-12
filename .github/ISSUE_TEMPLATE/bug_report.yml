@@ -1,0 +1,73 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! Please check that the bug isn't reported yet and, if possible,
+        that it reproduces with only CBA_A3 and MapTac loaded.
+  - type: input
+    id: version
+    attributes:
+      label: MapTac version
+      description: Shown in the launcher or in the main menu mod list.
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Arma 3 and CBA_A3 versions
+      placeholder: Arma 3 2.22, CBA_A3 3.19.0
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options:
+        - Singleplayer / Eden editor
+        - Multiplayer, local hosted
+        - Multiplayer, dedicated server
+        - Zeus (remote control)
+    validations:
+      required: true
+  - type: checkboxes
+    id: mods
+    attributes:
+      label: Loaded mods with MapTac compatibility
+      options:
+        - label: ACE3
+        - label: TFAR 1.x
+        - label: TFAR 0.9.x
+        - label: OCAP2 (server)
+  - type: textarea
+    id: other_mods
+    attributes:
+      label: Other mods
+      description: Other loaded mods, or "none".
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what happened instead. Screenshots are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the map
+        2. Double-click ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: RPT log
+      description: |
+        Errors from the client RPT log (`%LOCALAPPDATA%\Arma 3\*.rpt`) and, for dedicated servers, the server RPT.
+        Paste the relevant lines or attach the file.
+      render: text

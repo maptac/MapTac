@@ -6,6 +6,12 @@
 
 <p align="center"><b>Tactical map markers for Arma 3</b></p>
 
+<p align="center">
+    <a href="https://github.com/maptac/MapTac/actions/workflows/hemtt.yml"><img src="https://github.com/maptac/MapTac/actions/workflows/hemtt.yml/badge.svg" alt="HEMTT"></a>
+    <a href="https://github.com/maptac/MapTac/releases"><img src="https://img.shields.io/github/v/release/maptac/MapTac?label=release" alt="Release"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/license-APL--SA-blue" alt="License: APL-SA"></a>
+</p>
+
 MapTac turns the map into a tool for coordinated play. Markers are placed in a couple of clicks from NATO unit
 symbols, carry the squad and the author with them, and travel the way information travels in the field: over the
 channel you can actually use, to the players who can actually receive it. Leave the radio behind and the side
@@ -148,7 +154,8 @@ as an artifact.
 
 ### Localization
 
-All UI strings live in `addons/<component>/stringtable.xml`. Translation fixes are welcome.
+All UI strings live in `addons/<component>/stringtable.xml`. Translation fixes are welcome,
+see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
