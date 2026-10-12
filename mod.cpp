@@ -8,3 +8,5 @@ picture = "logo_maptac_ca.paa";
 logo = "logo_maptac_ca.paa";
 logoOver = "logo_maptac_ca.paa";
 logoSmall = "logo_maptac_small_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/maptac/MapTac";
