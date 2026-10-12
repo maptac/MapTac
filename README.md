@@ -9,6 +9,7 @@
 <p align="center">
     <a href="https://github.com/maptac/MapTac/actions/workflows/hemtt.yml"><img src="https://github.com/maptac/MapTac/actions/workflows/hemtt.yml/badge.svg" alt="HEMTT"></a>
     <a href="https://github.com/maptac/MapTac/releases"><img src="https://img.shields.io/github/v/release/maptac/MapTac?label=release" alt="Release"></a>
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3818494613"><img src="https://img.shields.io/steam/subscriptions/3818494613?label=workshop" alt="Steam Workshop"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-APL--SA-blue" alt="License: APL-SA"></a>
 </p>
 
@@ -55,7 +56,9 @@ the mod:
 
 Requires Arma 3 2.22 and [CBA_A3](https://steamcommunity.com/workshop/filedetails/?id=450814997) 3.19 or newer.
 
-Load MapTac on the clients and on the server. The settings are in the CBA addon options, category **MapTac**.
+Subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3818494613) or download the
+archive from [GitHub Releases](https://github.com/maptac/MapTac/releases). Load MapTac on the clients and on the
+server. The settings are in the CBA addon options, category **MapTac**.
 
 ## OCAP2 replays
 
