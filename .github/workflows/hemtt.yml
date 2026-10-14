@@ -28,7 +28,7 @@ jobs:
         run: mv .hemttout/build .hemttout/@maptac
       # Dev build of every push and pull request, to test without building
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: maptac-${{ github.sha }}
           path: .hemttout/@*
